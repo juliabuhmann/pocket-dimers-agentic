@@ -19,8 +19,8 @@ for _, r in S.iterrows():
             if res.subchain == f[1] and res.name == f[3] and str(res.seqid.num) == f[2]:
                 lig += [[a.pos.x, a.pos.y, a.pos.z] for a in res if a.element.name != "H" and a.altloc in ("\0", "A")]
     lig = np.array(lig); cen = lig.mean(0)
-    mst = gemmi.read_structure(r.model_path if "model_path" in r else f"/cluster/scratch/gmagnusson/dimers/afdb_human_dimers/homodimers/{r.model}.pdb")
-    mca = read_model_ca(f"/cluster/scratch/gmagnusson/dimers/afdb_human_dimers/homodimers/{r.model}.pdb")
+    mst = gemmi.read_structure(r.model_path if "model_path" in r else f"/path/to/afdb_dimers/afdb_human_dimers/homodimers/{r.model}.pdb")
+    mca = read_model_ca(f"/path/to/afdb_dimers/afdb_human_dimers/homodimers/{r.model}.pdb")
     a1, a2 = r.v_local_dimer_assign[0], r.v_local_dimer_assign[1]
     Pp, Q = [], []
     for pc, mc in [(r.chain1, a1), (r.chain2, a2)]:

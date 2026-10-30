@@ -11,7 +11,7 @@ import numpy as np, pandas as pd, gemmi, freesasa
 from concurrent.futures import ProcessPoolExecutor
 
 ROOT = str(Path(__file__).resolve().parents[2])
-DIMERS = "/cluster/scratch/gmagnusson/dimers/afdb_human_dimers"
+DIMERS = "/path/to/afdb_dimers/afdb_human_dimers"
 OUT = f"{ROOT}/reviews/verify_h5/out"
 # DESIGN.md §0 / §1 H5 and docs/H5_RESULTS.md definitions
 BURROW_MIN, PLDDT_MIN, IF_MIN_PER_CHAIN, OVERLAP_MAX = 0.03, 70.0, 3, 0.5

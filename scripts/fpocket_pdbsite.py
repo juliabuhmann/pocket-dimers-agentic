@@ -23,7 +23,7 @@ import numpy as np, pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from fpocket_common import WS, INTERIM, OVERLAP_A, run_fpocket, fpocket_version
 
-PDB_MIRROR = Path(os.environ.get("PDB_MIRROR", "/cluster/scratch/jjaenes/pdb"))     # same mirror as src/part1/config.py and scripts/pdbsite_common.py
+PDB_MIRROR = Path(os.environ.get("PDB_MIRROR", "/path/to/pdb_mirror"))     # same mirror as src/part1/config.py and scripts/pdbsite_common.py
 SITES = WS / "data/interim/pdbsite/sites_crop30.parquet"
 OUTDIR = INTERIM / "pdbsite"
 PDB_CHAIN_IDS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"

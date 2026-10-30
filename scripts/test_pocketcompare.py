@@ -28,7 +28,7 @@ from pocketcompare import fpindex, method  # noqa: F401  (method.similarity used
 WS = Path(__file__).resolve().parents[1]
 IN = WS / "data/interim/tool_tests"
 OUT = WS / "results/tool_tests/pocketcompare"
-ATLAS = Path(os.environ.get("ATLAS_ROOT", "/cluster/scratch/gmagnusson/pocketcompare_afdb"))
+ATLAS = Path(os.environ.get("ATLAS_ROOT", "/path/to/pocketcompare_afdb_atlas"))
 ATLAS_CHECK_ACC = "P31946"
 HUMAN_TAXID = 9606
 # atlas filters (from the atlas parquet schema metadata 'pocketcompare_afdb'.filters)

@@ -80,7 +80,7 @@ source scripts/env_threads.sh
 
 ### Predicted dimers (`scripts/fpocket_afdimer.py`)
 - Models: the 112 AF dimer models (79 homo / 35 hetero rows) of the 114 curated dimer-only pockets in
-  `results/part2/q23a_curated.tsv`, from `/cluster/scratch/gmagnusson/dimers/afdb_human_dimers` (as `q22_common.py`).
+  `results/part2/q23a_curated.tsv`, from `/path/to/afdb_dimers/afdb_human_dimers` (as `q22_common.py`).
 - fpocket is run once on each full dimer model.
 - BURROW pockets come from `data/part2/human_dimer_pockets_annotated.parquet`. Each is mapped to the fpocket pocket
   with the highest residue Jaccard (chain:resnum sets). "Mapped" = Jaccard ≥ 0.2 (our choice).

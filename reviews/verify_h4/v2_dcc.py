@@ -11,7 +11,7 @@ import numpy as np, pandas as pd, gemmi
 WS = Path(__file__).resolve().parents[2]
 OUT = WS / "reviews/verify_h4"
 SITE_TABLE = WS / "data/part2/h4/v2/benchmark_filtered.parquet"
-PDB_MIRROR = Path("/cluster/scratch/jjaenes/pdb")
+PDB_MIRROR = Path("/path/to/pdb_mirror")
 SIFTS_XML = WS / "data/raw/sifts_xml"
 POCKETS = {"dimer": WS / "data/part2/pockets/human", "iso": WS / "data/part2/pockets/human_isolated"}
 DCC_CUT = 4.0          # DESIGN Q2.1 primary metric
@@ -229,7 +229,7 @@ def main():
         S = P.copy() if "--all" in sys.argv else P[P.is_mbs].copy()
         S["sample"] = "ALL"; out_name = "dcc_recompute_all.tsv"
     sub = {"homo": "homodimers", "hetero": "heterodimers"}
-    S["model_path"] = [f"/cluster/scratch/gmagnusson/dimers/afdb_human_dimers/{sub[k]}/{m}.pdb" for k, m in zip(S.kind, S.model)]
+    S["model_path"] = [f"/path/to/afdb_dimers/afdb_human_dimers/{sub[k]}/{m}.pdb" for k, m in zip(S.kind, S.model)]
     pd_d = load_pockets(set(S.model), "dimer")
     pd_i = load_pockets({f"{m}_{c}" for m in S.model for c in "AB"}, "iso")
     jobs = []

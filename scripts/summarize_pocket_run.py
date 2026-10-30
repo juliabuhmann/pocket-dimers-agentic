@@ -18,7 +18,7 @@ print(out.T.to_string())
 # geometric check: 5 random interface pockets, lining CA within 12 A of centre on both chains
 iface = df[df.is_interface].sample(5, random_state=1)
 for r in iface.itertuples():
-    st = gemmi.read_structure(f"/cluster/scratch/gmagnusson/dimers/afdb_human_dimers/{'homodimers' if r.kind=='homo' else 'heterodimers'}/{r.structure_stem}.pdb")
+    st = gemmi.read_structure(f"/path/to/afdb_dimers/afdb_human_dimers/{'homodimers' if r.kind=='homo' else 'heterodimers'}/{r.structure_stem}.pdb")
     c = gemmi.Position(r.center_x, r.center_y, r.center_z); d = {"A": [], "B": []}
     for x in r.residues.split():
         res = st[0][x[0]][x[2:]][0]

@@ -49,7 +49,7 @@ H4_TABLE = ROOT / "data/part2/h4/v2/benchmark_filtered.parquet"
 CENSUS = ROOT / "data/part1/ligand_sites.parquet"
 FAMILY_TABLE = ROOT / "reviews/verify_h4/family_contributions.tsv"
 FAILURE_TABLE = ROOT / "reviews/verify_h4/failure_modes_sites.tsv"
-PDB_MIRROR = Path(os.environ.get("PDB_MIRROR", "/cluster/scratch/jjaenes/pdb"))  # = src/part1/config.py PDB_MIRROR
+PDB_MIRROR = Path(os.environ.get("PDB_MIRROR", "/path/to/pdb_mirror"))  # = src/part1/config.py PDB_MIRROR
 MSA_DIR = Path(os.environ.get("AF3_MSA_HUMAN", "/cluster/project/beltrao/shared/25.05_alphafold3_msas_human"))
 AF3_CUTOFF = "2021-09-30"           # AF3 training cutoff (Abramson et al. 2024)
 LIG_CLASSES = ("drug_like", "cofactor")

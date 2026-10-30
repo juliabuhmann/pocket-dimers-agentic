@@ -7,7 +7,7 @@ import numpy as np, pandas as pd, gemmi
 from types import SimpleNamespace
 from concurrent.futures import ProcessPoolExecutor
 ROOT = str(Path(__file__).resolve().parents[2])
-PDB_MIRROR = '/cluster/scratch/jjaenes/pdb'   # mirror named in docs/FPOCKET_DRUGGABILITY.md / src/part1/config.py
+PDB_MIRROR = '/path/to/pdb_mirror'   # mirror named in docs/FPOCKET_DRUGGABILITY.md / src/part1/config.py
 FPOCKET = f'{ROOT}/conda_envs/fpocket/bin/fpocket'
 N_SITES, SEED, OVERLAP_A = 10, 0, 3.0
 OUTDIR = f'{ROOT}/reviews/verify_v3/fpocket_runs'

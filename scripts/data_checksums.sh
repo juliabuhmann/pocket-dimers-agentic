@@ -3,8 +3,8 @@
 # Output: data/raw/CHECKSUMS.sha256 (rerun to regenerate). msa_depths.csv (~GB) is skipped; see DATA.md.
 set -euo pipefail
 OUT="$(dirname "$0")/../data/raw/CHECKSUMS.sha256"
-D=${DIMERS_ROOT:-/cluster/scratch/gmagnusson/dimers}
-P=${ATLAS_ROOT:-/cluster/scratch/gmagnusson/pocketcompare_afdb}
+D=${DIMERS_ROOT:-/path/to/afdb_dimers}
+P=${ATLAS_ROOT:-/path/to/pocketcompare_afdb_atlas}
 {
   sha256sum $D/*/*/candidates.csv $D/*/*/download_manifest.csv
   sha256sum $P/POCKETOME.md $P/worklist.json $P/gcs_listing.json $P/gcs_listing.tsv.gz \

@@ -24,7 +24,7 @@ AFDB_ACCESSIONS = ["P31946"]
 AFDB_VERSION = 6
 AFDB_URL = "https://alphafold.ebi.ac.uk/files/AF-{acc}-F1-model_v{v}.cif"
 
-DIMER_ROOT = Path(os.environ.get("DIMERS_ROOT", "/cluster/scratch/gmagnusson/dimers")) / "afdb_human_dimers"
+DIMER_ROOT = Path(os.environ.get("DIMERS_ROOT", "/path/to/afdb_dimers")) / "afdb_human_dimers"
 # homodimer of P31946 (DBREF A,B = P31946) and a heterodimer Q04917/P27348 (14-3-3 eta/theta)
 DIMER_FILES = ["homodimers/AF-0000000065760335.pdb", "heterodimers/AF-0000000203452075.pdb"]
 

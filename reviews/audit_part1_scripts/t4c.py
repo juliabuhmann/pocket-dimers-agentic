@@ -5,7 +5,7 @@ N=300; SEED=0; MINLEN=30
 e=pd.read_parquet('data/part1/entries.parquet',columns=['pdb_id','assembly_type','skip_reason','uniprot_accs','n_chains_without_uniprot'])
 e=e[e.skip_reason.isna()]
 def ents(pdb):
-    b=gemmi.cif.read(f'/cluster/scratch/jjaenes/pdb/{pdb[1:3]}/{pdb}.cif.gz').sole_block()
+    b=gemmi.cif.read(f'/path/to/pdb_mirror/{pdb[1:3]}/{pdb}.cif.gz').sole_block()
     t=b.find('_entity_poly.',['entity_id','type','pdbx_seq_one_letter_code_can'])
     seqs=[r.str(2).replace('\n','').replace(';','').strip() for r in t if 'polypeptide' in r.str(1)]
     return pdb,[s for s in seqs if len(s)>=MINLEN]

@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[2]
 CENSUS_VERSION = "v2"  # v2 = audit fixes (reviews/audit_part1_census.md), see docs/PART1_PIPELINE.md "v2 changes"
 
 # ---------------------------------------------------------------- paths
-PDB_MIRROR = Path(os.environ.get("PDB_MIRROR", "/cluster/scratch/jjaenes/pdb"))  # local mmCIF mirror, layout <id[1:3]>/<id>.cif.gz (docs/DATA_RECON.md s.3)
+PDB_MIRROR = Path(os.environ.get("PDB_MIRROR", "/path/to/pdb_mirror"))  # local mmCIF mirror, layout <id[1:3]>/<id>.cif.gz (docs/DATA_RECON.md s.3)
 RAW_DIR = ROOT / "data" / "raw" / "part1"
 OUT_DIR = ROOT / "data" / "part1"
 SHARD_DIR = OUT_DIR / "shards"

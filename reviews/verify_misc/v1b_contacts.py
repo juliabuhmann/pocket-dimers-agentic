@@ -6,7 +6,7 @@ rows=[]
 import sys
 CUT=float(sys.argv[1])
 for _,r in s.iterrows():
-    p=f'/cluster/scratch/jjaenes/pdb/{r.pdb_id[1:3]}/{r.pdb_id}.cif.gz'
+    p=f'/path/to/pdb_mirror/{r.pdb_id[1:3]}/{r.pdb_id}.cif.gz'
     st=gemmi.read_structure(p); st.setup_entities()
     try:
         a=[x for x in st.assemblies if x.name==str(r.assembly_id)][0]

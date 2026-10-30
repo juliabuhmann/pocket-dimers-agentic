@@ -2,7 +2,7 @@ import numpy as np, pandas as pd, gemmi
 d=pd.read_parquet('data/interim/pdbsite/sites.parquet'); s=d.sample(20,random_state=0)
 cc=pd.read_parquet('data/part1/ligand_sites.parquet',columns=['ligand_uid','contacts']).set_index('ligand_uid')
 for _,r in s.iloc[[0,1,2,3,5,7,8,13,14,16]].iterrows():
-    st=gemmi.read_structure(f'/cluster/scratch/jjaenes/pdb/{r.pdb_id[1:3]}/{r.pdb_id}.cif.gz'); st.setup_entities()
+    st=gemmi.read_structure(f'/path/to/pdb_mirror/{r.pdb_id[1:3]}/{r.pdb_id}.cif.gz'); st.setup_entities()
     a=[x for x in st.assemblies if x.name==str(r.assembly_id)][0]
     m=gemmi.make_assembly(a,st[0],gemmi.HowToNameCopiedChain.AddNumber)
     ns=gemmi.NeighborSearch(m,st.cell,6).populate()

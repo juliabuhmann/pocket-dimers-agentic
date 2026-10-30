@@ -3,7 +3,7 @@
 All mounts read-only. Counts below were obtained by the commands shown; nothing was copied.
 Scratch (`/cluster/scratch/...`) is purged after ~15 days: copy needed indices to project/work storage early.
 
-## 1. Predicted dimers: `/cluster/scratch/gmagnusson/dimers`
+## 1. Predicted dimers: `/path/to/afdb_dimers`
 
 Layout: `afdb_<species>_dimers/{homodimers,heterodimers}/` with `AF-<modelEntityId>.pdb` plus two CSVs per folder.
 Species (13): arabidopsis, dicty, ecoli, fly, human, mouse, mtb, paeruginosa, pombe, rat, worm, yeast, zebrafish.
@@ -50,18 +50,18 @@ No DBREF records and no CIF files.
 - Human ranges (min / median / max): homo ipTM 0.26/0.76/0.96, ipSAE 0.60/0.77/0.95, pDockQ2 0.23/0.63/0.96, n_res 76/732/2524;
   hetero ipTM 0.16/0.80/0.96, ipSAE 0.60/0.75/0.93, pDockQ2 0.23/0.51/0.96, n_res 162/674/2564.
 - `download_manifest.csv` = candidates + `status` (`downloaded` / `present` / `download_error`), `detail`, `source_url`, `output_file`
-  (relative path from `/cluster/scratch/gmagnusson/`). Each model appears twice (first run `downloaded`, rerun `present`), plus a few `download_error` rows
+  (relative path from `/path/to/` (the dimer data root)). Each model appears twice (first run `downloaded`, rerun `present`), plus a few `download_error` rows
   (human: 18 homo, 42 hetero rows); dedupe by `modelEntityId`; verify with file existence. Human sizes: homodimers 2.4 GB.
 
 ```python
 import pandas as pd
-R="/cluster/scratch/gmagnusson/dimers/afdb_human_dimers"
+R="/path/to/afdb_dimers/afdb_human_dimers"
 c=pd.concat([pd.read_csv(f"{R}/{t}/candidates.csv").assign(kind=t) for t in ("homodimers","heterodimers")])
 c["path"]=R+"/"+c.kind+"/"+c.modelEntityId+".pdb"
 import gemmi; st=gemmi.read_structure(c.path.iloc[0]); [ (ch.name,len(ch)) for ch in st[0] ]
 ```
 
-## 2. AFDB pocket atlas: `/cluster/scratch/gmagnusson/pocketcompare_afdb`
+## 2. AFDB pocket atlas: `/path/to/pocketcompare_afdb_atlas`
 Documentation: `POCKETOME.md` (read in full; key points below). Pipeline `afdb/worker.py` from github.com/zoidpuff/pocketcompare (not mounted here).
 
 - **Monomers only** (single-chain AFDB models; interface pockets absent; no ligands). Dimers were NOT processed.
@@ -81,12 +81,12 @@ Documentation: `POCKETOME.md` (read in full; key points below). Pipeline `afdb/w
 
 ```python
 import pyarrow.dataset as ds, pyarrow.compute as pc
-d=ds.dataset("/cluster/scratch/gmagnusson/pocketcompare_afdb/pockets",format="parquet")
+d=ds.dataset("/path/to/pocketcompare_afdb_atlas/pockets",format="parquet")
 t=d.to_table(columns=["pocket_id","accession","residues","burrow_score","volume_A3"],filter=pc.field("taxid")==9606).to_pandas()
 ```
 (venv with pyarrow/pandas: `.venvs/recon`, created with `uv venv .venvs/recon; uv pip install pyarrow pandas`.)
 
-## 3. PDB: `/cluster/scratch/jjaenes/pdb`
+## 3. PDB: `/path/to/pdb_mirror`
 - mmCIF, gzipped: `<id[1:3]>/<id>.cif.gz` (e.g. `01/101m.cif.gz`, `1a/11aa.cif.gz`; 1294 shard dirs, characters 2-3 of the lowercase ID). 261,139 files, no other files.
   Newest files dated 2026-10-09 (~current PDB). No SIFTS, no manifests, no components.cif, no pre-built assembly files.
 - Asymmetric-unit coordinates, but biological-assembly *definitions* are in each file: `_pdbx_struct_assembly` (oligomeric_details e.g. dimeric/monomeric, oligomeric_count),
@@ -94,7 +94,7 @@ t=d.to_table(columns=["pocket_id","accession","residues","burrow_score","volume_
   / `st.make_assembly`) or biotite.
 - UniProt per entity: `_struct_ref` (db_name `UNP`, `pdbx_db_accession`) and `_struct_ref_seq` (chain `pdbx_strand_id`, seq_align_beg/end, db_align_beg/end). Gives author-level UniProt mapping;
   SIFTS (residue-level) must be downloaded (section 8).
-- Count example: `find /cluster/scratch/jjaenes/pdb -type f | wc -l` (took ~1 min).
+- Count example: `find /path/to/pdb_mirror -type f | wc -l` (took ~1 min).
 
 ## 4. AFDB copy: `/cluster/work/beltrao/shared/alphafold/v6`
 - Model version **v6**, `*_v6.tar` per proteome: 46 reference proteomes (`UP000005640_9606_HUMAN_v6.tar`, ...YEAST, MOUSE, ECOLI, ... ; name = UPID_taxid_CODE) + `swissprot_cif_v6.tar` (40 GB) and `swissprot_pdb_v6.tar` (29 GB)
@@ -111,7 +111,7 @@ t=d.to_table(columns=["pocket_id","accession","residues","burrow_score","volume_
 
 ## 6. AlphaFold3 model weights: `/cluster/project/beltrao/shared/alphafold3/models/af3.bin.zst` (1.02 GB, zstd-compressed). Weights licence: AF3 terms of use (non-commercial, not redistributable).
 
-## 7. Conda envs: `/cluster/project/beltrao/jbuhmann/conda/envs`
+## 7. Conda envs: `/path/to/conda/envs`
 bioagent_probe, hf, intellifold-host (contains `alphafold3` 3.0.2, jax 0.9.1, rdkit), opendde (biopython, biotite, gemmi, torch, rdkit), openfold3 (openfold3 0.4.1, torch 2.10, gemmi, biotite),
 paper-reading, pooled-ppi-2026-08 (biopython, pandas, pyarrow), ppi-analysis (biopython, pandas, pyarrow).
 No env named burrow/pocketcompare/adock and no foldseek/mmseqs/fpocket/vina binaries found in any env `bin/`. Workspace `tools/` has `adock`, `alphafold3`, `burrow` (with own README/DATA.md).

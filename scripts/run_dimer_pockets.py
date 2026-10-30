@@ -15,7 +15,7 @@ from pathlib import Path
 import pandas as pd
 
 WS = Path(__file__).resolve().parents[1]
-DIMER_ROOT = Path(os.environ.get("DIMERS_ROOT", "/cluster/scratch/gmagnusson/dimers"))
+DIMER_ROOT = Path(os.environ.get("DIMERS_ROOT", "/path/to/afdb_dimers"))
 KINDS = {"homo": "homodimers", "hetero": "heterodimers"}
 
 

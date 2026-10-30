@@ -15,9 +15,9 @@ WS = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(WS))
 sys.path.insert(0, str(WS / "scripts"))
 
-DIMER_ROOT = Path(os.environ.get("DIMERS_ROOT", "/cluster/scratch/gmagnusson/dimers")) / "afdb_human_dimers"  # docs/DATA_RECON.md, task brief
+DIMER_ROOT = Path(os.environ.get("DIMERS_ROOT", "/path/to/afdb_dimers")) / "afdb_human_dimers"  # docs/DATA_RECON.md, task brief
 KINDS = {"homo": "homodimers", "hetero": "heterodimers"}
-PDB_MIRROR = Path(os.environ.get("PDB_MIRROR", "/cluster/scratch/jjaenes/pdb"))  # <id[1:3]>/<id>.cif.gz (docs/DATA_RECON.md)
+PDB_MIRROR = Path(os.environ.get("PDB_MIRROR", "/path/to/pdb_mirror"))  # <id[1:3]>/<id>.cif.gz (docs/DATA_RECON.md)
 POCKETS_DIMER = WS / "data/part2/human_dimer_pockets_annotated.parquet"  # scripts/annotate_pocket_chains.py
 POCKETS_ISO = WS / "data/part2/pockets/human_isolated"                     # scripts/run_dimer_pockets.py (isolated chains)
 ATLAS = WS / "data/raw/pocketcompare_afdb_snapshot"                         # scripts/snapshot_atlas.sh

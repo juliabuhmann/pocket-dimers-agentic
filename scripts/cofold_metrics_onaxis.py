@@ -36,7 +36,7 @@ from scipy.optimize import linear_sum_assignment
 ROOT = Path(__file__).resolve().parents[1]
 W = ROOT / "data/cofold/onaxis"
 OUT = ROOT / "results/cofold/onaxis"
-PDB_MIRROR = Path(os.environ.get("PDB_MIRROR", "/cluster/scratch/jjaenes/pdb"))  # = src/part1/config.py PDB_MIRROR
+PDB_MIRROR = Path(os.environ.get("PDB_MIRROR", "/path/to/pdb_mirror"))  # = src/part1/config.py PDB_MIRROR
 SUCCESS_RMSD = 2.0     # task definition (A)
 CONTACT_CUTOFF = 4.0   # A, heavy-atom contact for "ligand contacts chain" / site residues
 POCKET_CUTOFF = 10.0   # A, residues (any heavy atom) around the reference ligand used for the pocket superposition

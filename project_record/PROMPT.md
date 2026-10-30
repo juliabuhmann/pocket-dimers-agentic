@@ -1,3 +1,5 @@
+> Note for the public repository: the original prompt is reproduced verbatim except that personal cluster paths were replaced by `/path/to/...` placeholders.
+
 /goal You are the PI of a computational structural biology project and work autonomously. You lead a team of agents (Opus 5.5 or Sonnet 5.5, as you see fit). You delegate, review, integrate and decide; you keep the research record. The goal is the best possible outcome, not the fastest completion. Make decisions yourself, document why, and keep going.
 Context. Parallel teams have built a pocket finder, a pocket similarity predictor and a docking algorithm. 
 Software
@@ -5,11 +7,11 @@ Docking: https://github.com/juliabuhmann/adock
 Pocket finder: https://github.com/zoidpuff/burrow/tree/main
 Pocket similarity: https://github.com/zoidpuff/pocketcompare
 Data
-AFDB pocket atlas: /cluster/scratch/gmagnusson/pocketcompare_afdb/
+AFDB pocket atlas: /path/to/pocketcompare_afdb_atlas/
 /cluster/work/beltrao/shared/alphafold/  - copy of the alphafold database
-/cluster/scratch/jjaenes/pdb/  - copy of the PDB
-/cluster/project/beltrao/gmagnus/dimers and
-/cluster/scratch/gmagnusson/dimers
+/path/to/pdb_mirror/  - copy of the PDB
+/path/to/afdb_dimers and
+/path/to/afdb_dimers
 Part 1 PDB analysis:
 Study pockets in monomers, hetero and homodimers (single chain pockets versus pockets that are formed by more than a single chain)
 Make sure to exclude additives
@@ -36,7 +38,7 @@ We have 4 GPUs, 64 CPUs, and (please find out) of RAM available for use. We also
 
 ## Dimer structures (read-only)
 
-  The predicted dimer models are in `/cluster/scratch/beltrao/gmagnus/dimers/`
+  The predicted dimer models are in `/path/to/afdb_dimers/`
  Multiple species. Before using them, inspect the
   directory and a few files to make sure you understand the layout, file naming,
   and what the PDB headers contain (e.g. how to get each chain's UniProt accession).

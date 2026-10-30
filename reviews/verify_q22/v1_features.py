@@ -6,7 +6,7 @@ from scipy.spatial import cKDTree
 from multiprocessing import Pool
 WS=str(Path(__file__).resolve().parents[2])
 OUT=f'{WS}/reviews/verify_q22/work'; os.makedirs(OUT+'/shift',exist_ok=True)
-ROOT='/cluster/scratch/gmagnusson/dimers/afdb_human_dimers'
+ROOT='/path/to/afdb_dimers/afdb_human_dimers'
 SEED=0; N=1000; IF_CUT=5.0; SHIFT=20.0; GAP=15.0  # shift along centroid axis from 20 A in 5 A steps until min inter-chain distance >=15 A
 RAD={'C':1.70,'N':1.55,'O':1.52,'S':1.80,'SE':1.90}   # own element radii (Bondi-like)
 MAXASA={'ALA':129,'ARG':274,'ASN':195,'ASP':193,'CYS':167,'GLN':225,'GLU':223,'GLY':104,'HIS':224,'ILE':197,'LEU':201,'LYS':236,'MET':224,'PHE':240,'PRO':159,'SER':155,'THR':172,'TRP':285,'TYR':263,'VAL':174}  # Tien et al. 2013 theoretical

@@ -61,7 +61,7 @@ Data: `data/interim/fpocket/pdbsite_sites.parquet`, status ok: 2,901 sites, 1,46
 
 **fpocket rerun.**
 - Sample: 10 random ok sites (`DataFrame.sample(10, random_state=0)` on site_id-sorted rows).
-- Pipeline, my own code: raw mmCIF from `/cluster/scratch/jjaenes/pdb` → gemmi assembly 1 (first altloc, no H) → polymer only → `fpocket -f` → pocket with the most ligand heavy atoms within 3 Å of its alpha-sphere centres.
+- Pipeline, my own code: raw mmCIF from `/path/to/pdb_mirror` → gemmi assembly 1 (first altloc, no H) → polymer only → `fpocket -f` → pocket with the most ligand heavy atoms within 3 Å of its alpha-sphere centres.
 - Result: **10/10 match exactly.** The selected pocket number, overlap count, ligand atom count, number of pockets and Druggability Score are all identical.
 - The 10 sites cover 5 strata (no SBS drug-like site was drawn). Assembly sizes were 2.2k–18.9k atoms.
 

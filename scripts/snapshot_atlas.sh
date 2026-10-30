@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Copy the AFDB pocket atlas (monomers, tiers 1-2) off purgeable scratch into the workspace and checksum it.
 set -euo pipefail
-SRC=${ATLAS_SRC:-/cluster/scratch/gmagnusson/pocketcompare_afdb}
+SRC=${ATLAS_SRC:-/path/to/pocketcompare_afdb_atlas}
 DST=${ATLAS_DST:-$(dirname "$0")/../data/raw/pocketcompare_afdb_snapshot}
 mkdir -p "$DST"
 cp -rn "$SRC/pockets" "$SRC/structures" "$SRC/POCKETOME.md" "$DST/"

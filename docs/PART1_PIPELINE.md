@@ -23,7 +23,7 @@ All thresholds, URLs and paths live in `src/part1/config.py`, each with its rati
 ## Inputs (all fetched by script; URL, date and sha256 are in `data/raw/part1/MANIFEST.tsv` and DATA.md)
 | Source | Use |
 |---|---|
-| Local mmCIF mirror `/cluster/scratch/jjaenes/pdb` (261,139 entries; sha256 of the sorted ID list is in `logs/part1_full.log`) | structures, metadata, assemblies, `_struct_ref_seq` fallback, ligand-of-interest, `struct_conn` |
+| Local mmCIF mirror `/path/to/pdb_mirror` (261,139 entries; sha256 of the sorted ID list is in `logs/part1_full.log`) | structures, metadata, assemblies, `_struct_ref_seq` fallback, ligand-of-interest, `struct_conn` |
 | BioLiP2 `BioLiP.txt.gz` (Last-Modified 2025-11-12) | **primary** biological-relevance label |
 | BioLiP artifact `ligand_list` (463 codes) | geometric BioLiP2 rule (sensitivity / FALLBACK) |
 | PLINDER `artifacts_badlist.csv` (main branch) + PLINDER generic filters | sensitivity / FALLBACK |

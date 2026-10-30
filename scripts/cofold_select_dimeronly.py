@@ -58,7 +58,7 @@ from part1.config import PDB_MIRROR  # noqa: E402
 
 CURATED = ROOT / "results/part2/q23a_curated.tsv"
 CENSUS = ROOT / "data/part1/ligand_sites.parquet"
-DIMER_ROOT = Path(os.environ.get("DIMERS_ROOT", "/cluster/scratch/gmagnusson/dimers")) / "afdb_human_dimers"  # = scripts/annotate_pocket_chains.py
+DIMER_ROOT = Path(os.environ.get("DIMERS_ROOT", "/path/to/afdb_dimers")) / "afdb_human_dimers"  # = scripts/annotate_pocket_chains.py
 KIND_DIR = {"homo": "homodimers", "hetero": "heterodimers"}
 AF3_CUTOFF = "2021-09-30"     # AF3 training data cutoff (Abramson et al. 2024)
 OVERLAP_MIN = 0.3             # task definition

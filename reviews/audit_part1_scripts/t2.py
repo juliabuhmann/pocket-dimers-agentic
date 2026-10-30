@@ -2,7 +2,7 @@
 # Own implementation: gemmi assembly generators + numpy distances; BioLiP rule d <= vdW_i + vdW_j + TOL.
 import sys, gzip, numpy as np, pandas as pd, gemmi
 from multiprocessing import Pool
-PDB_ROOT = '/cluster/scratch/jjaenes/pdb'
+PDB_ROOT = '/path/to/pdb_mirror'
 TOL = 0.5          # BioLiP tolerance (DESIGN §0)
 MIN_PROT_LEN = 30  # eligible chain SEQRES length (DESIGN §0)
 SEED = 0; N_PER = 10

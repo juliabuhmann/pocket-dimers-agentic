@@ -7,7 +7,7 @@ Pockets filtered like the atlas: burrow_score >= SCORE_MIN (pocketcompare itself
 """
 import os, subprocess, sys, numpy as np, pandas as pd, gemmi
 SAMPLE_N = 200; SEED = 0; SCORE_MIN = 0.03; EXTRA = 2; WORKERS = 6
-PDB = '/cluster/scratch/jjaenes/pdb/'; W = 'data/interim/ligysis/exp/'; OUT = 'results/benchmarks/ligysis/'
+PDB = '/path/to/pdb_mirror/'; W = 'data/interim/ligysis/exp/'; OUT = 'results/benchmarks/ligysis/'
 os.makedirs(W + 'chains', exist_ok=True)
 
 def main():

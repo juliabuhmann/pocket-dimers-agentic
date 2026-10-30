@@ -4,7 +4,7 @@ c=d[(d.n_chains_asm>d.n_chains_kept)&(d.n_chains_asm<=24)&d.d_match]
 print('sites where crop dropped chains:',(d.n_chains_asm>d.n_chains_kept).sum(),'of',len(d))
 s=c.sample(10,random_state=0); out='reviews/verify_misc/crop'; os.makedirs(out,exist_ok=True)
 for _,r in s.iterrows():
-    st=gemmi.read_structure(f'/cluster/scratch/jjaenes/pdb/{r.pdb_id[1:3]}/{r.pdb_id}.cif.gz'); st.setup_entities()
+    st=gemmi.read_structure(f'/path/to/pdb_mirror/{r.pdb_id[1:3]}/{r.pdb_id}.cif.gz'); st.setup_entities()
     a=[x for x in st.assemblies if x.name==str(r.assembly_id)][0]
     m=gemmi.make_assembly(a,st[0],gemmi.HowToNameCopiedChain.AddNumber); m.remove_hydrogens()
     best=None

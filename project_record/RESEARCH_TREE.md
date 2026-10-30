@@ -51,7 +51,7 @@ Decision: to recover time, Part 1 PDB census and dimer pocket production runs we
 
 ### M0 — kickoff (2026-10-29 13:30, t+0.1h)
 Project set up: workspace git repo (branch `pocket-dimers-study`), PROMPT.md saved verbatim. Hardware: 64 CPUs, 501 GB RAM (~425 GB available), 4× Quadro RTX 6000 24 GB (Turing, no bf16 — relevant for AF3). Workspace filesystem has 7.1 TB free; our cap is 500 GB.
-Four parallel reconnaissance agents launched: data mounts, tools (burrow/pocketcompare/adock), literature (incl. Marsh/Abrusán 2018), co-folding feasibility. Mount note: `/cluster/project/beltrao/gmagnus/dimers` and `/cluster/scratch/beltrao/gmagnus/dimers` are NOT mounted; the user confirmed `/cluster/scratch/gmagnusson/dimers` is the dimer source.
+Four parallel reconnaissance agents launched: data mounts, tools (burrow/pocketcompare/adock), literature (incl. Marsh/Abrusán 2018), co-folding feasibility. Mount note: `/path/to/afdb_dimers` and `/path/to/afdb_dimers` are NOT mounted; the user confirmed `/path/to/afdb_dimers` is the dimer source.
 
 Decision: do reconnaissance before design; design (DESIGN.md) only after LITERATURE.md + data/tool facts are in, then ≤3 review rounds.
 

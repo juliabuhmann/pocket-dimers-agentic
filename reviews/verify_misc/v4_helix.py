@@ -3,7 +3,7 @@ sp=glob.glob('.venvs/q22/lib/python*/site-packages/pydssp/pydssp_numpy.py')[0]
 spec=importlib.util.spec_from_file_location('pn',sp); pn=importlib.util.module_from_spec(spec); spec.loader.exec_module(pn)
 c=pd.read_csv('results/part2/q23a_curated.tsv',sep='\t',comment='#')
 for _,r in c.sample(5,random_state=0).iterrows():
-    p=f"/cluster/scratch/gmagnusson/dimers/afdb_human_dimers/{'homodimers' if r.kind=='homo' else 'heterodimers'}/{r.modelEntityId}.pdb"
+    p=f"/path/to/afdb_dimers/afdb_human_dimers/{'homodimers' if r.kind=='homo' else 'heterodimers'}/{r.modelEntityId}.pdb"
     st=gemmi.read_structure(p); hel={}
     for ch in st[0]:
         xyz=[];nums=[]

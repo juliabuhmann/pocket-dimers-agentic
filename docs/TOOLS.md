@@ -28,7 +28,7 @@ source scripts/env_tools.sh pockets|dock       # use the tools interactively (se
 
 Resolved versions of the pockets venv: `envs/pockets_freeze.txt`.
 
-### Which versions built the AFDB pocket atlas (`/cluster/scratch/gmagnusson/pocketcompare_afdb/`)
+### Which versions built the AFDB pocket atlas (`/path/to/pocketcompare_afdb_atlas/`)
 
 - The atlas parquet files store a method record (schema metadata key `pocketcompare`):
   `pocketcompare_version 1.0.0`, `config_sha256 b3ea8fe9…a36a0c`, `af_mode true`, `unit merged`, `min_points 10`,
@@ -38,7 +38,7 @@ Resolved versions of the pockets venv: `envs/pockets_freeze.txt`.
 - Atlas filters (metadata key `pocketcompare_afdb`): merged pockets with `burrow_score >= 0.03` and lining
   `plddt_mean >= 70` were kept.
 - No git commit is recorded in the atlas, and the pipeline code (`afdb/worker.py`, `afdb.sbatch`) and its env
-  (`/cluster/project/beltrao/gmagnus/pocket_compare/envs/pocketcompare-afdb`) are not readable from here. The run
+  (`<atlas authors' private conda env>`) are not readable from here. The run
   started 2026-10-28 15:19, after the last code commit of both repositories.
 - **Checked directly:** re-describing `AF-P31946-F1-model_v6` with our install gave the same 2 pocket ids, identical
   lining residues, and fingerprints within 4.3e-5 of the stored float16 values (float16 rounding).

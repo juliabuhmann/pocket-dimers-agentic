@@ -10,7 +10,7 @@ from pathlib import Path
 import gemmi
 import pandas as pd
 
-MIRROR = Path("/cluster/scratch/jjaenes/pdb")  # local mmCIF mirror named in docs/PART1_PIPELINE.md
+MIRROR = Path("/path/to/pdb_mirror")  # local mmCIF mirror named in docs/PART1_PIPELINE.md
 OUT = Path(__file__).resolve().parent / "out"
 N_WORKERS = 6  # task budget: <=6 workers
 

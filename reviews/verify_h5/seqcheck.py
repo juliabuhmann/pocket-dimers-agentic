@@ -3,7 +3,7 @@ from pathlib import Path
 import re, numpy as np, pandas as pd
 from concurrent.futures import ProcessPoolExecutor
 ROOT = str(Path(__file__).resolve().parents[2])
-DIMERS = "/cluster/scratch/gmagnusson/dimers/afdb_human_dimers"
+DIMERS = "/path/to/afdb_dimers/afdb_human_dimers"
 OUT = f"{ROOT}/reviews/verify_h5/out"
 THREE = dict(ALA="A", ARG="R", ASN="N", ASP="D", CYS="C", GLN="Q", GLU="E", GLY="G", HIS="H", ILE="I", LEU="L", LYS="K",
              MET="M", PHE="F", PRO="P", SER="S", THR="T", TRP="W", TYR="Y", VAL="V")

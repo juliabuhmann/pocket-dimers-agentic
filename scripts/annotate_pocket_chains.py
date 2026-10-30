@@ -17,7 +17,7 @@ from pathlib import Path
 import numpy as np, pandas as pd
 
 WS = Path(__file__).resolve().parents[1]
-DIMER_ROOT = Path(os.environ.get("DIMERS_ROOT", "/cluster/scratch/gmagnusson/dimers"))
+DIMER_ROOT = Path(os.environ.get("DIMERS_ROOT", "/path/to/afdb_dimers"))
 KINDS = {"homo": "homodimers", "hetero": "heterodimers"}
 MIN_RES_PRIMARY, MIN_RES_SENS = 3, 1          # DESIGN.md v3
 SYM_OVERLAP, DIMER_ONLY_OVERLAP = 0.5, 0.5     # DESIGN.md v3 (sensitivities 0.2 / 0.8 from max_overlap_iso)

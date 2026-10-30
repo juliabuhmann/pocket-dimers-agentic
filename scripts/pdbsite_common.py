@@ -7,7 +7,7 @@ import hashlib, subprocess
 from pathlib import Path
 
 WS = Path(__file__).resolve().parents[1]
-PDB_MIRROR = Path(os.environ.get("PDB_MIRROR", "/cluster/scratch/jjaenes/pdb"))          # same mirror as src/part1/config.py (layout <id[1:3]>/<id>.cif.gz)
+PDB_MIRROR = Path(os.environ.get("PDB_MIRROR", "/path/to/pdb_mirror"))          # same mirror as src/part1/config.py (layout <id[1:3]>/<id>.cif.gz)
 UNITS = WS / "data/part1/analysis/units_primary_v2.parquet"  # scripts/part1_analysis.py output (census v2, primary)
 SITES = WS / "data/part1/ligand_sites.parquet"
 INTERIM = WS / "data/interim/pdbsite"

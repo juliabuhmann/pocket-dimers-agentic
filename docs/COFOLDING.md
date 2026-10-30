@@ -7,7 +7,7 @@ Structure quality was only checked via the model's own confidence scores, not ag
 - AF3 (google-deepmind, commit `8f8ac38`) installs and runs on the Quadro RTX 6000 (Turing, cc 7.5) with the settings below. Predictions are numerically sane on GPUs 1-3.
 - **GPU 0 is broken**: host-to-device round trip returns corrupted data (`scripts/test_gpu_basic.py`: `roundtrip False`, `x+1` max error 0.5). On GPU 0 AF3 produced all-NaN coordinates (logs `af3_tpi1_pga_try2..5*`) after long debugging. Use GPU 1-3 only. Please report GPU 0 to the admins.
 - Boltz-2 also installs and runs (GPU 1), with precomputed MSAs given as a3m.
-- Existing envs in `/cluster/project/beltrao/jbuhmann/conda/envs`: no standalone alphafold3 or boltz env (intellifold-host and openfold3 contain a vendored `alphafold3` 3.0.2 lib from IntelliFold, not used here).
+- Existing envs in `/path/to/conda/envs`: no standalone alphafold3 or boltz env (intellifold-host and openfold3 contain a vendored `alphafold3` 3.0.2 lib from IntelliFold, not used here).
 
 ## Install (exact commands: `scripts/setup_cofold.sh`)
 ```

@@ -22,7 +22,7 @@ from pathlib import Path
 import numpy as np, pandas as pd
 
 WS = Path(__file__).resolve().parents[1]
-DIMER_ROOT = Path(os.environ.get("DIMERS_ROOT", "/cluster/scratch/gmagnusson/dimers")) / "afdb_human_dimers"
+DIMER_ROOT = Path(os.environ.get("DIMERS_ROOT", "/path/to/afdb_dimers")) / "afdb_human_dimers"
 KINDS = {"homo": "homodimers", "hetero": "heterodimers"}
 INTERFACE_CUTOFF = 5.0
 OUT = WS / "data/part2/h5/residue_features"

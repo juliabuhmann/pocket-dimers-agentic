@@ -33,7 +33,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[2]
-PDB_MIRROR = Path("/cluster/scratch/jjaenes/pdb")
+PDB_MIRROR = Path("/path/to/pdb_mirror")
 CCD_URL = "https://files.rcsb.org/ligands/download/{}.cif"
 CCD_CACHE = ROOT / "reviews/verify_cofold/ccd_cache"   # small CIFs, re-fetchable
 OUT = ROOT / "reviews/verify_cofold"

@@ -41,7 +41,7 @@ from cofold_metrics_onaxis import heavy, kabsch, lig_rmsds, residues_near, rmsd 
 
 W = ROOT / "data/cofold/h4"
 OUT = ROOT / "results/cofold/h4"
-PDB_MIRROR = Path(os.environ.get("PDB_MIRROR", "/cluster/scratch/jjaenes/pdb"))  # = src/part1/config.py PDB_MIRROR
+PDB_MIRROR = Path(os.environ.get("PDB_MIRROR", "/path/to/pdb_mirror"))  # = src/part1/config.py PDB_MIRROR
 SUCCESS_RMSD = 2.0   # task definition
 DCC_HIT = 4.0        # H4 pocket-level threshold (scripts/h4_common.py DCC_HIT)
 CONTACT_CUTOFF = 4.0
