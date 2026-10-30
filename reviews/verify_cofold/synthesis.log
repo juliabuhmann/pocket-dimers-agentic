@@ -1,0 +1,33 @@
+<repo>/reviews/verify_cofold/synthesis.py:45: Pandas4Warning: The 'lsuffix' and 'rsuffix' keywords in DataFrame.join are deprecated and will be removed in a future version. Use the 'suffixes' keyword instead.
+  t = d.join(m, lsuffix="_dimer", rsuffix="_single", how="inner").reset_index()
+<repo>/reviews/verify_cofold/synthesis.py:45: Pandas4Warning: The 'lsuffix' and 'rsuffix' keywords in DataFrame.join are deprecated and will be removed in a future version. Use the 'suffixes' keyword instead.
+  t = d.join(m, lsuffix="_dimer", rsuffix="_single", how="inner").reset_index()
+                            subset   n                                                   test  estimate     ci_lo      ci_hi  p_one_sided_boot  n_boot_ok  n_boot_failed  n_events
+0                        seed0:all  56                       spearman gain_rmsd~partner_share  0.344422  0.103763   0.547251          0.004000       2000            NaN       NaN
+1                        seed0:all  56                      spearman gain_log10~partner_share  0.323314  0.065401   0.531878          0.009000       2000            NaN       NaN
+2                        seed0:all  56                    spearman success_diff~partner_share  0.165008 -0.116241   0.411986          0.118000       2000            NaN       NaN
+3                        seed0:all  56  logit dimer_only~partner_share (slope per unit share)  2.724128 -1.646708  10.593833          0.108554       1999            1.0       9.0
+4                     seed0:onaxis  24                       spearman gain_rmsd~partner_share  0.386091  0.033067   0.658348          0.018000       2000            NaN       NaN
+5                     seed0:onaxis  24                      spearman gain_log10~partner_share  0.500505  0.174938   0.740965          0.001500       2000            NaN       NaN
+6                     seed0:onaxis  24                    spearman success_diff~partner_share  0.222636 -0.207319   0.563425          0.137638       1998            NaN       NaN
+7                     seed0:onaxis  24  logit dimer_only~partner_share (slope per unit share)  2.740603 -2.547693  15.901992          0.144889       1898          102.0       5.0
+8                  seed0:dimeronly   8                       spearman gain_rmsd~partner_share  0.191620 -0.643879   0.877584          0.318000       2000            NaN       NaN
+9                  seed0:dimeronly   8                      spearman gain_log10~partner_share  0.167668 -0.789951   0.898717          0.342500       2000            NaN       NaN
+10                 seed0:dimeronly   8                    spearman success_diff~partner_share  0.548821 -0.086711   0.947737          0.055338       1789            NaN       NaN
+11                 seed0:dimeronly   8  logit dimer_only~partner_share (slope per unit share)  6.175812 -8.196744  28.818929          0.071490       1161          839.0       1.0
+12                        seed0:h4  24                       spearman gain_rmsd~partner_share  0.336169 -0.135947   0.698168          0.083000       2000            NaN       NaN
+13                        seed0:h4  24                      spearman gain_log10~partner_share  0.090691 -0.330946   0.511055          0.341000       2000            NaN       NaN
+14                        seed0:h4  24                    spearman success_diff~partner_share -0.120596 -0.482391   0.317662          0.733668       1990            NaN       NaN
+15                        seed0:h4  24  logit dimer_only~partner_share (slope per unit share)  1.641511 -5.911664  18.013108          0.380508       1929           71.0       3.0
+16       seed0:excl_induced_nonbio  50                       spearman gain_rmsd~partner_share  0.295072  0.020177   0.527913          0.016500       2000            NaN       NaN
+17       seed0:excl_induced_nonbio  50                      spearman gain_log10~partner_share  0.271859  0.003898   0.513569          0.024000       2000            NaN       NaN
+18       seed0:excl_induced_nonbio  50                    spearman success_diff~partner_share  0.204420 -0.086535   0.461834          0.076000       2000            NaN       NaN
+19       seed0:excl_induced_nonbio  50  logit dimer_only~partner_share (slope per unit share)  4.516867  0.216692  12.414125          0.020541       1996            4.0       7.0
+20  seed0:dedup_pdb_ccd (post hoc)  55                       spearman gain_rmsd~partner_share  0.342468  0.079730   0.548435          0.004000       2000            NaN       NaN
+21  seed0:dedup_pdb_ccd (post hoc)  55                      spearman gain_log10~partner_share  0.325256  0.073349   0.536861          0.005000       2000            NaN       NaN
+22  seed0:dedup_pdb_ccd (post hoc)  55                    spearman success_diff~partner_share  0.165915 -0.119378   0.416426          0.117500       2000            NaN       NaN
+23  seed0:dedup_pdb_ccd (post hoc)  55  logit dimer_only~partner_share (slope per unit share)  2.662221 -1.724721   9.967935          0.104709       1996            4.0       9.0
+24             seeds012_pooled:all  14                       spearman gain_rmsd~partner_share  0.271979 -0.446177   0.780338          0.202500       2000            NaN       NaN
+25             seeds012_pooled:all  14                      spearman gain_log10~partner_share  0.316934 -0.325429   0.791057          0.151500       2000            NaN       NaN
+26             seeds012_pooled:all  14                    spearman success_diff~partner_share  0.332694 -0.264539   0.766225          0.134500       2000            NaN       NaN
+27             seeds012_pooled:all  14  logit dimer_only~partner_share (slope per unit share)  6.537016 -4.364577  21.179163          0.058425       1917           83.0       5.0

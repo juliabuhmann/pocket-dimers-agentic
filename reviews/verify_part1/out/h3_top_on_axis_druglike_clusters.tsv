@@ -1,0 +1,65 @@
+my_cluster30	n_units	protein	organism	example_pdb	example_ligands	cum_frac
+93	127	Protease	Human immunodeficiency virus 1	3kdb,2hs1,3vf5,1odx	(4R)-3-[(2S,3S)-3-{[(2,6-dimet; (3R,3AS,6AR)-HEXAHYDROFURO[2,3; (3aS,5R,6aR)-hexahydro-2H-cycl	0.36182336182336183
+259	67	Transthyretin	Homo sapiens	4hiq,6e78,7erk,2f7i	3-[3-(3,5-dimethyl-1H-pyrazol-; 5-(2,4-DIFLUOROPHENYL)-2-HYDRO; N-(2-CHLORO-6-METHYLPHENYL)-2-	0.5527065527065527
+209	21	Glutamate receptor 2	Rattus norvegicus	7f3o,2xx8,2xx9,4fat	7-(4-cyclohexyloxyphenyl)-9-me; N,N-DIMETHYL-4-[3-(TRIFLUOROME; N,N-DIMETHYL-4-[3-(TRIFLUOROME	0.6125356125356125
+3205	15	Glutaminase kidney isoform, mitochondrial	Homo sapiens	8bsk,5fi6,5hl1,5i94	N,N'-[sulfanediylbis(ethane-2,; 2-phenyl-~{N}-[5-[[(3~{S})-1-[; 2-(pyridin-2-yl)-N-(5-{4-[6-({	0.6552706552706553
+2246	8	Programmed cell death 1 ligand 1	Homo sapiens	5niu,9eo0,9i0u,8xr5	(2~{R})-2-[[2-[(3-cyanophenyl); ~{N}-[3-[3-[[5-[(2-hydroxyethy; (5~{S})-5-[[[5-[2-chloranyl-3-	0.6780626780626781
+1158	8	Fusion glycoprotein F0	Human respiratory syncytial virus	8phi,6eak,5kww,9bjm	4-{2-[4-(3,10-DIBROMO-8-CHLORO; 2-[[2-[[1-(2-azanylethyl)piper; 3-[[5-chloranyl-1-(3-methylsul	0.7008547008547008
+701	8	Pyruvate kinase isozymes M1/M2	Homo sapiens	4jpg,3me3,5x1w,3h6o	2-(1H-benzimidazol-1-ylmethyl); 3-{[4-(2,3-dihydro-1,4-benzodi; 4-[2,3-bis(chloranyl)phenyl]ca	0.7236467236467237
+238	6	DNA gyrase subunit B fusion with DNA gyrase subunit A	Staphylococcus aureus	9n26,9n39,4bul,6enh	N-{(2r,5r)-2-[2-(6-methoxyquin; N-{(2r,5r)-2-[2-(6-methoxyquin; (S)-4-((4-(((2,3-dihydro-[1,4]	0.7407407407407407
+1107	5	Isocitrate dehydrogenase [NADP], mitochondrial	Homo sapiens	4ja8,5i96,6adi,6bky	1-[5-(cyclopropylsulfamoyl)-2-; 2-methyl-1-[(4-[6-(trifluorome; 6-(6-chloropyridin-2-yl)-N2,N4	0.7549857549857549
+1375	5	Stimulator of interferon genes protein	Homo sapiens	9cue,9ct4,6xf3,8sth	benzyl (3-{5-carbamoyl-2-[(1-e; 1-[(2E)-4-{5-carbamoyl-2-[(1-e; (1R,3R,15E,28R,29R,30R,31R,34R	0.7692307692307693
+97	5	Bromodomain-containing protein 4	Homo sapiens	5khm,7l9m,7la9,7mr5	(3~{R})-4-[2-[4-[1-(3-methoxy-; N,N'-[(1,19-dioxo-4,7,10,13,16; N,N'-(oxybis{(ethane-2,1-diyl)	0.7834757834757835
+888	4	Fructose-1,6-bisphosphatase 1	Homo sapiens	5pzr,5pzs,5pzw,2jjk	N,N'-{oxybis[(propane-3,1-diyl; N,N'-(hexane-1,6-diyldicarbamo; N,N'-(pentane-1,5-diyldicarbam	0.7948717948717948
+15066	4	NKG2-D type II integral membrane protein	Homo sapiens	8ea7,8ea8,8ea9,8eaa	(4M)-N-{(1S)-2-(dimethylamino); N-{(1S)-2-(dimethylamino)-2-ox; N-[(1S)-1-[3,5-bis(trifluorome	0.8062678062678063
+3042	3	Procaspase-6	Homo sapiens	4nbl,8f96,8f9c	5-fluoro-2-({[3-(pyrimidin-2-y; 5-fluoro-2-({[(3M)-3-(pyrimidi; 5-fluoro-2-({[(3M)-3-(4H-1,2,4	0.8148148148148148
+587	3	3-OXOACYL-[ACYL-CARRIER-PROTEIN] REDUCTASE FABG	PSEUDOMONAS AERUGINOSA	4bnt,6t65,4bo5	2-(trifluoromethyl)-1H-benzimi; ethyl 6-bromanyl-2-[(dimethyla; N-(2-chlorophenyl)-4-pyrrol-1-	0.8233618233618234
+678	3	Alpha-synuclein	Homo sapiens	8zli,7ynl,8x7o	~{N},~{N}-dimethyl-4-(6-methyl; 4-azanyl-6-[[4-[4-[(~{E})-(8-a; 2-[4-(methylamino)phenyl]-1,3-	0.8319088319088319
+1820	2	Macrophage metalloelastase	Homo sapiens	4h30,4h49	N,N'-bis(2-[(biphenyl-4ylsulfo; N,N'-bis(2-{(biphenyl-4-ylsulf	0.8376068376068376
+754	2	Ferritin light chain	Equus caballus	9kp2,3f33	Nile Red; 2,6-BIS(1-METHYLETHYL)PHENOL	0.8433048433048433
+4898	2	Lipid A export ATP-binding/permease protein MsbA	Acinetobacter baumannii	9csi,8gk7	3,3'-[(1,4-dioxobutane-1,4-diy; 2-[(4-butylbenzene-1-sulfonyl)	0.8490028490028491
+4774	2	Transcriptional regulator, PadR-like family	Lactococcus lactis subsp. cremoris	3f8c,6r1l	2'-(4-ETHOXYPHENYL)-5-(4-METHY; 1,10-PHENANTHROLINE	0.8547008547008547
+3898	2	Matrix metalloproteinase-9	Homo sapiens	4hma,4h82	N,N'-bis(2-[(biphenyl-4ylsulfo; N,N'-bis(2-{(biphenyl-4-ylsulf	0.8603988603988604
+735	2	Microtubule-associated protein tau	Homo sapiens	8byn,8uq7	7-(6-fluoranylpyridin-3-yl)-5~; 6-fluoro-3-(1H-pyrrolo[2,3-c]p	0.8660968660968661
+2060	2	Tumor necrosis factor (TNF-alpha) (Tumor necrosis factor ligand superfamily member 2) (TNF-a) (Cachectin) [Contains: Tumor necrosis factor, membrane form; Tumor necrosis factor, soluble form]	Homo sapiens	2az5,6x82	6,7-DIMETHYL-3-[(METHYL{2-[MET; 8-[4-(2-{5-[(4-methylpiperazin	0.8717948717948718
+31373	2	gag-pro-pol polyprotein	DG-75 Murine leukemia virus	3slz,3sm2	benzyl [(1S,4S,7S,8R,9R,10S,13; {3-[(4-AMINO-BENZENESULFONYL)-	0.8774928774928775
+4234	2	GLUTATHIONE S-TRANSFERASE F2	ARABIDOPSIS THALIANA	5a4w,5a4v	2-(3,4-dihydroxyphenyl)-5,7-di; 3,5,7,3',4'-PENTAHYDROXYFLAVON	0.8831908831908832
+21824	2	FIV Protease	Feline immunodeficiency virus	3ogp,3ogq	(3R,3AS,6AR)-HEXAHYDROFURO[2,3; N-{1-BENZYL-4-[2-(2,6-DIMETHYL	0.8888888888888888
+1014	2	GLUD1 protein	Bos taurus	3etd,3ete	2,2'-sulfanediylbis(4,6-dichlo; 2,2'-methanediylbis(3,4,6-tric	0.8945868945868946
+518	1	LIVER GLYCOGEN PHOSPHORYLASE	Homo sapiens	1em6	BIS[5-CHLORO-1H-INDOL-2-YL-CAR	0.8974358974358975
+39	1	60 kDa chaperonin	Escherichia coli	9c0b	N-(2-{4-[4-(aminomethyl)benzen	0.9002849002849003
+51	1	Capsid premembrane protein	Dengue virus 2	6vg5	3-amino-N-(5-phenyl-1,3,4-thia	0.9031339031339032
+280	1	Glutamate receptor ionotropic, kainate 1	Rattus norvegicus	8r36	4-cyclopropyl-7-(3-methoxyphen	0.905982905982906
+690	1	Glutathione S-transferase class-mu 26 kDa isozyme	Schistosoma japonicum	6rwd	2,3,7,8-tetrahydroxychromeno[5	0.9088319088319088
+2481	1	Isoform J of Calcium-activated potassium channel slowpoke	Drosophila melanogaster	7pxh	(3~{S},6~{R},9~{S},12~{R},15~{	0.9116809116809117
+2247	1	Acetylglutamate kinase	Mycobacterium tuberculosis H37Rv	7nnb	2,8-bis(trifluoromethyl)quinol	0.9145299145299145
+1809	1	Glycine receptor subunit alphaZ1	Danio rerio	6ud3	(1aR,2aR,3S,6R,6aS,8aS,8bR,9R)	0.9173789173789174
+2054	1	Volume-regulated anion channel subunit LRRC8A	Mus musculus	6nzw	4-{[(2S)-2-butyl-6,7-dichloro-	0.9202279202279202
+979	1	3-oxoacyl-[acyl-carrier-protein] synthase 2	Pseudomonas aeruginosa	5sn7	[4-(cyclopropanecarbonyl)piper	0.9230769230769231
+858	1	Nicotinate (Nicotinamide) nucleotide adenylyltransferase	Bacillus anthracis	3hfj	3-amino-N-(3-fluorophenyl)-6-t	0.9259259259259259
+1307	1	Apolipoprotein(a)	Homo sapiens	8v8z	muvalaplin 	0.9287749287749287
+704	1	Tetrabrachion	Staphylothermus marinus	5vh0	pyrene	0.9316239316239316
+361	1	Phospholipase A2 homolog 2	Bothrops asper	1y4l	8,8'-[CARBONYLBIS[IMINO-3,1-PH	0.9344729344729344
+4189	1	Gamma-aminobutyric acid receptor subunit rho-1	Homo sapiens	8oq8	(1aR,2aR,3S,6R,6aS,8aS,8bR,9R)	0.9373219373219374
+2789	1	Transient receptor potential cation channel subfamily V member 6	Homo sapiens	7k4b	1-[cis-4-(3-methylphenyl)cyclo	0.9401709401709402
+4633	1	PA-I galactophilic lectin	Pseudomonas aeruginosa	4ywa	(2R,3R,4S,5R,6R,2'R,3'R,4'S,5'	0.9430199430199431
+4866	1	Interleukin-17A	Homo sapiens	7ama	~{N}-[(2~{S})-1,1-dicyclopropy	0.9458689458689459
+3082	1	Fucose-binding lectin protein	Ralstonia solanacearum	9gr4	25,26,27,28-tetrahydroxypentac	0.9487179487179487
+2900	1	Enoyl-[acyl-carrier-protein] reductase	Homo sapiens	4w9n	TRICLOSAN	0.9515669515669516
+2784	1	E3 ubiquitin-protein ligase XIAP	Homo sapiens	4mtz	8-({3-[({3-[(4,6,8-trisulfonap	0.9544159544159544
+7473	1	Lipase B	Pseudozyma antarctica	6tp8	2,3-di(butanoyloxy)propyl buta	0.9572649572649573
+6481	1	Toll-like receptor 2,Variable lymphocyte receptor B	Homo sapiens	6nig	(3S,4S,3'S,4'S)-1,1'-(1,4-phen	0.9601139601139601
+5996	1	Potassium voltage-gated channel subfamily H member 2	Homo sapiens	8zyq	3-[1-[4,4-bis(4-fluorophenyl)b	0.9629629629629629
+7704	1	HIV-2 PROTEASE	Human immunodeficiency virus 2	1hii	ACETYL-NH-VAL-CYCLOHEXYL-CH2[N	0.9658119658119658
+11324	1	Bromodomain testis-specific protein	Homo sapiens	8cza	4-[(4-{4-chloro-3-[(2-methylpr	0.9686609686609686
+14511	1	Protease	Human T-lymphotropic virus 1	3wsj	N-[2(R)-HYDROXY-1(S)-INDANYL]-	0.9715099715099715
+10061	1	N-acyl-phosphatidylethanolamine-hydrolyzing phospholipase D	Homo sapiens	8pc4	6-chloro-3,4-dihydro-2H-1,2,4-	0.9743589743589743
+9374	1	Potassium channel subfamily K member 6	Homo sapiens	9mel	3-[1-[4,4-bis(4-fluorophenyl)b	0.9772079772079773
+16282	1	Nucleoside 2-deoxyribosyltransferase	Trypanosoma brucei	2f64	1-METHYLQUINOLIN-2(1H)-ONE	0.98005698005698
+15842	1	Chromobox protein homolog 7	Mus musculus	4x3u	8,8'-[CARBONYLBIS[IMINO-3,1-PH	0.9829059829059829
+20603	1	Potassium channel subfamily K member 3	Homo sapiens	6rv3	[4-[[2-(4-bromophenyl)imidazo[	0.9857549857549858
+19014	1	ASPARTATE RECEPTOR	Salmonella typhimurium	2lig	1,10-PHENANTHROLINE	0.9886039886039886
+24668	1	Envelope phospholipase OPG057	Vaccinia virus Western Reserve	9hah	Tecovirimat	0.9914529914529915
+31282	1	Teichoic acid biosynthesis protein F	Staphylococcus epidermidis	3l7m	{[-(BIS-CARBOXYMETHYL-AMINO)-E	0.9943019943019943
+33747	1	Variant surface glycoprotein Sur	Trypanosoma brucei rhodesiense	6z7b	8,8'-[CARBONYLBIS[IMINO-3,1-PH	0.9971509971509972
+222091	1	Fusion protein	Infectious salmon anemia virus	4xyp	3,7-BIS(DIMETHYLAMINO)PHENOTHI	1.0

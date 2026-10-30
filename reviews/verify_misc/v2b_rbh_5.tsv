@@ -1,0 +1,6 @@
+species	human	gene_h	ortholog	gene_o	prot_o	fident	alnlen	same_gene
+mouse	Q9NWW5	CLN6	Q3U466	Cln6	Uncharacterized protein	0.902	308	True
+rat	Q9H444	CHMP4B C20orf178 SHAX1	D4A9Z8	Chmp4bl1 Chmp4b	Chromatin modifying protein 4B-like 1	0.973	224	True
+mouse	P00533	EGFR ERBB ERBB1 HER1	Q01279	Egfr	Epidermal growth factor receptor (EC 2.7.10.1)	0.903	1212	True
+zebrafish	O95825	CRYZL1 4P11 FERRY4	Q6DHM3	cryzl1	Crystallin, zeta (Quinone reductase)-like 1	0.597	350	True
+mouse	Q5VXD3-4	SAMD13 HSD-42 HSD42	D3YUG0	Samd13 Gm1652	Sterile alpha motif domain-containing protein 13 (SAM domain	0.941	102	True

@@ -1,0 +1,31 @@
+set	ccd_key	name	fine	max_phase_sqlite	max_pchembl	druglike_reason
+drug_like	A1H9F	(2S,4R)-1-[(2R)-2-[(1-fluoranylcyclopropyl)carbonylamino]-3-methyl-3-[[trans-4-(morpholin-4-ylmethyl)cyclohexyl]methylsulfanyl]butanoyl]-N-[[4-(4-methyl-1,3-thiazol-5-yl)phenyl]methyl]-4-oxidanyl-pyrrolidine-2-carboxamide	drug_like		6.4	+pchembl
+drug_like	3G4	2-(6-{[(3-chloro-2-methylphenyl)sulfonyl]amino}pyridin-2-yl)-N,N-diethylacetamide	drug_like		6.54	+pchembl
+drug_like	MT3	2-benzyl-5-{4-[(6,7-dimethoxyquinolin-4-yl)oxy]-3-fluorophenyl}-3-methylpyrimidin-4(3H)-one	drug_like		7.41	+pchembl
+drug_like	LWH	4-(1H-pyrazol-5-yl)-2-{4-[(3S)-pyrrolidin-3-ylamino]quinazolin-2-yl}phenol	drug_like		8.05	+pchembl
+drug_like	A1EQV	Macimorelin	drug_like	4.0	7.64	phase+pchembl
+drug_like	49N	1-[3-(trifluoromethyl)pyridin-2-yl]piperazine	drug_like		7.01	+pchembl
+drug_like	NM7	2-(carbamoylamino)-5-(4-fluorophenyl)thiophene-3-carboxamide	drug_like		8.3	+pchembl
+drug_like	P1A	2,3,14,20,22-PENTAHYDROXYCHOLEST-7-EN-6-ONE	drug_like		8.89	+pchembl
+drug_like	2VZ	(2E,4E,6Z,8E)-3,7-dimethyl-8-(6-methyl-3,4-dihydronaphthalen-1(2H)-ylidene)octa-2,4,6-trienoic acid	drug_like		7.82	+pchembl
+drug_like	2QM	N~2~-{[(S)-carboxy(4-hydroxyphenyl)methyl]carbamoyl}-N~6~-(4-iodobenzoyl)-L-lysine	drug_like		7.07	+pchembl
+non_druglike_other	PLP+SUO		other_organic			
+non_druglike_other	I7K	1-(3,4-dihydroxy-9,10-dioxo-9,10-dihydroanthracene-2-sulfonyl)piperidine-4-carboxylic acid	other_organic		5.32	
+non_druglike_other	LPI	N-({3-hydroxy-2-methyl-5-[(phosphonooxy)methyl]pyridin-4-yl}methyl)-L-methionine	other_organic			
+non_druglike_other	TRI	1,2,4-TRIAZOLE	other_organic			
+non_druglike_other	HH9	4-chloranyl-9-oxidanylidene-xanthene-2-carboxylic acid	other_organic		5.17	
+non_druglike_other	XE9	[3-(3-chloranyl-2-piperazin-1-yl-quinolin-6-yl)phenyl]methanamine	other_organic			
+non_druglike_other	7EN	(1S)-2,3-bis(2-chloro-4-hydroxyphenyl)-1H-1lambda~4~-thiophen-1-one	other_organic			
+non_druglike_other	TYP	CYCLO-(L-TYROSINE-L-PROLINE) INHIBITOR	other_organic		4.42	
+non_druglike_other	7FD	ethyl 3-{4-[cyclohexylidene(4-hydroxyphenyl)methyl]phenyl}prop-2-enoate	other_organic			
+non_druglike_other	6A1	hydroxy(2-{[(5S)-6-hydroxy-8-methoxy-4,5-dihydro-3H-imidazo[4,5,1-de]acridin-5-yl]amino}ethyl)dimethylammonium	other_organic			
+cofactor	8EO	2-[(5S)-3-[(4-azanyl-2-methyl-pyrimidin-5-yl)methyl]-4-methyl-2,5-dihydro-1,3-thiazol-3-ium-5-yl]ethyl phosphono hydrogen phosphate	cofactor			
+cofactor	NDP	NADPH DIHYDRO-NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE	cofactor			
+cofactor	85F+PLP		cofactor			
+cofactor	PLP+SER		cofactor			
+cofactor	BBN+NAD		cofactor			
+cofactor	GRA	glutaryl-coenzyme A	cofactor			
+cofactor	FAD+H2S		cofactor			
+cofactor	NAD+NDT		cofactor			
+cofactor	PLP+TRS		cofactor			
+cofactor	GEG+PLP		cofactor			

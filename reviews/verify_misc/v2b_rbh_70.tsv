@@ -1,0 +1,71 @@
+species	human	gene_h	ortholog	gene_o	prot_o	fident	alnlen	same_gene
+zebrafish	Q15375	EPHA7 EHK3 HEK11	Q5VSJ4	epha7 fc51g03 si:dkey-23k6.1 wu:fc51g03	Ephrin type-A receptor 7 (EC 2.7.10.1)	0.86	1011	True
+rat	P06493	CDK1 CDC2 CDC28A CDKN1 P34CDC2	P39951	Cdk1 Cdc2 Cdc2a Cdkn1	Cyclin-dependent kinase 1 (CDK1) (EC 2.7.11.22) (EC 2.7.11.2	0.976	297	True
+arabidopsis	P18621	RPL17	P51413	RPL17B At1g67430 T1F15.11	Large ribosomal subunit protein uL22y (60S ribosomal protein	0.664	173	False
+fly	Q8WV92	MITD1	Q9VZK1	Dmel\CG14985 CG14985 Dmel_CG14985	MIT domain-containing protein	0.351	225	False
+rat	P61129	ZC3H6 KIAA2035 ZC3HDC6	D3ZVW3	Zc3h4	Zinc finger CCCH domain-containing protein 4	0.339	1369	False
+zebrafish	P19404	NDUFV2	Q6PBX8	ndufv2 zgc:73198	NADH dehydrogenase [ubiquinone] flavoprotein 2, mitochondria	0.795	249	True
+fly	Q12788	TBL3 SAZD	Q7JQT9	CG1671	LD47550p	0.32	805	False
+rat	Q4G0N4	NADK2 C5orf33 MNADK NADKD1	A0A8I5ZQT4	Nadk2	NAD kinase 2, mitochondrial (EC 2.7.1.23) (NAD kinase domain	0.927	442	True
+zebrafish	A6ND91	ASPDH	Q66I59	aspdh zgc:103722	Aspartate dehydrogenase domain-containing protein	0.482	284	True
+mouse	F5H0M2	MED24	Q99K74	Med24 D11Ertd307e Thrap4 Trap100	Mediator of RNA polymerase II transcription subunit 24 (Medi	0.985	138	True
+mouse	M0R1U9	ZSCAN18	A0A1B0GRW2	Zscan18	Zinc finger and SCAN domain containing 18	0.894	76	True
+mouse	P19634	SLC9A1 APNH1 NHE1	Q61165	Slc9a1 Nhe1	Sodium/hydrogen exchanger 1 (Na(+)/H(+) exchanger 1) (NHE-1)	0.928	822	True
+yeast	P63098	PPP3R1 CNA2 CNB	P25296	CNB1 YCN2 YCNB YKL190W	Calcineurin subunit B (Calcineurin regulatory subunit) (Prot	0.597	154	False
+mouse	Q2MKA7	RSPO1	Q9Z132	Rspo1	R-spondin-1 (Cysteine-rich and single thrombospondin domain-	0.885	262	True
+mouse	P23378	GLDC GCSP	Q91W43	Gldc	Glycine dehydrogenase (decarboxylating), mitochondrial (EC 1	0.92	1025	True
+rat	Q5VWJ9	SNX30	A0ABK0LGZ3	Snx30	Sorting nexin-30	0.954	443	True
+mouse	Q9Y262	EIF3L EIF3EIP EIF3S6IP HSPC021 HSPC025 MSTP005	Q8QZY1	Eif3l Eif3eip Eif3s6ip Paf67	Eukaryotic translation initiation factor 3 subunit L (eIF3l)	0.991	564	True
+arabidopsis	P14735	IDE	O22941	PXM16 At2g41790 T11A7.11	Insulin-degrading enzyme-like 1, peroxisomal (EC 3.4.24.-) (	0.385	960	False
+fly	P30041	PRDX6 AOP2 KIAA0106	Q9VQI7	Prx6a 153181_at Dmel\CG3083 dPRDX6 dPRDX6-1 dPrx6b DPx-6005 DPx6005 GM04269p Prx6005 CG3083 Dmel_CG3083	1-Cys peroxiredoxin	0.604	220	False
+arabidopsis	Q7Z2W9	MRPL21	Q8L9A0	RPL21M NFD1 At4g30930 F6I18.160	Large ribosomal subunit protein bL21m (50S ribosomal protein	0.314	108	False
+zebrafish	P41208	CETN2 CALT CEN2	F1R789	cetn4	Uncharacterized protein cetn4	0.837	172	False
+mouse	P63208	SKP1 EMC19 OCP2 SKP1A TCEB1L	Q9WTX5	Skp1 Skp1a	S-phase kinase-associated protein 1 (Cyclin-A/CDK2-associate	0.993	163	True
+mouse	Q6ZVN8	HJV HFE2 RGMC	Q7TQ33	Rgmb	Repulsive guidance molecule B (DRG11-responsive axonal guida	0.438	415	False
+rat	Q6GTS8	PM20D1	F1M0Q9	Pm20d1	N-fatty-acyl-amino acid synthase/hydrolase PM20D1 (EC 3.5.1.	0.721	503	True
+mouse	A0A1B0GU86	ACY1	A0A1L1SS90	Acy1	N-acyl-aliphatic-L-amino acid amidohydrolase (EC 3.5.1.14) (	0.852	373	True
+rat	Q9UNF0-2	PACSIN2	Q9QY17-4	Pacsin2	Protein kinase C and casein kinase substrate in neurons 2 pr	0.946	445	True
+zebrafish	Q8N4N3	KLHL36 C16orf44	Q503R4	klhl36 zgc:110268	Kelch-like protein 36	0.634	597	True
+rat	O95406	Internal server error	A0A0G2K112	Cnih1	Cornichon family member 1	0.9	160	False
+rat	Q969H0	FBXW7 FBW7 FBX30 SEL10	D3Z902	Fbxw7	F-box/WD repeat-containing protein 7	0.956	713	True
+arabidopsis	P62805	H4C1 H4/A H4FA HIST1H4A; H4C2 H4/I H4FI HIST1H4B; H4C3 H4/G H4FG HIST1H4C; H4C4 H4/B H4FB HIST1H4D; H4C5 H4/J H4FJ HIST1H4E; H4C6 H4/C H4FC HIST1H4F; H4C8 H4/H H4FH HIST1H4H; H4C9 H4/M H4FM HIST1H4I; H4C11 H4/E H4FE HIST1H4J; H4C12 H4/D H4FD HIST1H4K; H4C13 H4/K H4FK HIST1H4L; H4C14 H4/N H4F2 H4FN HIST2H4 HIST2H4A; H4C15 H4/O H4FO HIST2H4B; H4C16 H4-16 HIST4H4	P59259	At1g07660 F24B9.25; At1g07820 F24B9.8; At2g28740 F8N16.2 T11P11.4; At3g45930 F16L2_140; At3g46320 F18L15.40; At3g53730 F5K20_30; At5g59690 MTH12.10; At5g59970 MMN10.22	Histone H4	0.98	103	False
+zebrafish	P37837	TALDO1 TAL TALDO TALDOR	Q6P6Y0	taldo1	Transaldolase (EC 2.2.1.2)	0.77	336	True
+fly	O15400	STX7	Q7K0X9	Syx7 CG5081	LD23667p	0.415	260	False
+arabidopsis	P49643	PRIM2 PRIM2A	Q84WJ2	At1g67320 F1N21_14	Probable DNA primase large subunit	0.417	434	False
+worm	Q9H3F6	KCTD10 ULR061 MSTP028	O16612	B0281.5 CELE_B0281.5	BTB domain-containing protein	0.371	132	False
+zebrafish	Q13283	G3BP1 G3BP	Q7ZVG3	g3bp1	GTPase activating protein (SH3 domain) binding protein 1	0.691	473	True
+rat	Q86Z23	C1QL4 CTRP11	D3ZMN4	C1ql4	Complement C1q like 4	0.966	238	True
+mouse	Q9NVP2	ASF1B	Q9DAP7	Asf1b	Histone chaperone ASF1B (Anti-silencing function protein 1 h	0.915	202	True
+rat	Q8TB52	FBXO30 FBX30	Q5XI67	Fbxo30	F-box only protein 30	0.87	749	True
+rat	Q8N5N7	MRPL50	A0ABK0LNU0	Mrpl50	Large ribosomal subunit protein mL50 (39S ribosomal protein 	0.761	159	True
+arabidopsis	P14854	COX6B1 COX6B	Q9SUD3	COX6B-3 At4g28060 T13J8.170	Cytochrome c oxidase subunit 6b-3 (AtCOX6b-3)	0.524	82	False
+fly	Q15287	RNPS1 LDC2	Q9VHC0	RnpS1 cg16788 DEK Dmel\CG16788 RNPS1 Rnps1 rnps1 CG16788 Dmel_CG16788	RNA-binding protein S1	0.542	177	True
+mouse	Q8NEV9	Internal server error	Q8K3I6	Internal server error	?	0.754	236	True
+rat	Q8N1V2	CFAP52 WDR16 WDRPUH	A6HFJ5	Cfap52 Usp43	Cilia- and flagella-associated protein 52 (WD repeat-contain	0.906	620	True
+rat	P06133	UGT2B4 UGT2B11	D4A132	Ugt2b34 Ugt2b10	UDP-glucuronosyltransferase (EC 2.4.1.17)	0.708	532	False
+mouse	Q6ZSB9-3	ZBTB49 ZNF509	D6RE57	Zbtb49	Zinc finger and BTB domain containing 49	0.942	52	True
+zebrafish	P63211	GNGT1	Q6PBN9	gngt1 gng1 wu:fk53d06 zgc:73318	Guanine nucleotide-binding protein subunit gamma	0.671	73	True
+mouse	Q4AE62	QTMAN GTDC1	Q8BW56	Qtman Gtdc1	tRNA-queuosine alpha-mannosyltransferase (QTMAN) (EC 2.4.1.1	0.793	459	True
+rat	Q8IWF2	FOXRED2 ERFAD	D4A1A1	Foxred2	FAD-dependent oxidoreductase domain-containing protein 2	0.835	674	True
+rat	Q9BXU2	Internal server error	A0A0G2JYV7	Tex13b	Testis expressed 13B	0.647	156	False
+zebrafish	P40425	PBX2 G17	Q9I9B7	pbx1a	Pre-B-cell leukemia transcription factor 1 (Homeobox protein	0.788	392	False
+rat	Q96DC7	TMCO6 PRO1580	G3V979	Tmco6	Transmembrane and coiled-coil domains 6	0.842	489	True
+rat	P30626-2	SRI	M0RAF3	Sri	Sorcin	0.912	183	True
+fly	Q9Y3D5	MRPS18C CGI-134	Q9VA81	mRpS18C Dmel\CG9688 MRP-S18-(1) mRpS18a CG9688 Dmel_CG9688	Mitochondrial ribosomal protein S18C	0.537	93	True
+rat	P11226	MBL2 COLEC1 MBL	P35248	Sftpd Sftp4	Pulmonary surfactant-associated protein D (PSP-D) (SP-D) (CP	0.409	227	False
+mouse	P62910	RPL32 PP9932	P62911	Rpl32	Large ribosomal subunit protein eL32 (60S ribosomal protein 	1.0	135	True
+arabidopsis	A6NDV4	TMEM8B C9orf127 NGX6	Q8RWX6		Uncharacterized protein At2g46060	0.254	381	False
+rat	O00499	BIN1 AMPHL	O08839	Bin1 Amph2 Amphl	Myc box-dependent-interacting protein 1 (Amphiphysin II) (Am	0.944	593	True
+fly	Q9NQE7	PRSS16 TSSP	A0A6H2EEF7	Dmel\CG11626 CG11626 Dmel_CG11626	Serine protease K12H4.7	0.304	457	False
+zebrafish	O95755	RAB36	A0PJQ5	rab36	Ras-related protein Rab-36 (EC 3.6.5.2)	0.624	261	True
+rat	Q9P2E5	CHPF2 CHSY3 CSGLCAT KIAA1402 UNQ299/PRO339	D4ADR5	Chpf2	Hexosyltransferase (EC 2.4.1.-)	0.95	772	True
+arabidopsis	Q86X76-2	NIT1	Q94JV5-2	NLP2 NIT1 At4g08790 T32A17.100	Deaminated glutathione amidase, chloroplastic/cytosolic (dGS	0.468	269	True
+rat	P05230	FGF1 FGFA	P61149	Fgf1 Fgf-1 Fgfa	Fibroblast growth factor 1 (FGF-1) (Acidic fibroblast growth	0.954	155	True
+rat	P36551	CPOX CPO CPX	Q3B7D0	Cpox Cpo	Oxygen-dependent coproporphyrinogen-III oxidase, mitochondri	0.801	453	True
+fly	Q712K3	Internal server error	Q8SYG3	CG40045	E2 ubiquitin-conjugating enzyme (EC 2.3.2.23)	0.562	151	False
+zebrafish	Q9UJT1	TUBD1 TUBD	Q6IQ78	tubd1	Tubulin delta chain (Delta-tubulin)	0.598	453	True
+mouse	P15559	NQO1 DIA4 NMOR1	Q64669	Nqo1 Dia4 Nmo1 Nmor1	NAD(P)H dehydrogenase [quinone] 1 (EC 1.6.5.2) (Azoreductase	0.864	274	True
+fly	Q12872	SFSWAP SFRS8 SWAP	P12297	su(w[a]) su(wa) CG3019	Protein suppressor of white apricot	0.31	719	False
+fly	Q9Y2T3	GDA KIAA1258	Q9VMY9	DhpD CG18143	Guanine deaminase (EC 3.5.4.3) (Dihydropterin deaminase) (EC	0.433	454	False
+zebrafish	P19224	UGT1A6 GNT1 UGT1	F1R1P2	ugt1ab Ugt1a3 zgc:123097 zgc:66393	glucuronosyltransferase (EC 2.4.1.17)	0.537	523	False
+rat	Q8WZ60	KLHL6	D4A1Z1	Klhl6	Kelch-like family member 6	0.914	619	True

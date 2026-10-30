@@ -1,0 +1,9 @@
+	MBS dimer	SBS dimer	MBS iso	SBS iso	MBS dimer-miss/iso-hit (dimer reason)	MBS dimer-hit/iso-miss (iso reason)
+hit	432	1139	299	1284	0	0
+pocket found but oversized/merged (centre displaced)	245	552	80	581	64	25
+no pocket at site (< 50% of binding residues in any pocket)	128	364	355	335	48	169
+model geometry (local CA RMSD > 2 A)	124	119	126	125	15	17
+near miss (DCC 4-5 A)	118	374	94	330	31	44
+site split across pockets	45	50	114	60	6	36
+pocket found, centre offset > 5 A	40	167	63	88	9	16
+pocket exists but ranked outside top-(n+2)	6	110	7	72	4	3

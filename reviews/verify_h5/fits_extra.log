@@ -1,0 +1,16 @@
+                                  analysis                     term        OR        lo        hi         p       n  strata  events
+0   H decile-binned rsa_iso & pLDDT, no aa  dimer_only_vs_interface  1.212991  1.078476  1.364284  0.001283  372254    1025    5383
+21                      I pLDDT >= 70 only  dimer_only_vs_interface  1.171505  1.038704  1.321286  0.009920  257519     967    4846
+26                     I2 70 <= pLDDT < 90  dimer_only_vs_interface  1.612898  1.278323  2.035042  0.000056   65760     500    1335
+31                     I3 pLDDT >= 90 + aa  dimer_only_vs_interface  0.876299  0.754935  1.017173  0.082541  137704     802    3511
+55                            J drop noCys  dimer_only_vs_interface  1.201817  1.066748  1.353988  0.002509  361751    1011    5216
+60                      J drop noCysGlyPro  dimer_only_vs_interface  1.224087  1.074122  1.394990  0.002427  296939     953    4328
+65                           J drop noArom  dimer_only_vs_interface  1.231982  1.088122  1.394861  0.000991  322561     984    4836
+                count       mean  ...        75%        max
+cat                               ...                      
+dimer_only   109511.0  91.144060  ...  96.059998  99.000000
+interface    349916.0  84.826436  ...  95.699997  99.000000
+sc_pocket    401695.0  91.021724  ...  96.120003  99.000000
+surface     1722273.0  63.508288  ...  92.195000  98.940002
+
+[4 rows x 8 columns]

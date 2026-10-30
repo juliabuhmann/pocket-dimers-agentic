@@ -1,0 +1,51 @@
+                                                      analysis                                term        OR        lo        hi              p       n  strata  events
+0    A primary-equivalent FE-logit (cat + z rsa_iso + z pLDDT)             dimer_only_vs_interface  1.190296  1.058678  1.338277   3.571290e-03  372254    1025    5383
+1    A primary-equivalent FE-logit (cat + z rsa_iso + z pLDDT)              sc_pocket_vs_interface  1.158710  1.060245  1.266320   1.149581e-03  372254    1025    5383
+2    A primary-equivalent FE-logit (cat + z rsa_iso + z pLDDT)                surface_vs_interface  0.525218  0.481224  0.573234   3.472630e-47  372254    1025    5383
+5                                      B + amino-acid identity             dimer_only_vs_interface  1.094492  0.971492  1.233066   1.376806e-01  372254    1025    5383
+6                                      B + amino-acid identity              sc_pocket_vs_interface  1.084606  0.991020  1.187031   7.772110e-02  372254    1025    5383
+7                                      B + amino-acid identity                surface_vs_interface  0.486479  0.445225  0.531555   3.472375e-57  372254    1025    5383
+29                        C decile-binned rsa_iso & pLDDT + aa             dimer_only_vs_interface  1.121161  0.994763  1.263618   6.093561e-02  372254    1025    5383
+30                        C decile-binned rsa_iso & pLDDT + aa              sc_pocket_vs_interface  1.109026  1.012148  1.215177   2.649271e-02  372254    1025    5383
+31                        C decile-binned rsa_iso & pLDDT + aa                surface_vs_interface  0.487475  0.445595  0.533293   2.164673e-55  372254    1025    5383
+69                                  C2 FE-logit, no covariates             dimer_only_vs_interface  1.400099  1.246779  1.572274   1.289881e-08  372254    1025    5383
+70                                  C2 FE-logit, no covariates              sc_pocket_vs_interface  1.535707  1.410292  1.672275   5.646342e-23  372254    1025    5383
+71                                  C2 FE-logit, no covariates                surface_vs_interface  0.386181  0.354891  0.420230  6.144753e-108  372254    1025    5383
+72                         D leave-out top-20 proteins by P/LP             dimer_only_vs_interface  1.217765  1.072392  1.382844   2.384835e-03  364250    1005    4351
+73                         D leave-out top-20 proteins by P/LP              sc_pocket_vs_interface  1.143554  1.037313  1.260675   7.009551e-03  364250    1005    4351
+74                         D leave-out top-20 proteins by P/LP                surface_vs_interface  0.531522  0.482889  0.585052   3.987507e-38  364250    1005    4351
+77                                    D2 leave-out top-20 + aa             dimer_only_vs_interface  1.130101  0.993370  1.285653   6.304163e-02  364250    1005    4351
+78                                    D2 leave-out top-20 + aa              sc_pocket_vs_interface  1.064305  0.964118  1.174904   2.166258e-01  364250    1005    4351
+79                                    D2 leave-out top-20 + aa                surface_vs_interface  0.495096  0.449391  0.545450   6.344399e-46  364250    1005    4351
+101                           E residues with pLDDT >= 90 only             dimer_only_vs_interface  0.992076  0.857705  1.147498   9.146800e-01  137704     802    3511
+102                           E residues with pLDDT >= 90 only              sc_pocket_vs_interface  1.040719  0.934340  1.159211   4.681515e-01  137704     802    3511
+103                           E residues with pLDDT >= 90 only                surface_vs_interface  0.481928  0.431618  0.538103   1.662910e-38  137704     802    3511
+106                     F ref = dimer_only (vs sc_pocket etc.)             sc_pocket_vs_dimer_only  0.973464  0.874080  1.084148   6.244943e-01  372254    1025    5383
+107                     F ref = dimer_only (vs sc_pocket etc.)             interface_vs_dimer_only  0.840127  0.747229  0.944575   3.571290e-03  372254    1025    5383
+108                     F ref = dimer_only (vs sc_pocket etc.)               surface_vs_dimer_only  0.441250  0.394640  0.493365   8.698378e-47  372254    1025    5383
+111                                   F2 ref = dimer_only + aa             sc_pocket_vs_dimer_only  0.990968  0.888277  1.105530   8.708643e-01  372254    1025    5383
+112                                   F2 ref = dimer_only + aa             interface_vs_dimer_only  0.913666  0.810987  1.029345   1.376806e-01  372254    1025    5383
+113                                   F2 ref = dimer_only + aa               surface_vs_dimer_only  0.444479  0.396793  0.497896   1.477811e-44  372254    1025    5383
+135                               G cat_split ref = dimer_only  ifpocket_preexisting_vs_dimer_only  1.050476  0.922473  1.196242   4.576158e-01  372254    1025    5383
+136                               G cat_split ref = dimer_only             sc_pocket_vs_dimer_only  0.935140  0.833851  1.048731   2.515836e-01  372254    1025    5383
+137                               G cat_split ref = dimer_only             interface_vs_dimer_only  0.837652  0.745000  0.941828   3.055199e-03  372254    1025    5383
+138                               G cat_split ref = dimer_only               surface_vs_dimer_only  0.439280  0.392843  0.491205   3.291733e-47  372254    1025    5383
+141                               G2 cat_split ref = interface             dimer_only_vs_interface  1.193813  1.061765  1.342282   3.055199e-03  372254    1025    5383
+142                               G2 cat_split ref = interface   ifpocket_preexisting_vs_interface  1.254072  1.115989  1.409240   1.424709e-04  372254    1025    5383
+143                               G2 cat_split ref = interface              sc_pocket_vs_interface  1.116382  1.014171  1.228893   2.462487e-02  372254    1025    5383
+144                               G2 cat_split ref = interface                surface_vs_interface  0.524418  0.480478  0.572375   2.254295e-47  372254    1025    5383
+147                     MH dimer_only vs interface | accession             dimer_only_vs_interface  1.392404  1.226800  1.580363   2.990248e-07  459427     537    1501
+148               MH dimer_only vs interface | accessionxrqxpb             dimer_only_vs_interface  1.124333  0.973646  1.298342   1.104388e-01  459427    1039    1501
+149                     MH dimer_only vs sc_pocket | accession             dimer_only_vs_sc_pocket  0.901087  0.804880  1.008792   7.060005e-02  511206     676    2608
+150               MH dimer_only vs sc_pocket | accessionxrqxpb             dimer_only_vs_sc_pocket  1.009444  0.888981  1.146231   8.847243e-01  511206    1328    2608
+151                      MH sc_pocket vs interface | accession              sc_pocket_vs_interface  1.579280  1.443641  1.727663   1.983524e-23  751611     778    3015
+152                MH sc_pocket vs interface | accessionxrqxpb              sc_pocket_vs_interface  1.202556  1.082871  1.335471   5.636843e-04  751611    1615    3015
+                   G        Pr         C        Ar         y
+cat                                                         
+dimer_only  0.051712  0.043457  0.025979  0.171764  0.004995
+interface   0.047500  0.046168  0.017767  0.118031  0.002726
+sc_pocket   0.065064  0.041163  0.027984  0.177057  0.005131
+surface     0.070856  0.072479  0.011938  0.070293  0.001057
+dimer-only P/LP residues 547 proteins 254 top5 share 0.08957952468007313 {'P42771': 12, 'P33897': 10, 'P00439': 9, 'P00441': 9, 'P23942': 9, 'P55017': 9, 'P01116': 8, 'Q5HYA8': 8, 'Q92838': 8, 'P01112': 7}
+top20 burden proteins {'P00439': 141, 'P06280': 123, 'P34059': 107, 'P22033': 104, 'P07902': 104, 'P55017': 99, 'P33897': 98, 'P14679': 94, 'P08709': 91, 'P35520': 87, 'P05186': 86, 'P30613': 86, 'P15289': 84, 'P16278': 73, 'P40692': 68, 'P49768': 67, 'P68133': 65, 'P40337': 65, 'P54098': 59, 'P60201': 59}
+bootstrap OR CI [1.06830374 1.20719663 1.36293183]

@@ -1,0 +1,15 @@
+step	n	n_clusters
+all ligand instances	1932129	
+not duplicate copy	1885733	21999.0
+bound (>=2 res with >=2 atom contacts)	1158667	21243.0
+not glycan	1083502	20931.0
+BioLiP2-covered entry	972538	19978.0
+not additive	502621	14330.0
+no antibody contact	501762	14304.0
+oligomer	395673	10045.0
+cluster30 assigned (verifier, RCSB file)	395627	10045.0
+sites (pdb_id x site_group)	183660	10031.0
+units (cluster30 x ccd_key, rep entry)	44186	10031.0
+organic units (excl metal_ion/metal_cluster/inorganic)	34663	7257.0
+units with marsh_class != metal	37013	7683.0
+units with fine != metal_ion	37013	7683.0

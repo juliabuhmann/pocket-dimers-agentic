@@ -1,0 +1,24 @@
+FULL: interface n 17882 dimer-only(OC<.5) frac 0.635331618387205 NaN OC 0.0  without sym-rep filter: 0.6191451590878055
+iso pockets in sample 9257 7311
+SAMPLE interface: n=1718 new(OC<0.5 vs atlas-pass iso)=0.676; vs all iso=0.645; their col=0.645
+SAMPLE single: n=2852 new(OC<0.5 vs atlas-pass iso)=0.205; vs all iso=0.192; their col=0.000
+ISO no-interface pockets lost (OC<0.5 vs dimer atlas-pass): 0.392 n 3923 ; with >=3 IF residues 0.445 n 2348
+q              0      1      2      3      4
+kind2                                       
+interface  0.862  0.842  0.736  0.672  0.310
+single     0.415  0.275  0.183  0.084  0.036
+PROPS real (sample, sym reps, atlas_pass; n_int 1718 n_single 2852 )
+  volume_A3: median I 102.000 S 77.000  Cliff delta +0.224
+  nres: median I 15.000 S 12.000  Cliff delta +0.320
+  burrow_score: median I 0.091 S 0.077  Cliff delta +0.062
+  hyd: median I 0.368 S 0.417  Cliff delta -0.134
+  aro: median I 0.164 S 0.188  Cliff delta -0.112
+  chg: median I 0.212 S 0.154  Cliff delta +0.187
+  plddt_mean: median I 90.903 S 91.165  Cliff delta -0.001
+PROPS control (shifted; former-interface pockets n 878 vs no-IF-residue pockets n 3131 )
+  volume_A3: median F 69.000 N 77.000  Cliff delta -0.064
+  nres: median F 9.000 N 12.000  Cliff delta -0.260
+  burrow_score: median F 0.061 N 0.080  Cliff delta -0.161
+  hyd: median F 0.500 N 0.438  Cliff delta +0.103
+  aro: median F 0.214 N 0.200  Cliff delta +0.078
+  chg: median F 0.111 N 0.143  Cliff delta -0.118

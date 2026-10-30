@@ -1,0 +1,10 @@
+my_cluster30	pdb_id	ccd_key	name	description	organism
+913	3uxj	NAP	NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE	NADPH-dependent 7-cyano-7-deazaguanine reductase	Vibrio cholerae O1 biovar El Tor
+2071	4mrs	GDS	OXIDIZED GLUTATHIONE DISULFIDE	ABC transporter related protein	Novosphingobium aromaticivorans
+8547	8qfe	FMN	FLAVIN MONONUCLEOTIDE	Family 3 adenylate cyclase	Oscillatoria acuminata PCC 6304
+9605	5gm1	SAH	S-ADENOSYL-L-HOMOCYSTEINE	O-methylransferase	Streptomyces blastmyceticus
+10061	8p90	PLP	PYRIDOXAL-5'-PHOSPHATE	N-acyl-phosphatidylethanolamine-hydrolyzing phospholipase D	Homo sapiens
+12174	2cie	FAD	FLAVIN-ADENINE DINUCLEOTIDE	VNG1446H	HALOBACTERIUM SALINARIUM
+67252	3cne	FMN	FLAVIN MONONUCLEOTIDE	Putative protease I	Bacteroides thetaiotaomicron VPI-5482
+67252	4d1y	RBF	RIBOFLAVIN	PUTATIVE PROTEASE I	BACTEROIDES THETAIOTAOMICRON
+82759	8vjn	FMN	FLAVIN MONONUCLEOTIDE	Encapsulin nanocompartment cargo protein EncD	Myxococcus xanthus

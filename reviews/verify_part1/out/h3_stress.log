@@ -1,0 +1,61 @@
+organism missing: 0 viral units: 268 viral protease units: 206
+                                               variant     n  clusters  on_dl  on_cof  off_dl  off_cof  fisher_or  robust_lo  robust_hi      robust_p      fisher_p  cl_on_dl  cl_on_cof  cl_off_dl  cl_off_cof  gate_per_cell
+0                                              primary  2445       895    351       9    1093      992  35.396157  12.606581  99.383646  1.276657e-11  4.243527e-75        64          8        334         576          False
+1                       exclude viral (organism regex)  2177       871    209       9     971      988  23.628790   8.559332  65.229356  1.033413e-09  1.625585e-47        56          8        318         572          False
+2                              exclude viral proteases  2239       891    224       9    1014      992  24.348893   9.070103  65.365142  2.351014e-10  1.408104e-49        60          8        330         576          False
+3        drop top-2 on-axis-drug-like clusters jointly  2176       893    157       9    1018      992  16.998909   7.268053  39.757949  6.338988e-11  2.907120e-33        62          8        332         576          False
+4        drop top-5 on-axis-drug-like clusters jointly  2117       890    113       9    1003      992  12.417858   5.480547  28.136458  1.574123e-09  6.406835e-23        59          8        329         576          False
+5       drop top-10 on-axis-drug-like clusters jointly  2069       885     81       9     989      990   9.009100   4.019276  20.193657  9.393690e-08  3.206691e-15        54          8        325         575          False
+6       drop top-20 on-axis-drug-like clusters jointly  2022       875     51       9     972      990   5.771605   2.576298  12.929959  2.047902e-05  2.243597e-08        44          8        320         575          False
+7  presence-only (one unit per cluster x axis x class)   982       895     64       8     334      576  13.796407   6.650885  28.618875  1.793598e-12  1.028955e-18        64          8        334         576          False
+    cluster30  n_on_dl  or_without         lo         hi
+0          93      127   24.134680   8.998172  64.733458
+1         259       67   28.771242   9.748385  84.915022
+2         209       21   33.462128  11.563752  96.829648
+3        3205       15   33.945616  11.826277  97.435977
+4        2246        8   34.812359  12.245664  98.965672
+5        1158        8   34.589407  12.169581  98.312921
+6         701        8   34.621083  12.180281  98.406548
+7         238        6   34.822955  12.287593  98.688015
+8        1107        5   35.046041  12.385876  99.163354
+9        1375        5   35.052288  12.387206  99.188056
+10         97        5   34.987971  12.364394  99.006723
+11        888        4   35.348532  12.513424  99.854256
+12      15066        4   34.992782  12.385053  98.868756
+13       3042        3   35.093626  12.439866  99.001272
+14        587        3   35.093626  12.439866  99.001272
+15        678        3   35.125763  12.451406  99.090755
+16       1820        2   35.226699  12.506768  99.219903
+17        754        2   35.194470  12.495057  99.131255
+18       4898        2   35.194470  12.495057  99.131255
+19       4774        2   35.226699  12.506768  99.219903
+cluster vote: {'on_dl': np.int64(63), 'on_cof': np.int64(8), 'off_dl': np.int64(309), 'off_cof': np.int64(549), 'fisher_or': np.float64(13.991504854368932), 'p': np.float64(9.789507275124007e-19)}
+paired within-cluster: {'n_clusters': 34, 'on_more_dl': 4, 'off_more_dl': 1, 'tie': 29, 'sign_test_p': np.float64(0.375)}
+breadth: {'on_dl_units': 351, 'clusters': 64, 'uniprots': 94, 'viral_units': 142, 'viral_protease_units': 127, 'clusters_with_ge5': 11, 'share_top2': np.float64(0.5527065527065527), 'share_top10': np.float64(0.7692307692307693)}
+              n_units                                                protein                           organism          example_pdb                                                                                 example_ligands  cum_frac
+my_cluster30                                                                                                                                                                                                                                  
+93                127                                               Protease     Human immunodeficiency virus 1  3kdb,2hs1,3vf5,1odx  (4R)-3-[(2S,3S)-3-{[(2,6-dimet; (3R,3AS,6AR)-HEXAHYDROFURO[2,3; (3aS,5R,6aR)-hexahydro-2H-cycl  0.361823
+259                67                                          Transthyretin                       Homo sapiens  4hiq,6e78,7erk,2f7i  3-[3-(3,5-dimethyl-1H-pyrazol-; 5-(2,4-DIFLUOROPHENYL)-2-HYDRO; N-(2-CHLORO-6-METHYLPHENYL)-2-  0.552707
+209                21                                   Glutamate receptor 2                  Rattus norvegicus  7f3o,2xx8,2xx9,4fat  7-(4-cyclohexyloxyphenyl)-9-me; N,N-DIMETHYL-4-[3-(TRIFLUOROME; N,N-DIMETHYL-4-[3-(TRIFLUOROME  0.612536
+3205               15              Glutaminase kidney isoform, mitochondrial                       Homo sapiens  8bsk,5fi6,5hl1,5i94  N,N'-[sulfanediylbis(ethane-2,; 2-phenyl-~{N}-[5-[[(3~{S})-1-[; 2-(pyridin-2-yl)-N-(5-{4-[6-({  0.655271
+2246                8                       Programmed cell death 1 ligand 1                       Homo sapiens  5niu,9eo0,9i0u,8xr5  (2~{R})-2-[[2-[(3-cyanophenyl); ~{N}-[3-[3-[[5-[(2-hydroxyethy; (5~{S})-5-[[[5-[2-chloranyl-3-  0.678063
+1158                8                                 Fusion glycoprotein F0  Human respiratory syncytial virus  8phi,6eak,5kww,9bjm  4-{2-[4-(3,10-DIBROMO-8-CHLORO; 2-[[2-[[1-(2-azanylethyl)piper; 3-[[5-chloranyl-1-(3-methylsul  0.700855
+701                 8                         Pyruvate kinase isozymes M1/M2                       Homo sapiens  4jpg,3me3,5x1w,3h6o  2-(1H-benzimidazol-1-ylmethyl); 3-{[4-(2,3-dihydro-1,4-benzodi; 4-[2,3-bis(chloranyl)phenyl]ca  0.723647
+238                 6  DNA gyrase subunit B fusion with DNA gyrase subunit A              Staphylococcus aureus  9n26,9n39,4bul,6enh  N-{(2r,5r)-2-[2-(6-methoxyquin; N-{(2r,5r)-2-[2-(6-methoxyquin; (S)-4-((4-(((2,3-dihydro-[1,4]  0.740741
+1107                5         Isocitrate dehydrogenase [NADP], mitochondrial                       Homo sapiens  4ja8,5i96,6adi,6bky  1-[5-(cyclopropylsulfamoyl)-2-; 2-methyl-1-[(4-[6-(trifluorome; 6-(6-chloropyridin-2-yl)-N2,N4  0.754986
+1375                5                 Stimulator of interferon genes protein                       Homo sapiens  9cue,9ct4,6xf3,8sth  benzyl (3-{5-carbamoyl-2-[(1-e; 1-[(2E)-4-{5-carbamoyl-2-[(1-e; (1R,3R,15E,28R,29R,30R,31R,34R  0.769231
+97                  5                       Bromodomain-containing protein 4                       Homo sapiens  5khm,7l9m,7la9,7mr5  (3~{R})-4-[2-[4-[1-(3-methoxy-; N,N'-[(1,19-dioxo-4,7,10,13,16; N,N'-(oxybis{(ethane-2,1-diyl)  0.783476
+888                 4                          Fructose-1,6-bisphosphatase 1                       Homo sapiens  5pzr,5pzs,5pzw,2jjk  N,N'-{oxybis[(propane-3,1-diyl; N,N'-(hexane-1,6-diyldicarbamo; N,N'-(pentane-1,5-diyldicarbam  0.794872
+15066               4               NKG2-D type II integral membrane protein                       Homo sapiens  8ea7,8ea8,8ea9,8eaa  (4M)-N-{(1S)-2-(dimethylamino); N-{(1S)-2-(dimethylamino)-2-ox; N-[(1S)-1-[3,5-bis(trifluorome  0.806268
+3042                3                                           Procaspase-6                       Homo sapiens       4nbl,8f96,8f9c  5-fluoro-2-({[3-(pyrimidin-2-y; 5-fluoro-2-({[(3M)-3-(pyrimidi; 5-fluoro-2-({[(3M)-3-(4H-1,2,4  0.814815
+587                 3        3-OXOACYL-[ACYL-CARRIER-PROTEIN] REDUCTASE FABG             PSEUDOMONAS AERUGINOSA       4bnt,6t65,4bo5  2-(trifluoromethyl)-1H-benzimi; ethyl 6-bromanyl-2-[(dimethyla; N-(2-chlorophenyl)-4-pyrrol-1-  0.823362
+      my_cluster30 pdb_id ccd_key                                              name                                                  description                               organism
+797            913   3uxj     NAP  NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE             NADPH-dependent 7-cyano-7-deazaguanine reductase       Vibrio cholerae O1 biovar El Tor
+1226          2071   4mrs     GDS                    OXIDIZED GLUTATHIONE DISULFIDE                              ABC transporter related protein        Novosphingobium aromaticivorans
+1886          8547   8qfe     FMN                             FLAVIN MONONUCLEOTIDE                                   Family 3 adenylate cyclase        Oscillatoria acuminata PCC 6304
+1930          9605   5gm1     SAH                         S-ADENOSYL-L-HOMOCYSTEINE                                           O-methylransferase            Streptomyces blastmyceticus
+1948         10061   8p90     PLP                            PYRIDOXAL-5'-PHOSPHATE  N-acyl-phosphatidylethanolamine-hydrolyzing phospholipase D                           Homo sapiens
+2006         12174   2cie     FAD                       FLAVIN-ADENINE DINUCLEOTIDE                                                     VNG1446H               HALOBACTERIUM SALINARIUM
+2368         67252   3cne     FMN                             FLAVIN MONONUCLEOTIDE                                          Putative protease I  Bacteroides thetaiotaomicron VPI-5482
+2369         67252   4d1y     RBF                                        RIBOFLAVIN                                          PUTATIVE PROTEASE I           BACTEROIDES THETAIOTAOMICRON
+2389         82759   8vjn     FMN                             FLAVIN MONONUCLEOTIDE                Encapsulin nanocompartment cargo protein EncD                     Myxococcus xanthus

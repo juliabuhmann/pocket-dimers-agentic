@@ -1,0 +1,30 @@
+                                                             MBS dimer  SBS dimer  MBS iso  SBS iso  MBS dimer-miss/iso-hit (dimer reason)  MBS dimer-hit/iso-miss (iso reason)
+hit                                                                432       1139      299     1284                                      0                                    0
+pocket found but oversized/merged (centre displaced)               245        552       80      581                                     64                                   25
+no pocket at site (< 50% of binding residues in any pocket)        128        364      355      335                                     48                                  169
+model geometry (local CA RMSD > 2 A)                               124        119      126      125                                     15                                   17
+near miss (DCC 4-5 A)                                              118        374       94      330                                     31                                   44
+site split across pockets                                           45         50      114       60                                      6                                   36
+pocket found, centre offset > 5 A                                   40        167       63       88                                      9                                   16
+pocket exists but ranked outside top-(n+2)                           6        110        7       72                                      4                                    3
+partial iface among MBS dimer misses: 21 / 706 ; hit rate partial vs full iface: {False: 0.363, True: 0.661}
+model_acc_A  fm_dimer                                                   
+P43490       no pocket at site (< 50% of binding residues in any pocket)    45
+P31153       pocket found but oversized/merged (centre displaced)           30
+P14174       model geometry (local CA RMSD > 2 A)                           12
+P48775       pocket found but oversized/merged (centre displaced)           10
+P28161       near miss (DCC 4-5 A)                                           6
+P50053       near miss (DCC 4-5 A)                                           6
+Q06210       pocket exists but ranked outside top-(n+2)                      4
+Q8N5Z0       pocket found but oversized/merged (centre displaced)            4
+P43490       site split across pockets                                       3
+P48775       near miss (DCC 4-5 A)                                           3
+P33897       pocket found but oversized/merged (centre displaced)            2
+O15217       near miss (DCC 4-5 A)                                           2
+dimer agree local 3996 / 4013 global 3857 | |dDCC| local max 91.852 p99 1.623
+iso agree local 3986 / 4013 global 3828 | |dDCC| local max 85.142 p99 0.848
+centroid shift > 1 A: 58 seqid<0.9: 0
+MBS own recompute dimer 0.3796 iso 0.2627 | global-frame dimer 0.3708 iso 0.2504
+SBS own recompute dimer 0.3962 iso 0.4466 | global-frame dimer 0.3763 iso 0.4209
+local DiD: 0.1673
+global DiD: 0.1649

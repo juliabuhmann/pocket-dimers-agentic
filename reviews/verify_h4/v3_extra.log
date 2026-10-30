@@ -1,0 +1,10 @@
+MBS gain, cluster sign-flip p: (np.float64(0.12038664323374342), np.float64(0.17648235176482352))
+SBS gain, cluster sign-flip p: (np.float64(-0.043478260869565216), np.float64(0.24687531246875313))
+MBS clusters 206 >0: 68 <0: 32 sign p: 0.00040877716742681523 mean: 0.1332 sd: 0.48
+SBS clusters 412 >0: 95 <0: 107 sign p: 0.4390331063623678 mean: -0.0249 sd: 0.452
+mixed clusters 148 DiD>0: 67 <0: 34 sign p: 0.001331825114199613
+MBS ICC of gain within cluster 0.545 design effect 14.0 n_eff 81
+SBS ICC of gain within cluster 0.344 design effect 19.4 n_eff 149
+region-level within-cluster perm (obs, null mean, null sd, centred p): (np.float64(0.11169753111058263), np.float64(0.019062299273674255), np.float64(0.023813833513668867), np.float64(0.00019998000199980003))
+site-level, mixed clusters only: (np.float64(0.0528771630524419), np.float64(-0.05702647435272065), np.float64(0.016347834400946018), np.float64(9.999000099990002e-05))
+region-level, mixed clusters only: (np.float64(0.14195133767089868), np.float64(-0.0009385594444148647), np.float64(0.037340078852812625), np.float64(9.999000099990002e-05))

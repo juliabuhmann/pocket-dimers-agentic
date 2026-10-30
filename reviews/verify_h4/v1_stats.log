@@ -1,0 +1,69 @@
+own clusters on primary: 474 producer boot_cluster: 470
+producer clusters split by ours: 4 ours spanning >1 producer: 0
+homo+hetero MBS 1138 dimer 0.3831 iso 0.2627
+homo+hetero SBS 2875 dimer 0.4 iso 0.4435
+homo MBS 1019 dimer 0.4014 iso 0.2777
+homo SBS 2260 dimer 0.4319 iso 0.469
+hetero MBS 119 dimer 0.2269 iso 0.1345
+hetero SBS 615 dimer 0.2829 iso 0.3496
+{'analysis': 'primary, unstratified cluster bootstrap (producer clusters)', 'n': 4013, 'n_mbs': 1138, 'n_clusters': 470, 'did': np.float64(0.1639), 'gain_mbs': np.float64(0.1204), 'gain_sbs': np.float64(-0.0435), 'did_lo': np.float64(-0.0057), 'did_hi': np.float64(0.3378), 'p_boot_2sided': np.float64(0.066), 'gain_mbs_lo': np.float64(-0.0465), 'gain_mbs_hi': np.float64(0.2688), 'gain_sbs_lo': np.float64(-0.1217), 'gain_sbs_hi': np.float64(0.0236)}
+{'analysis': 'primary, kind-stratified cluster bootstrap (producer clusters)', 'n': 4013, 'n_mbs': 1138, 'n_clusters': 470, 'did': np.float64(0.1639), 'gain_mbs': np.float64(0.1204), 'gain_sbs': np.float64(-0.0435), 'did_lo': np.float64(-0.005), 'did_hi': np.float64(0.3311), 'p_boot_2sided': np.float64(0.07), 'gain_mbs_lo': np.float64(-0.0434), 'gain_mbs_hi': np.float64(0.278), 'gain_sbs_lo': np.float64(-0.1123), 'gain_sbs_hi': np.float64(0.0224)}
+{'analysis': 'primary, unstratified, verifier clusters (primary-set components)', 'n': 4013, 'n_mbs': 1138, 'n_clusters': 474, 'did': np.float64(0.1639), 'gain_mbs': np.float64(0.1204), 'gain_sbs': np.float64(-0.0435), 'did_lo': np.float64(-0.006), 'did_hi': np.float64(0.3257), 'p_boot_2sided': np.float64(0.058), 'gain_mbs_lo': np.float64(-0.0341), 'gain_mbs_hi': np.float64(0.2776), 'gain_sbs_lo': np.float64(-0.1164), 'gain_sbs_hi': np.float64(0.0274)}
+{'analysis': 'primary, unstratified, seed 1', 'n': 4013, 'n_mbs': 1138, 'n_clusters': 470, 'did': np.float64(0.1639), 'gain_mbs': np.float64(0.1204), 'gain_sbs': np.float64(-0.0435), 'did_lo': np.float64(-0.0068), 'did_hi': np.float64(0.339), 'p_boot_2sided': np.float64(0.068), 'gain_mbs_lo': np.float64(-0.0379), 'gain_mbs_hi': np.float64(0.2807), 'gain_sbs_lo': np.float64(-0.1182), 'gain_sbs_hi': np.float64(0.0241)}
+{'analysis': 'primary, unstratified, seed 2', 'n': 4013, 'n_mbs': 1138, 'n_clusters': 470, 'did': np.float64(0.1639), 'gain_mbs': np.float64(0.1204), 'gain_sbs': np.float64(-0.0435), 'did_lo': np.float64(-0.0133), 'did_hi': np.float64(0.3225), 'p_boot_2sided': np.float64(0.072), 'gain_mbs_lo': np.float64(-0.0455), 'gain_mbs_hi': np.float64(0.2785), 'gain_sbs_lo': np.float64(-0.1164), 'gain_sbs_hi': np.float64(0.0203)}
+MBS dimer-only 310 iso-only 173
+SBS dimer-only 369 iso-only 494
+perm: obs 0.1639 null mean 0.0914 sd 0.0106; p uncentred 9.999e-05, p centred 9.999e-05
+mixed clusters: 148 sites in mixed clusters: 2234 MH-type within-cluster DiD: 0.189 unweighted mean of cluster DiDs: 0.2364 frac clusters DiD>0: 0.453 <0: 0.23
+MBS-only clusters 58 SBS-only clusters 264
+    boot_cluster  is_mbs    n      gain                         accs   contrib
+201       c:2421    True   61  0.885246                       Q9UKK9  0.047452
+129       c:1840    True   56 -0.875000                       P43490 -0.043058
+66        c:1375    True   47  0.744681                       Q86WV6  0.030756
+595         c:92    True   41 -0.731707                P31153,Q00266 -0.026362
+506        c:701    True   35  0.600000                P14618,P30613  0.018453
+96        c:1508   False   77 -0.649351                Q04609,Q9Y3Q0  0.017391
+164       c:2143   False   93 -0.526882                O14744,Q9BQA1  0.017043
+323        c:376    True   23  0.739130                       P11172  0.014938
+205       c:2459   False   51 -0.725490                       Q86U44  0.012870
+126       c:1823    True   66  0.196970                P15559,P16083  0.011424
+29         c:118   False  288  0.111111  P31946,P31947,P61981,P62258 -0.011130
+314       c:3705    True   15 -0.800000                       P48775 -0.010545
+496        c:690    True   29  0.413793  O15217,P08263,P09210,P09211  0.010545
+91        c:1481    True   59 -0.186441                       P14174 -0.009666
+397        c:490   False   69  0.391304                       P29474 -0.009391
+LOO DiD range: 0.1205 0.2134
+    cluster  did_without
+219  c:2421     0.120544
+298  c:1375     0.136970
+175   c:701     0.146114
+109  c:1508     0.147192
+28   c:2143     0.147705     cluster  did_without
+310  c:3705     0.176219
+190  c:1481     0.180445
+0     c:118     0.181181
+189    c:92     0.195727
+201  c:1840     0.213382
+NAMPT sites: 62        dimer_hit        iso_hit     
+            mean size      mean size
+is_mbs                              
+False   0.000000    6  1.000000    6
+True    0.017857   56  0.892857   56
+{'analysis': 'primary without NAMPT cluster', 'n': 3951, 'n_mbs': 1082, 'n_clusters': 469, 'did': np.float64(0.2134), 'gain_mbs': np.float64(0.1719), 'gain_sbs': np.float64(-0.0415), 'did_lo': np.float64(0.0579), 'did_hi': np.float64(0.3727), 'p_boot_2sided': np.float64(0.01), 'gain_mbs_lo': np.float64(0.0308), 'gain_mbs_hi': np.float64(0.3117), 'gain_sbs_lo': np.float64(-0.1204), 'gain_sbs_hi': np.float64(0.0257)}
+regions (cluster x region x class): 1067 regions: 985
+{'analysis': 'one random site per (cluster, binding region, class), seed 0', 'n': 1067, 'n_mbs': 299, 'n_clusters': 470, 'did': np.float64(0.1104), 'gain_mbs': np.float64(0.087), 'gain_sbs': np.float64(-0.0234), 'did_lo': np.float64(0.0436), 'did_hi': np.float64(0.1739), 'p_boot_2sided': np.float64(0.0), 'gain_mbs_lo': np.float64(0.0276), 'gain_mbs_hi': np.float64(0.1473), 'gain_sbs_lo': np.float64(-0.0598), 'gain_sbs_hi': np.float64(0.0155)}
+{'analysis': 'region-averaged gain (each region weight 1)', 'n': 1067, 'n_mbs': 299, 'n_clusters': 470, 'did': np.float64(0.1117), 'gain_mbs': np.float64(0.0999), 'gain_sbs': np.float64(-0.0118), 'did_lo': np.float64(0.0457), 'did_hi': np.float64(0.1751), 'p_boot_2sided': np.float64(0.002), 'gain_mbs_lo': np.float64(0.0421), 'gain_mbs_hi': np.float64(0.1585), 'gain_sbs_lo': np.float64(-0.0465), 'gain_sbs_hi': np.float64(0.0229)}
+{'analysis': 'family-weighted (each cluster weight 1 per class)', 'n': 4013, 'n_mbs': 1138, 'n_clusters': 470, 'did': np.float64(0.1581), 'gain_mbs': np.float64(0.1332), 'gain_sbs': np.float64(-0.0249), 'did_lo': np.float64(0.0745), 'did_hi': np.float64(0.2338), 'p_boot_2sided': np.float64(0.0), 'gain_mbs_lo': np.float64(0.0648), 'gain_mbs_hi': np.float64(0.1993), 'gain_sbs_lo': np.float64(-0.0732), 'gain_sbs_hi': np.float64(0.0201)}
+{'analysis': 'family-weighted without NAMPT cluster', 'n': 3951, 'n_mbs': 1082, 'n_clusters': 469, 'did': np.float64(0.1606), 'gain_mbs': np.float64(0.1381), 'gain_sbs': np.float64(-0.0225), 'did_lo': np.float64(0.0882), 'did_hi': np.float64(0.2457), 'p_boot_2sided': np.float64(0.0), 'gain_mbs_lo': np.float64(0.0794), 'gain_mbs_hi': np.float64(0.2069), 'gain_sbs_lo': np.float64(-0.0654), 'gain_sbs_hi': np.float64(0.02)}
+no collapse MBS 0.3612 0.2794
+no collapse SBS 0.4132 0.4355
+{'analysis': 'collapse sensitivity: no collapse', 'n': 4013, 'n_mbs': 1138, 'n_clusters': 470, 'did': np.float64(0.104), 'gain_mbs': np.float64(0.0817), 'gain_sbs': np.float64(-0.0223), 'did_lo': np.float64(-0.0513), 'did_hi': np.float64(0.26), 'p_boot_2sided': np.float64(0.184), 'gain_mbs_lo': np.float64(-0.0674), 'gain_mbs_hi': np.float64(0.2192), 'gain_sbs_lo': np.float64(-0.0935), 'gain_sbs_hi': np.float64(0.0387)}
+{'analysis': 'collapse sensitivity: no collapse, family-weighted', 'n': 4013, 'n_mbs': 1138, 'n_clusters': 470, 'did': np.float64(0.1541), 'gain_mbs': np.float64(0.1275), 'gain_sbs': np.float64(-0.0267), 'did_lo': np.float64(0.0734), 'did_hi': np.float64(0.2387), 'p_boot_2sided': np.float64(0.0), 'gain_mbs_lo': np.float64(0.0579), 'gain_mbs_hi': np.float64(0.1961), 'gain_sbs_lo': np.float64(-0.0714), 'gain_sbs_hi': np.float64(0.0138)}
+OC collapse MBS 0.3383 0.1977
+OC collapse SBS 0.3277 0.3621
+{'analysis': 'collapse sensitivity: OC collapse', 'n': 4013, 'n_mbs': 1138, 'n_clusters': 470, 'did': np.float64(0.175), 'gain_mbs': np.float64(0.1406), 'gain_sbs': np.float64(-0.0344), 'did_lo': np.float64(0.0237), 'did_hi': np.float64(0.3409), 'p_boot_2sided': np.float64(0.024), 'gain_mbs_lo': np.float64(-0.0059), 'gain_mbs_hi': np.float64(0.271), 'gain_sbs_lo': np.float64(-0.1221), 'gain_sbs_hi': np.float64(0.0374)}
+{'analysis': 'collapse sensitivity: OC collapse, family-weighted', 'n': 4013, 'n_mbs': 1138, 'n_clusters': 470, 'did': np.float64(0.1362), 'gain_mbs': np.float64(0.1104), 'gain_sbs': np.float64(-0.0257), 'did_lo': np.float64(0.0556), 'did_hi': np.float64(0.2172), 'p_boot_2sided': np.float64(0.0), 'gain_mbs_lo': np.float64(0.0422), 'gain_mbs_hi': np.float64(0.1726), 'gain_sbs_lo': np.float64(-0.0737), 'gain_sbs_hi': np.float64(0.0195)}
+dimer nocollapse changed: 221 MBS changed: 99 gained: 117 lost: 104
+dimer occollapse changed: 371 MBS changed: 77 gained: 56 lost: 315
+iso nocollapse changed: 132 MBS changed: 37 gained: 64 lost: 68
+iso occollapse changed: 324 MBS changed: 80 gained: 8 lost: 316

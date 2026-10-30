@@ -1,0 +1,7 @@
+cat_ver	buried	dimer_only	interface	sc_pocket	surface	All
+buried	28996	0	0	0	0	28996
+dimer_only	32	4151	112	140	53	4488
+interface	0	0	14191	0	0	14191
+sc_pocket	695	0	374	14818	626	16513
+surface	0	0	0	0	63221	63221
+All	29723	4151	14677	14958	63900	127409

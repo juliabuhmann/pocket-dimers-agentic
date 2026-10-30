@@ -1,0 +1,9 @@
+raw_plp_missense	33332
+plp_in_model_proteins	10519
+plp_pos_absent_in_model	0
+plp_wt_mismatch	1
+plp_unique_residues	8925
+model_residue_conflicts_between_models	0
+n_model_proteins	8279
+all_rows_in_models	21006
+all_rows_mismatch	12

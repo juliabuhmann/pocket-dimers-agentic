@@ -1,0 +1,8 @@
+surface cut 0.2 n models 1000 surf res 484267 interface res 103875 IF&surf 82156
+REAL (their BURROW pockets): n_pockets=6636 exp_if_share_surface=0.170 | pocket-level: def1(>=3/chain) 0.319 -> enr 1.88; def2(>=50% IF res,>=3) 0.299 -> enr 1.76 | residue-level: if share of lining surf res 0.413 -> enr 2.43; rate if 0.271 vs non-if 0.079
+CONTROL (partner shifted >=15A gap): n_pockets=5469 exp_if_share_surface=0.170 | pocket-level: def1(>=3/chain) 0.000 -> enr 0.00; def2(>=50% IF res,>=3) 0.161 -> enr 0.95 | residue-level: if share of lining surf res 0.235 -> enr 1.39; rate if 0.092 vs non-if 0.061
+models w/ control pockets 948 real 996
+surface cut 0.25 n models 1000 surf res 444449 interface res 103875 IF&surf 75285
+REAL (their BURROW pockets): n_pockets=6636 exp_if_share_surface=0.169 | pocket-level: def1(>=3/chain) 0.319 -> enr 1.88; def2(>=50% IF res,>=3) 0.299 -> enr 1.77 | residue-level: if share of lining surf res 0.436 -> enr 2.57; rate if 0.265 vs non-if 0.070
+CONTROL (partner shifted >=15A gap): n_pockets=5469 exp_if_share_surface=0.169 | pocket-level: def1(>=3/chain) 0.000 -> enr 0.00; def2(>=50% IF res,>=3) 0.161 -> enr 0.95 | residue-level: if share of lining surf res 0.248 -> enr 1.46; rate if 0.086 vs non-if 0.053
+models w/ control pockets 948 real 996
