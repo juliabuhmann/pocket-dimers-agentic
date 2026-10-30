@@ -1,0 +1,17 @@
+# LESSONS — process rules for running this project efficiently
+(Final prune 2026-10-30 ~04:15, from the fresh-agent retrospective; earlier prune at M2 in reviews/retro_M2.md.)
+
+1. Check the mounts and paths given in the prompt before planning: two prompt dimer paths were not mounted. (M0)
+2. Threads, not CPUs, are the binding limit (ulimit -u 5120): source scripts/env_threads.sh, keep ≤48 workers, and ledger every job with a DONE line. A prior session crashed; there has been no crash since. (M0–M5)
+3. Give every agent a wall-clock budget and a stop condition: the tools recon ran 3.1 h vs 1 h planned. (M0)
+4. Commit summary tables only; bulk outputs go in data/. A `git add` of 3,378 files stalled git. (M0)
+5. Test each GPU with a known-answer kernel first: GPU 0 corrupted transfers (AF3 all-NaN) and cost ~3 h. (M1)
+6. Check background logs within minutes for crashes AND hangs: the atlas snapshot died unnoticed for 40 min; an AF3 job hung with the GPU idle for 40+ min. (M1–M5)
+7. Put long-running environments and bulk query databases on node-local disk: overnight Lustre stalls froze imports three times (seed 2 and the hetero extension left incomplete); ChEMBL SQLite on Lustre was ~100× slower; ChEMBL REST takes 6–15 s per molecule. (M1–M5)
+8. Audit labels and units before any hypothesis test: the census audit found that 75% of "drug-like" labels came from the fallback rule and 43% of symmetric copies were not collapsed. (M1)
+9. Re-derive headline numbers with verifiers that do not import producer code: they reproduced Part 1 and caught the invalid H4 permutation p, the 30 Å crop bias and borderline RMSD calls. (M2–M5)
+10. Stress-test before headlining: H3 OR 35 → 5.8 without the top-20 clusters, and the effect is between-protein only. (M2)
+11. Report pre-registered primaries even when they are null or borderline, and log every deviation and whether it was decided before results were seen (H1 null, H4 p≈0.07, post-hoc collapse rule). (M2–M5)
+12. Pass caveats explicitly into downstream agent prompts, and keep results tagged UNVERIFIED until a verify file exists. (M2)
+13. Close exploratory scope at ~2/3 of the budget. Anything launched later must name its verifier and a deadline: the M5 gap-filling round added ~8 analyses that needed a last-minute verification pass. (M5)
+14. Subagents cannot write report files, so the PI writes REPORT.md from returned text. Update the tree and ledger in the same commit as each result. Compute DATA.md hashes and fetch dates by script at download time, not afterwards. (M4–M5)

@@ -1,0 +1,32 @@
+# External data (fetched 2026-10-29; status: scripts run once, outputs spot-checked only, not independently verified)
+
+Environment: `.venvs/ext` (git-ignored; `python -m venv .venvs/ext && pip install pyarrow pandas requests gcsfs`), because no existing env had pyarrow+pandas 3.
+Network notes: the cluster uses a proxy; `requests`/`curl` honour it, `gcsfs`/aiohttp does not.
+Every download goes through `scripts/fetch_external.py` (URLs in code; rows with version, sha256, license appended to `DATA.md` section "External data"). Raw files in `data/raw/<source>/`, tidy output in `data/processed/` (both git-ignored). Rebuild: `python scripts/fetch_external.py && python scripts/fetch_chembl.py --maxphase && python scripts/build_external_parquet.py`.
+
+| Item | Script | Raw | Output (data/processed/) | Notes |
+|---|---|---|---|---|
+| UniProt humsavar | fetch_external.py `humsavar`; build_external_parquet.py `humsavar` | humsavar.txt, release 2026_03 of 02-Sep-2026, 8.7 MB | `variants_humsavar.parquet` (85,014 missense rows) | cols: accession, gene, ftid, position, wt, mut (1-letter), category_code (LP/P, LB/B, US), category (P/LP, B/LB, VUS), disease, dbSNP. humsavar merges P+LP and B+LB (no separate LP/P); non-missense (Ter, del) dropped. |
+| AlphaMissense | `alphamissense` | AlphaMissense_aa_substitutions.tsv.gz, 1.21 GB, Last-Modified 2023-09-19 | `alphamissense_residue_mean.parquet` (11.38 M residues, 20,516 proteins, 146 MB) | cols: accession, position, am_mean, am_max, am_min, n_subst. Streamed with pyarrow in 128 MB blocks (216 M rows read; ~2 min). License in file header is CC BY-NC-SA 4.0 (non-commercial). |
+| UniChem PDBe->ChEMBL | `unichem` (src1src3.txt.gz; src1=ChEMBL, src3=PDBe) ; fetch_chembl.py | 147 KB | `ccd_to_chembl.parquet` (20,683 CCDs, 20,406 ChEMBL ids) | cols: chembl_id, ccd, max_phase, molecule_type, chembl_release (ChEMBL_37, released 2026-05-01; `data/raw/chembl/status.json`). max_phase NaN = null in ChEMBL (no clinical phase; 18,508 rows); values 4:831, 3:324, 2:692, 1:180, 0.5:7, -1:141 (unknown). |
+| pChEMBL >= 6 flag | `fetch_chembl.py --pchembl [--all-pchembl]` (function `fetch_pchembl`, resumable) | | NOT DONE | See failures. |
+| SIFTS chain-level | `sifts_uniprot`, `sifts_pfam` (SIFTS release stamp 2026/10/25) | 6.1 MB, 4.5 MB | `sifts_chain_uniprot.parquet` (1.05 M rows), `sifts_chain_pfam.parquet` (1.08 M; 70% have a Pfam clan) | lower-case pdb ids, author chain ids. |
+| Pfam clans | `pfam_clans` (Pfam current_release, Last-Modified 2026-01-22) | 554 KB | `pfam_clans.parquet` (30,134) | cols: pfam_id, clan_id, clan_name, pfam_name, pfam_description. Pfam families with no clan have empty clan_id. |
+| SIFTS per-entry XML | `scripts/fetch_sifts_xml.py` (`fetch_sifts_xml(ids)`, `parse_sifts_xml`, `parse_many`) | cache `data/raw/sifts_xml/<id>.xml.gz`, FETCH_LOG.tsv, FAILED.txt | per-residue DataFrame (caller writes; `--parse out.parquet`) | <=4 threads, skips cached. Columns: pdb_id, chain (author), auth_resnum, ins_code, label_resnum (PDBe/entity numbering), pdb_resname, observed (False if Not_Observed or no author number), uniprot_acc, uniprot_pos, uniprot_resname (1-letter); one row per UniProt xref. Test `scripts/test_sifts_xml.py`: 4HHB chain A Val1 -> P69905 pos 2 (and chain B -> P68871 pos 2) PASS; 2LYZ Lys1 -> P00698 pos 19 PASS; 1HVR Pro1 -> P04585 pos 489; PDB/UniProt residue agreement 99.8% (899 residues). |
+| LIGYSIS | `ligysis` (Zenodo 14645504, md5 checked against Zenodo API) | 99 MB in `data/raw/ligysis/` | `ligysis_human_sites.parquet` (10,689 sites, 3,518 proteins), `ligysis_human_site_residues.parquet` (131,872 site-residue rows) | See format below. |
+| PLINDER annotation_table | `plinder` | not downloaded | | FAILED (403). |
+
+## LIGYSIS format
+Record 14645504 ("LBS-Comparison results") has 70+ pickles (full list: Zenodo API). Fetched (all pandas pickles; loading a pickle executes code, so only load the md5-verified files, with pandas >=2):
+- `LIGYSIS_human_sites_APRIL_2024.pkl` (0.9 MB): DataFrame, 10,689 rows: ACC (UniProt), SEG (structural segment id from LIGYSIS clustering), ID (site index within segment), up_aas (list of UniProt residue numbers), n_up_aas, SEG_ID (=ACC_SEG), SITE_NAME (=ACC_SEG_ID). This is the human ligand-site benchmark (UniProt numbering). Site = cluster of ligand-contacting residues across superimposed structures of the same protein segment.
+- `LIGYSIS_human_sites_ion_prop_APRIL_2024.pkl`: dict (ACC, SEG, ID) -> fraction of ligand contacts that are ions (included as `ion_proportion`).
+- `LIGYSIS_human_chains_per_lig_MAY_2024.pkl`: dict SEG_ID -> {site -> {'pdb_ligandCCD_chain_resnum': {chains}}} (ligand instances supporting each site).
+- `LIGYSIS_sites_DEF_TRANS.pkl` (all-species sites with pdb_id, auth/struct asym ids, RoG, SASA, VOL, centre); `LIGYSIS_3448_chains.pkl` (list of representative chains); `LIGYSIS_ress_binary_labels.pkl` (97 MB; per-residue binary labels, rep_chain/chain/resnum (PDB numbering)/resname with ligand-site labels of LIGYSIS and 10 predictors).
+Not fetched: MASTER_POCKET_SHAPE (3.3 GB), ALL_COMPARISONS (350 MB) and other large files. Not verified: how LIGYSIS defines "site" thresholds; read the paper (Utgés et al.) before using `n_residues` cutoffs.
+
+## Failures / caveats
+- PLINDER: `https://storage.googleapis.com/plinder/2024-06/v2/index/annotation_table.parquet` anonymous HEAD/GET 403; JSON API object get 401; listing 401. gcsfs (token="anon") cannot connect at all (aiohttp ignores the proxy), and over the proxy the API denies anonymous reads. Conclusion: not accessible anonymously today; needs credentials or the `plinder` package/other mirror. Not downloaded.
+- ChEMBL batching: 1000 ids per GET exceeds the 4094-byte request-line limit (HTTP 400/500); POST override with form or JSON body was rejected. Used 200 ids per request (102 requests, 1 s pause).
+- pChEMBL flag: the activity endpoint took 6-15 s per molecule (server loaded; 0.2 s when idle) so 20,406 ids were not feasible in budget (one attempt was started and killed after ~7 min; nothing kept). `data/part1/ligand_classes.parquet` lists all 51,537 CCD components, not just ligands present in PDB, so it does not shrink the list. Rerun `python scripts/fetch_chembl.py --pchembl` (resumable, 3 threads) on a restricted CCD list, or edit `LIG_CLASSES` to the PDB-ligand list once available.
+- humsavar category codes come from the file; "P/LP" and "B/LB" labels are our readable renaming.
+- DATA.md rows for ChEMBL files list release ChEMBL_37.
