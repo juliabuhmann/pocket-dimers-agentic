@@ -1,0 +1,7 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=409612cb795b5a88afea3088a3266f348c17a667 status=UNVERIFIED H2-secondary(burrow_score)+EXPLORATORY u=uncropped (primary), c=crop30 (sensitivity)
+crop_removed_chains	y_mbs	n	spearman_burrow_score	frac_burrow_score_changed_gt005	median_abs_d_burrow_score	frac_volume_unchanged	frac_dmatch_lost	frac_dmatch_gained	median_jaccard_lining	spearman_merged_frac_charged
+all	all	11983	0.859828	0.126179	0	0.798131	0.0263707	0.00801135	1	0.897625
+False	0	5303	1	0	0	1	0	0	1	1
+False	1	4180	1	0	0	1	0	0	1	1
+True	0	1148	0.467671	0.59669	0.0711619	0.0374564	0.0966899	0.0296167	0.4	0.542833
+True	1	1352	0.396121	0.611686	0.0829741	0.0281065	0.151627	0.045858	0.333333	0.493729

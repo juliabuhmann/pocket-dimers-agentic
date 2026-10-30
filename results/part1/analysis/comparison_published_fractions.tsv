@@ -1,0 +1,10 @@
+# design_sha256_frozen=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 design_sha256_current=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 design_matches=True git_commit=31df4316c21a91522c16c76ffd503ad18349e35b code_dirty=False census_dir=data/part1 census_version=v2 ligand_sites_bytes=221696831 ligand_sites_mtime=2026-10-29T18:09:29 druglike_fallback=False druglike_sentinels_pass=True chembl_release=chembl_37 generated=2026-10-29T18:38:05+0100 status=UNVERIFIED_until_independent_re-derivation
+level	filter	ours	ci_lo	ci_hi	reference	ref_value	ref_in_ci
+site_symcollapsed	after_additive_filter	0.263226	0.238933	0.285905	Q-BioLiP (Wei et al. 2024)	0.288	False
+site_symcollapsed	after_additive_filter	0.263226	0.238933	0.285905	PLINDER (Durairaj et al. 2024)	0.25	True
+site_symcollapsed	before_additive_filter	0.267312	0.249198	0.284775	Q-BioLiP (Wei et al. 2024)	0.288	False
+site_symcollapsed	before_additive_filter	0.267312	0.249198	0.284775	PLINDER (Durairaj et al. 2024)	0.25	True
+unit_nonredundant	after_additive_filter	0.306148	0.281019	0.330787	Q-BioLiP (Wei et al. 2024)	0.288	True
+unit_nonredundant	after_additive_filter	0.306148	0.281019	0.330787	PLINDER (Durairaj et al. 2024)	0.25	False
+unit_nonredundant	before_additive_filter	0.328511	0.312467	0.344346	Q-BioLiP (Wei et al. 2024)	0.288	False
+unit_nonredundant	before_additive_filter	0.328511	0.312467	0.344346	PLINDER (Durairaj et al. 2024)	0.25	False

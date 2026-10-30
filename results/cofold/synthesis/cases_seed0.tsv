@@ -1,0 +1,57 @@
+batch	case_id	rmsd_dimer	logr_dimer	succ_dimer	n_seeds_dimer	rmsd_single	logr_single	succ_single	n_seeds_single	gain_rmsd	gain_log10	success_diff	dimer_only	pdb_id	ccd	ref_copy	ref_copy_centroid_offset	site_chain_counts	n_site	n_minor	partner_share	cls	label
+dimeronly	ACADVL_3b96_FAD	0.207	-0.684	1.000	1	0.256	-0.592	1.000	1	0.049	0.092	0.000	0	3b96	FAD	A1:616	0.005	"{""A1"": 14, ""A2"": 8}"	22	8	0.364	dimer-only pocket	ACADVL_3b96_FAD
+dimeronly	IDH3G-IDH3A_8grh_CIT	0.515	-0.288	1.000	1	1.397	0.145	1.000	1	0.882	0.433	0.000	0	8grh	CIT	B1:401	0.005	"{""B1"": 8, ""A1"": 2}"	10	2	0.200	dimer-only pocket	IDH3G-IDH3A_8grh_CIT
+dimeronly	IVD_8sgr_FAD	0.506	-0.296	1.000	1	0.667	-0.176	1.000	1	0.161	0.120	0.000	0	8sgr	FAD	A1:1101	0.002	"{""A1"": 9, ""B1"": 7}"	16	7	0.438	dimer-only pocket	IVD_8sgr_FAD
+dimeronly	MAT2A_8qe1_U8E	0.505	-0.297	1.000	1	0.678	-0.169	1.000	1	0.173	0.128	0.000	0	8qe1	U8E	A1:401	0.005	"{""A1"": 7, ""A2"": 4}"	11	4	0.364	dimer-only pocket	MAT2A_8qe1_U8E
+dimeronly	PCCB_7ybu_BTI	4.837	0.685	0.000	1	7.588	0.880	0.000	1	2.751	0.196	0.000	0	7ybu	BTI	D1:801	0.006	"{""E1"": 1, ""C1"": 2}"	3	1	0.333	dimer-only pocket	PCCB_7ybu_BTI
+dimeronly	SGPL1_4q6r_30J	0.396	-0.402	1.000	1	0.595	-0.225	1.000	1	0.199	0.177	0.000	0	4q6r	30J	B1:602	0.006	"{""A1"": 4, ""B1"": 4}"	8	4	0.500	dimer-only pocket	SGPL1_4q6r_30J
+dimeronly	SOD1_5o40_9JT	3.012	0.479	0.000	1	0.848	-0.072	1.000	1	-2.164	-0.550	-1.000	0	5o40	9JT	A1:503	0.005	"{""A1"": 4, ""F1"": 0}"	4	0	0.000	dimer-only pocket	SOD1_5o40_9JT
+dimeronly	STING1_9cuc_A1A4R	0.412	-0.385	1.000	1	5.023	0.701	0.000	1	4.611	1.086	1.000	1	9cuc	A1A4R	A1:4000	0.001	"{""A1"": 6, ""B1"": 4}"	10	4	0.400	dimer-only pocket	STING1_9cuc_A1A4R
+h4	hetero_1efv_FAD	0.419	-0.378	1.000	1	0.893	-0.049	1.000	1	0.474	0.329	0.000	0	1efv	FAD	A1:599	0.005	"{""A1"": 19, ""B1"": 1}"	20	1	0.050	H4 MBS site	1efv_FAD
+h4	hetero_6l59_CIT	0.532	-0.274	1.000	1	1.549	0.190	1.000	1	1.017	0.464	0.000	0	6l59	CIT	B1:403	0.004	"{""B1"": 9, ""A1"": 1}"	10	1	0.100	H4 MBS site	6l59_CIT
+h4	hetero_6wih_EDT	1.879	0.274	1.000	1	4.694	0.672	0.000	1	2.815	0.398	1.000	1	6wih	EDT	B1:411	0.005	"{""B1"": 3, ""A1"": 1}"	4	1	0.250	H4 MBS site	6wih_EDT
+h4	hetero_7msr_ZNS	0.703	-0.153	1.000	1	40.469	1.607	0.000	1	39.766	1.760	1.000	1	7msr	ZNS	B1:602	0.007	"{""B1"": 6, ""A1"": 5}"	11	5	0.455	H4 MBS site	7msr_ZNS
+h4	hetero_8gs8_UQ1	4.668	0.669	0.000	1	13.318	1.124	0.000	1	8.650	0.455	0.000	0	8gs8	UQ1	C1:201	0.005	"{""C1"": 4, ""B1"": 3}"	7	3	0.429	H4 MBS site	8gs8_UQ1
+h4	hetero_9mnz_I2R	4.422	0.646	0.000	1	7.052	0.848	0.000	1	2.630	0.203	0.000	0	9mnz	I2R	A1:201	0.007	"{""A1"": 3, ""B1"": 3}"	6	3	0.500	H4 MBS site	9mnz_I2R
+h4	homo_hit_7wjv_LSA	27.347	1.437	0.000	1	27.473	1.439	0.000	1	0.126	0.002	0.000	0	7wjv	LSA	A1:402	0.008	"{""A1"": 1, ""B1"": 3}"	4	1	0.250	H4 MBS site	7wjv_LSA
+h4	homo_hit_7wt0_5ZO	5.254	0.720	0.000	1	10.050	1.002	0.000	1	4.796	0.282	0.000	0	7wt0	5ZO	A1:202	0.006	"{""A1"": 8, ""B1"": 5}"	13	5	0.385	H4 MBS site	7wt0_5ZO
+h4	homo_hit_8g9v_YYC	8.907	0.950	0.000	1	6.647	0.823	0.000	1	-2.260	-0.127	0.000	0	8g9v	YYC	B1:402	0.005	"{""B1"": 10, ""A1"": 1}"	11	1	0.091	H4 MBS site	8g9v_YYC
+h4	homo_hit_8pyv_48T	0.907	-0.042	1.000	1	3.828	0.583	0.000	1	2.921	0.625	1.000	1	8pyv	48T	A1:203	0.005	"{""A1"": 6, ""A3"": 2}"	8	2	0.250	H4 MBS site	8pyv_48T
+h4	homo_hit_8r5q_Y5N	6.322	0.801	0.000	1	6.300	0.799	0.000	1	-0.022	-0.002	0.000	0	8r5q	Y5N	A1:501	0.005	"{""A1"": 11, ""B1"": 3}"	14	3	0.214	H4 MBS site	8r5q_Y5N
+h4	homo_hit_8tcz_ZRI	20.815	1.318	0.000	1	1.914	0.282	1.000	1	-18.901	-1.036	-1.000	0	8tcz	ZRI	B1:401	0.002	"{""A1"": 3, ""B1"": 3}"	6	3	0.500	H4 MBS site	8tcz_ZRI
+h4	homo_hit_9da5_A1BBF	0.424	-0.373	1.000	1	0.705	-0.152	1.000	1	0.281	0.221	0.000	0	9da5	A1BBF	A1:201	0.005	"{""A1"": 8, ""B1"": 2}"	10	2	0.200	H4 MBS site	9da5_A1BBF
+h4	homo_hit_9ijn_A1D9I	0.349	-0.457	1.000	1	0.824	-0.084	1.000	1	0.475	0.373	0.000	0	9ijn	A1D9I	A1:401	0.005	"{""A1"": 7, ""A2"": 2}"	9	2	0.222	H4 MBS site	9ijn_A1D9I
+h4	homo_miss_7e4c_GBJ	4.491	0.652	0.000	1	7.032	0.847	0.000	1	2.541	0.195	0.000	0	7e4c	GBJ	B1:205	0.008	"{""B1"": 4, ""A1"": 2}"	6	2	0.333	H4 MBS site	7e4c_GBJ
+h4	homo_miss_7o4d_V1Z	2.396	0.379	0.000	1	7.612	0.881	0.000	1	5.216	0.502	0.000	0	7o4d	V1Z	B1:301	0.002	"{""A1"": 4, ""B1"": 3}"	7	3	0.429	H4 MBS site	7o4d_V1Z
+h4	homo_miss_7p0o_4OY	8.562	0.933	0.000	1	1.998	0.301	1.000	1	-6.564	-0.632	-1.000	0	7p0o	4OY	B1:203	0.006	"{""A1"": 4, ""B1"": 2}"	6	2	0.333	H4 MBS site	7p0o_4OY
+h4	homo_miss_8dyg_U5Q	43.018	1.634	0.000	1	23.306	1.367	0.000	1	-19.712	-0.266	0.000	0	8dyg	U5Q	A1:201	0.004	"{""A1"": 5, ""B1"": 1}"	6	1	0.167	H4 MBS site	8dyg_U5Q
+h4	homo_miss_8otv_W0O	3.327	0.522	0.000	1	2.798	0.447	0.000	1	-0.529	-0.075	0.000	0	8otv	W0O	A1:301	0.007	"{""B1"": 2, ""A1"": 4}"	6	2	0.333	H4 MBS site	8otv_W0O
+h4	homo_miss_8ptt_F2V	0.460	-0.337	1.000	1	0.993	-0.003	1.000	1	0.533	0.334	0.000	0	8ptt	F2V	A1:301	0.004	"{""A1"": 5, ""B1"": 3}"	8	3	0.375	H4 MBS site	8ptt_F2V
+h4	homo_miss_8qdy_U74	0.478	-0.321	1.000	1	0.712	-0.148	1.000	1	0.234	0.173	0.000	0	8qdy	U74	A1:401	0.003	"{""A1"": 5, ""A2"": 5}"	10	5	0.500	H4 MBS site	8qdy_U74
+h4	homo_miss_8ros_FMN	0.555	-0.256	1.000	1	0.189	-0.724	1.000	1	-0.366	-0.468	0.000	0	8ros	FMN	AAA1:301	0.005	"{""AAA1"": 11, ""AAA2"": 4}"	15	4	0.267	H4 MBS site	8ros_FMN
+h4	homo_miss_8y55_A1D52	15.332	1.186	0.000	1	14.280	1.155	0.000	1	-1.052	-0.031	0.000	0	8y55	A1D52	A1:501	0.005	"{""A1"": 7, ""B1"": 1}"	8	1	0.125	H4 MBS site	8y55_A1D52
+h4	homo_miss_9hjc_VIB	0.535	-0.272	1.000	1	0.774	-0.111	1.000	1	0.239	0.160	0.000	0	9hjc	VIB	A1:301	0.006	"{""A1"": 5, ""B1"": 2}"	7	2	0.286	H4 MBS site	9hjc_VIB
+onaxis	offaxis_7bia_GSH	0.210	-0.678	1.000	1	0.237	-0.625	1.000	1	0.027	0.053	0.000	0	7bia	GSH	A1:402	0.005	"{""A1"": 9, ""B1"": 1}"	10	1	0.100	off-axis cofactor (onaxis)	7bia_GSH
+onaxis	offaxis_7r4m_NAP	0.440	-0.357	1.000	1	1.197	0.078	1.000	1	0.757	0.435	0.000	0	7r4m	NAP	A1:501	0.006	"{""A1"": 15, ""A2"": 4}"	19	4	0.211	off-axis cofactor (onaxis)	7r4m_NAP
+onaxis	offaxis_7rwg_SAM	0.281	-0.551	1.000	1	0.376	-0.425	1.000	1	0.095	0.126	0.000	0	7rwg	SAM	A1:401	0.004	"{""A1"": 7, ""A2"": 8}"	15	7	0.467	off-axis cofactor (onaxis)	7rwg_SAM
+onaxis	offaxis_8ros_FMN	0.555	-0.256	1.000	1	0.189	-0.724	1.000	1	-0.366	-0.468	0.000	0	8ros	FMN	AAA1:301	0.005	"{""AAA1"": 11, ""AAA2"": 4}"	15	4	0.267	off-axis cofactor (onaxis)	8ros_FMN
+onaxis	offaxis_8z0e_PLP	0.566	-0.247	1.000	1	0.613	-0.213	1.000	1	0.047	0.035	0.000	0	8z0e	PLP	A1:501	0.006	"{""A1"": 9, ""B1"": 1}"	10	1	0.100	off-axis cofactor (onaxis)	8z0e_PLP
+onaxis	offaxis_9ckf_SAH	7.741	0.889	0.000	1	0.401	-0.397	1.000	1	-7.340	-1.286	-1.000	0	9ckf	SAH	A1:502	0.005	"{""A1"": 10, ""B1"": 1}"	11	1	0.091	off-axis cofactor (onaxis)	9ckf_SAH
+onaxis	on_4h30_0ZD	0.363	-0.440	1.000	1	2.215	0.345	0.000	1	1.852	0.785	1.000	1	4h30	0ZD	B1:306	0.006	"{""A1"": 11, ""B1"": 11}"	22	11	0.500	on-axis drug (onaxis)	4h30_0ZD
+onaxis	on_4ja8_1K9	7.480	0.874	0.000	1	24.977	1.398	0.000	1	17.497	0.524	0.000	0	4ja8	1K9	A1:502	0.005	"{""A1"": 7, ""B1"": 8}"	15	7	0.467	on-axis drug (onaxis)	4ja8_1K9
+onaxis	on_4mtz_0BU	1.135	0.055	1.000	1	3.775	0.577	0.000	1	2.640	0.522	1.000	1	4mtz	0BU	C1:3102	0.005	"{""A1"": 6, ""C1"": 6}"	12	6	0.500	on-axis drug (onaxis)	4mtz_0BU
+onaxis	on_6rv3_KKQ	1.313	0.118	1.000	1	1.538	0.187	1.000	1	0.225	0.069	0.000	0	6rv3	KKQ	A1:300	0.004	"{""A1"": 7, ""B1"": 6}"	13	6	0.462	on-axis drug (onaxis)	6rv3_KKQ
+onaxis	on_7ama_RMK	0.448	-0.349	1.000	1	1.053	0.022	1.000	1	0.605	0.371	0.000	0	7ama	RMK	B1:201	0.004	"{""A1"": 6, ""B1"": 6}"	12	6	0.500	on-axis drug (onaxis)	7ama_RMK
+onaxis	on_7mr7_ZN1	13.380	1.126	0.000	1	11.736	1.070	0.000	1	-1.644	-0.057	0.000	0	7mr7	ZN1	A1:302	0.006	"{""A1"": 7, ""B1"": 10}"	17	7	0.412	on-axis drug (onaxis)	7mr7_ZN1
+onaxis	on_8cza_ZN1	8.589	0.934	0.000	1	9.197	0.964	0.000	1	0.608	0.030	0.000	0	8cza	ZN1	B1:201	0.006	"{""A1"": 7, ""B1"": 7}"	14	7	0.500	on-axis drug (onaxis)	8cza_ZN1
+onaxis	on_8f78_2J6	0.593	-0.227	1.000	1	35.597	1.551	0.000	1	35.004	1.778	1.000	1	8f78	2J6	A1:301	0.004	"{""A1"": 5, ""B1"": 3}"	8	3	0.375	on-axis drug (onaxis)	8f78_2J6
+onaxis	on_8pc4_HCZ	9.259	0.967	0.000	1	19.067	1.280	0.000	1	9.808	0.314	0.000	0	8pc4	HCZ	B1:608	0.007	"{""A1"": 2, ""B1"": 2}"	4	2	0.500	on-axis drug (onaxis)	8pc4_HCZ
+onaxis	on_8sti_WX8	0.729	-0.137	1.000	1	0.873	-0.059	1.000	1	0.144	0.078	0.000	0	8sti	WX8	A1:401	0.005	"{""A1"": 7, ""A2"": 7}"	14	7	0.500	on-axis drug (onaxis)	8sti_WX8
+onaxis	on_9i0u_A1IZJ	1.604	0.205	1.000	1	2.267	0.355	0.000	1	0.663	0.150	1.000	1	9i0u	A1IZJ	B1:202	0.008	"{""A1"": 7, ""B1"": 9}"	16	7	0.438	on-axis drug (onaxis)	9i0u_A1IZJ
+onaxis	on_9mel_1II	3.146	0.498	0.000	1	7.319	0.864	0.000	1	4.173	0.367	0.000	0	9mel	1II	B1:401	0.005	"{""A1"": 3, ""B1"": 7}"	10	3	0.300	on-axis drug (onaxis)	9mel_1II
+onaxis	sbs_7era_JBC	10.400	1.017	0.000	1	4.041	0.606	0.000	1	-6.359	-0.411	0.000	0	7era	JBC	A1:402	0.005	"{""A1"": 5, ""B1"": 0}"	5	0	0.000	SBS drug (onaxis)	7era_JBC
+onaxis	sbs_8ii3_PKK	1.966	0.294	1.000	1	2.074	0.317	0.000	1	0.108	0.023	1.000	1	8ii3	PKK	A1:201	0.007	"{""A1"": 4, ""B1"": 0}"	4	0	0.000	SBS drug (onaxis)	8ii3_PKK
+onaxis	sbs_8ivf_HC3	7.991	0.903	0.000	1	7.777	0.891	0.000	1	-0.214	-0.012	0.000	0	8ivf	HC3	B1:1001	0.006	"{""B1"": 7, ""A1"": 0}"	7	0	0.000	SBS drug (onaxis)	8ivf_HC3
+onaxis	sbs_8r74_YBC	0.696	-0.157	1.000	1	0.962	-0.017	1.000	1	0.266	0.141	0.000	0	8r74	YBC	A1:501	0.006	"{""A1"": 10, ""B1"": 0}"	10	0	0.000	SBS drug (onaxis)	8r74_YBC
+onaxis	sbs_8w0r_A1AEU	1.080	0.033	1.000	1	1.802	0.256	1.000	1	0.722	0.222	0.000	0	8w0r	A1AEU	A1:301	0.004	"{""A1"": 9, ""B1"": 0}"	9	0	0.000	SBS drug (onaxis)	8w0r_A1AEU
+onaxis	sbs_8x71_YCC	31.543	1.499	0.000	1	33.735	1.528	0.000	1	2.192	0.029	0.000	0	8x71	YCC	B1:201	0.002	"{""A1"": 0, ""B1"": 2}"	2	0	0.000	SBS drug (onaxis)	8x71_YCC

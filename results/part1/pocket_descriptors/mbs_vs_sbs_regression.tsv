@@ -1,0 +1,78 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=409612cb795b5a88afea3088a3266f348c17a667 status=UNVERIFIED H2-secondary(burrow_score)+EXPLORATORY beta of MBS; y_pct = mid-rank percentile; cluster-robust SEs (cluster30)
+metric	role	outcome	model	n	n_clusters	beta_mbs	lo	hi	p	beta_over_sd
+burrow_score	H2-secondary (pre-registered)	y_raw	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.00571325	-0.0225909	0.0340174	0.692383	0.025688
+burrow_score	H2-secondary (pre-registered)	y_raw	within-cluster FE (clusters with MBS and SBS)	4980	682	-0.0224677	-0.0405445	-0.00439083	0.0148492	-0.10102
+burrow_score	H2-secondary (pre-registered)	y_pct	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.00326698	-0.0338884	0.0404224	0.863174	0.0113167
+burrow_score	H2-secondary (pre-registered)	y_pct	within-cluster FE (clusters with MBS and SBS)	4980	682	-0.0294759	-0.0529993	-0.00595257	0.014052	-0.102103
+volume_A3	exploratory (located member)	y_raw	adjusted: spline(log heavy)+ligand stratum	11983	4256	16.1086	-0.428482	32.6456	0.0562388	0.059099
+volume_A3	exploratory (located member)	y_raw	within-cluster FE (clusters with MBS and SBS)	4980	682	18.7744	-2.17493	39.7238	0.0790059	0.0688795
+volume_A3	exploratory (located member)	y_pct	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.00650087	-0.0186818	0.0316835	0.612883	0.022519
+volume_A3	exploratory (located member)	y_pct	within-cluster FE (clusters with MBS and SBS)	4980	682	0.0375604	0.0168316	0.0582892	0.000383131	0.130109
+merged_burrow_score	exploratory (merged pocket, Q2.2 unit)	y_raw	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.0106082	-0.0154258	0.0366422	0.424501	0.0483481
+merged_burrow_score	exploratory (merged pocket, Q2.2 unit)	y_raw	within-cluster FE (clusters with MBS and SBS)	4980	682	-0.0185619	-0.0346754	-0.00244841	0.0239596	-0.084598
+merged_burrow_score	exploratory (merged pocket, Q2.2 unit)	y_pct	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.0129122	-0.0227371	0.0485616	0.477766	0.0447274
+merged_burrow_score	exploratory (merged pocket, Q2.2 unit)	y_pct	within-cluster FE (clusters with MBS and SBS)	4980	682	-0.0236581	-0.0449142	-0.00240206	0.02915	-0.0819507
+merged_volume_A3	exploratory (merged pocket, Q2.2 unit)	y_raw	adjusted: spline(log heavy)+ligand stratum	11983	4256	181.599	106.236	256.963	2.32619e-06	0.12209
+merged_volume_A3	exploratory (merged pocket, Q2.2 unit)	y_raw	within-cluster FE (clusters with MBS and SBS)	4980	682	55.9533	-36.4569	148.363	0.235332	0.0376176
+merged_volume_A3	exploratory (merged pocket, Q2.2 unit)	y_pct	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.0242907	0.00272782	0.0458536	0.0272505	0.0841427
+merged_volume_A3	exploratory (merged pocket, Q2.2 unit)	y_pct	within-cluster FE (clusters with MBS and SBS)	4980	682	0.0403448	0.0181359	0.0625536	0.000370163	0.139754
+site_volume_A3	exploratory	y_raw	adjusted: spline(log heavy)+ligand stratum	11983	4256	8.14951	-4.25828	20.5573	0.197984	0.040292
+site_volume_A3	exploratory	y_raw	within-cluster FE (clusters with MBS and SBS)	4980	682	28.2048	11.1331	45.2766	0.00120318	0.139447
+site_volume_A3	exploratory	y_pct	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.00168077	-0.0176613	0.0210229	0.864762	0.00582214
+site_volume_A3	exploratory	y_pct	within-cluster FE (clusters with MBS and SBS)	4980	682	0.0236852	0.000972896	0.0463975	0.0409614	0.0820446
+buriedness	exploratory (merged pocket, Q2.2 unit)	y_raw	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.00139697	-0.00509473	0.00788867	0.673192	0.0168781
+buriedness	exploratory (merged pocket, Q2.2 unit)	y_raw	within-cluster FE (clusters with MBS and SBS)	4980	682	0.00591771	-0.000434464	0.0122699	0.0678638	0.0714974
+buriedness	exploratory (merged pocket, Q2.2 unit)	y_pct	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.00488802	-0.0198657	0.0296417	0.698736	0.0169319
+buriedness	exploratory (merged pocket, Q2.2 unit)	y_pct	within-cluster FE (clusters with MBS and SBS)	4980	682	0.0157609	-0.00671664	0.0382385	0.16935	0.0545952
+n_lining	exploratory (merged pocket, Q2.2 unit)	y_raw	adjusted: spline(log heavy)+ligand stratum	11983	4256	7.81185	4.82328	10.8004	3.00437e-07	0.131504
+n_lining	exploratory (merged pocket, Q2.2 unit)	y_raw	within-cluster FE (clusters with MBS and SBS)	4980	682	4.11897	0.00547123	8.23247	0.0496961	0.0693384
+n_lining	exploratory (merged pocket, Q2.2 unit)	y_pct	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.0323643	0.0105197	0.0542088	0.00368628	0.112158
+n_lining	exploratory (merged pocket, Q2.2 unit)	y_pct	within-cluster FE (clusters with MBS and SBS)	4980	682	0.0396181	0.0151977	0.0640385	0.0014742	0.137297
+frac_hydrophobic	exploratory (merged pocket, Q2.2 unit)	y_raw	adjusted: spline(log heavy)+ligand stratum	11983	4256	-0.00490228	-0.0198471	0.0100425	0.520277	-0.0288015
+frac_hydrophobic	exploratory (merged pocket, Q2.2 unit)	y_raw	within-cluster FE (clusters with MBS and SBS)	4980	682	0.00203442	-0.0114559	0.0155248	0.767556	0.0119525
+frac_hydrophobic	exploratory (merged pocket, Q2.2 unit)	y_pct	adjusted: spline(log heavy)+ligand stratum	11983	4256	-0.0107099	-0.0365157	0.0150958	0.415973	-0.0371028
+frac_hydrophobic	exploratory (merged pocket, Q2.2 unit)	y_pct	within-cluster FE (clusters with MBS and SBS)	4980	682	0.00199032	-0.0197545	0.0237351	0.857626	0.00689513
+frac_aromatic	exploratory (merged pocket, Q2.2 unit)	y_raw	adjusted: spline(log heavy)+ligand stratum	11983	4256	-0.00796132	-0.0250842	0.00916156	0.362143	-0.0576371
+frac_aromatic	exploratory (merged pocket, Q2.2 unit)	y_raw	within-cluster FE (clusters with MBS and SBS)	4980	682	0.00176632	-0.00959267	0.0131253	0.760539	0.0127875
+frac_aromatic	exploratory (merged pocket, Q2.2 unit)	y_pct	adjusted: spline(log heavy)+ligand stratum	11983	4256	-0.0114589	-0.0516406	0.0287227	0.576203	-0.0397076
+frac_aromatic	exploratory (merged pocket, Q2.2 unit)	y_pct	within-cluster FE (clusters with MBS and SBS)	4980	682	0.0155521	-0.00484057	0.0359447	0.134985	0.0538911
+frac_charged	exploratory (merged pocket, Q2.2 unit)	y_raw	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.0041494	-0.00698498	0.0152838	0.465139	0.032557
+frac_charged	exploratory (merged pocket, Q2.2 unit)	y_raw	within-cluster FE (clusters with MBS and SBS)	4980	682	0.00908825	-0.00146423	0.0196407	0.0914101	0.0713081
+frac_charged	exploratory (merged pocket, Q2.2 unit)	y_pct	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.0184249	-0.0107524	0.0476021	0.215835	0.0638553
+frac_charged	exploratory (merged pocket, Q2.2 unit)	y_pct	within-cluster FE (clusters with MBS and SBS)	4980	682	0.0283963	0.00713616	0.0496564	0.00884873	0.0984134
+member_frac_hydrophobic	exploratory (located member)	y_raw	adjusted: spline(log heavy)+ligand stratum	11908	4237	-0.00859659	-0.0249627	0.00776956	0.303243	-0.0485372
+member_frac_hydrophobic	exploratory (located member)	y_raw	within-cluster FE (clusters with MBS and SBS)	4946	682	0.00137278	-0.0132519	0.0159975	0.854032	0.00775086
+member_frac_hydrophobic	exploratory (located member)	y_pct	adjusted: spline(log heavy)+ligand stratum	11908	4237	-0.0148697	-0.0416913	0.0119519	0.277219	-0.0515157
+member_frac_hydrophobic	exploratory (located member)	y_pct	within-cluster FE (clusters with MBS and SBS)	4946	682	-0.000892043	-0.0243971	0.022613	0.940706	-0.00309046
+member_frac_charged	exploratory (located member)	y_raw	adjusted: spline(log heavy)+ligand stratum	11908	4237	0.00632726	-0.00523678	0.0178913	0.283543	0.0486218
+member_frac_charged	exploratory (located member)	y_raw	within-cluster FE (clusters with MBS and SBS)	4946	682	0.0111022	-8.01472e-05	0.0222845	0.0516648	0.0853148
+member_frac_charged	exploratory (located member)	y_pct	adjusted: spline(log heavy)+ligand stratum	11908	4237	0.0228695	-0.00714396	0.0528829	0.135321	0.0792764
+member_frac_charged	exploratory (located member)	y_pct	within-cluster FE (clusters with MBS and SBS)	4946	682	0.0322455	0.00913826	0.0553527	0.00623661	0.111778
+member_frac_aromatic	exploratory (located member)	y_raw	adjusted: spline(log heavy)+ligand stratum	11908	4237	-0.00589708	-0.0243848	0.0125907	0.531857	-0.0414073
+member_frac_aromatic	exploratory (located member)	y_raw	within-cluster FE (clusters with MBS and SBS)	4946	682	0.000890241	-0.0104491	0.0122296	0.877709	0.00625096
+member_frac_aromatic	exploratory (located member)	y_pct	adjusted: spline(log heavy)+ligand stratum	11908	4237	-0.00859457	-0.0495661	0.032377	0.68097	-0.0297865
+member_frac_aromatic	exploratory (located member)	y_pct	within-cluster FE (clusters with MBS and SBS)	4946	682	0.0127408	-0.00797122	0.0334527	0.227952	0.0441561
+contact4A_frac_hydrophobic	exploratory (census contacts, 4 Å set)	y_raw	adjusted: spline(log heavy)+ligand stratum	11983	4256	-0.00276221	-0.0188309	0.0133065	0.736179	-0.0156413
+contact4A_frac_hydrophobic	exploratory (census contacts, 4 Å set)	y_raw	within-cluster FE (clusters with MBS and SBS)	4980	682	0.0231425	0.00344244	0.0428426	0.0213096	0.131047
+contact4A_frac_hydrophobic	exploratory (census contacts, 4 Å set)	y_pct	adjusted: spline(log heavy)+ligand stratum	11983	4256	-0.00494026	-0.0322365	0.022356	0.722794	-0.0171182
+contact4A_frac_hydrophobic	exploratory (census contacts, 4 Å set)	y_pct	within-cluster FE (clusters with MBS and SBS)	4980	682	0.0377561	0.00366091	0.0718512	0.0299757	0.130826
+contact4A_frac_charged	exploratory (census contacts, 4 Å set)	y_raw	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.000607068	-0.010776	0.0119902	0.916752	0.00457673
+contact4A_frac_charged	exploratory (census contacts, 4 Å set)	y_raw	within-cluster FE (clusters with MBS and SBS)	4980	682	0.00384111	-0.00732738	0.0150096	0.500261	0.0289584
+contact4A_frac_charged	exploratory (census contacts, 4 Å set)	y_pct	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.00849307	-0.0213598	0.0383459	0.577114	0.0294438
+contact4A_frac_charged	exploratory (census contacts, 4 Å set)	y_pct	within-cluster FE (clusters with MBS and SBS)	4980	682	0.00677149	-0.0165698	0.0301127	0.569627	0.0234754
+contact4A_frac_aromatic	exploratory (census contacts, 4 Å set)	y_raw	adjusted: spline(log heavy)+ligand stratum	11983	4256	-0.00330596	-0.0245102	0.0178983	0.759926	-0.0220371
+contact4A_frac_aromatic	exploratory (census contacts, 4 Å set)	y_raw	within-cluster FE (clusters with MBS and SBS)	4980	682	0.00881326	-0.00486587	0.0224924	0.20667	0.0587482
+contact4A_frac_aromatic	exploratory (census contacts, 4 Å set)	y_pct	adjusted: spline(log heavy)+ligand stratum	11983	4256	-0.00555081	-0.0495395	0.0384379	0.804659	-0.0192415
+contact4A_frac_aromatic	exploratory (census contacts, 4 Å set)	y_pct	within-cluster FE (clusters with MBS and SBS)	4980	682	0.0183331	-0.00521547	0.0418817	0.12704	0.0635504
+contactBioLiP_frac_hydrophobic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	y_raw	adjusted: spline(log heavy)+ligand stratum	11983	4256	-0.00560917	-0.0242232	0.0130049	0.554777	-0.0271644
+contactBioLiP_frac_hydrophobic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	y_raw	within-cluster FE (clusters with MBS and SBS)	4980	682	0.021456	-0.00339534	0.0463073	0.0906113	0.103908
+contactBioLiP_frac_hydrophobic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	y_pct	adjusted: spline(log heavy)+ligand stratum	11983	4256	-0.0119132	-0.0385473	0.014721	0.380666	-0.0413051
+contactBioLiP_frac_hydrophobic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	y_pct	within-cluster FE (clusters with MBS and SBS)	4980	682	0.0269516	-0.00698741	0.0608906	0.119603	0.0934462
+contactBioLiP_frac_charged	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	y_raw	adjusted: spline(log heavy)+ligand stratum	11983	4256	-3.90181e-05	-0.0142	0.014122	0.995691	-0.000241783
+contactBioLiP_frac_charged	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	y_raw	within-cluster FE (clusters with MBS and SBS)	4980	682	0.0005061	-0.0156621	0.0166743	0.95108	0.00313614
+contactBioLiP_frac_charged	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	y_pct	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.00689524	-0.0232831	0.0370736	0.654285	0.0239586
+contactBioLiP_frac_charged	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	y_pct	within-cluster FE (clusters with MBS and SBS)	4980	682	0.00311038	-0.0283461	0.0345669	0.846333	0.0108075
+contactBioLiP_frac_aromatic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	y_raw	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.00484987	-0.0202092	0.0299089	0.704445	0.025806
+contactBioLiP_frac_aromatic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	y_raw	within-cluster FE (clusters with MBS and SBS)	4980	682	0.0215429	0.00497645	0.0381093	0.0108118	0.114629
+contactBioLiP_frac_aromatic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	y_pct	adjusted: spline(log heavy)+ligand stratum	11983	4256	0.00546502	-0.0362408	0.0471708	0.797311	0.0189768
+contactBioLiP_frac_aromatic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	y_pct	within-cluster FE (clusters with MBS and SBS)	4980	682	0.0376504	0.0138905	0.0614102	0.00189764	0.130737

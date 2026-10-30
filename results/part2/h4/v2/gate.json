@@ -1,0 +1,13 @@
+{
+ "census": "v2",
+ "design_sha256": "e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28",
+ "git_commit": "55df208",
+ "homo_mbs_units": 1346,
+ "homo_sbs_units": 2417,
+ "hetero_mbs_units": 135,
+ "hetero_sbs_units": 668,
+ "homo_mbs_clusters": 172,
+ "hetero_mbs_clusters": 63,
+ "hetero_inferential": true,
+ "homo_inferential": true
+}

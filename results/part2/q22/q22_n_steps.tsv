@@ -1,0 +1,14 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=f74eec9c86d4bd70445f6f94d4c879ffb9cd7a65 status=UNVERIFIED EXPLORATORY q22_compare
+step	n	note
+dimer_pockets_all	87804	
+dimer_models	10588	
+bootstrap_unit	4577	paralog components (>=30% id, >=80% cov both) over dimer accessions; largest=69
+ipSAE_tertile_edges	0	0.7139,0.8066
+atlas_pass	69857	
+atlas_pass_sym_rep	54876	
+excluded_marginal_1to2_res_on_a_chain	6763	
+interface_primary	17882	
+single_chain	30231	
+interface_with_iso_overlap	17882	
+models_expected_rate	10588	
+iso_pockets_atlas_pass_(homo_chainA_only)	58589	

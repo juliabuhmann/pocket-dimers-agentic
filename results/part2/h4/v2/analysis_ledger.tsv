@@ -1,0 +1,32 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=41b1b2d census=v2 status=UNVERIFIED
+step	n
+site x model rows from selection	24174
+chain pair resolved in assembly 1 (status ok)	24174
+both chains map to the model accessions in SIFTS XML	24168
+binding-residue name identity >= 0.9	23851
+after symmetric-copy collapse	11601
+superposition ok and dimer pockets present	11597
+filtered: representatives hetero inorganic SBS	7
+filtered: representatives hetero inorganic MBS	3
+filtered: representatives hetero metal SBS	275
+filtered: representatives hetero metal MBS	18
+filtered: representatives hetero organic SBS	615
+filtered: representatives hetero organic MBS	119
+filtered: representatives homo inorganic SBS	91
+filtered: representatives homo inorganic MBS	32
+filtered: representatives homo metal SBS	323
+filtered: representatives homo metal MBS	33
+filtered: representatives homo organic SBS	2260
+filtered: representatives homo organic MBS	1019
+unfiltered: representatives hetero inorganic SBS	7
+unfiltered: representatives hetero inorganic MBS	3
+unfiltered: representatives hetero metal SBS	295
+unfiltered: representatives hetero metal MBS	19
+unfiltered: representatives hetero organic SBS	668
+unfiltered: representatives hetero organic MBS	135
+unfiltered: representatives homo inorganic SBS	108
+unfiltered: representatives homo inorganic MBS	34
+unfiltered: representatives homo metal SBS	355
+unfiltered: representatives homo metal MBS	39
+unfiltered: representatives homo organic SBS	2417
+unfiltered: representatives homo organic MBS	1346

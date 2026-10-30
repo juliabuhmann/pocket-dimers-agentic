@@ -1,0 +1,10 @@
+# status=UNVERIFIED EXPLORATORY (not pre-registered) fpocket 4.2.3 (https://conda.anaconda.org/conda-forge/linux-64, build h5fd1fdb_2) 
+step	n_sites	n_clusters
+subsample (500 per class x MBS stratum, seed 0)	3000	1752
+fpocket run returned	3000	1752
+status error	18	16
+status no_overlap	81	77
+status ok	2901	1690
+error: ValueError	11	
+error: TimeoutExpired	7	
+chosen pocket covers >= 50% of ligand heavy atoms	2473	1465

@@ -1,0 +1,78 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=27e97179830cb01ff1e96af813a477055b2cc9c4 status=UNVERIFIED H2-secondary(burrow_score)+EXPLORATORY on-axis(g1) vs off-axis(g0) homomer MBS
+metric	role	stratum	n_on	n_off	clusters_on	clusters_off	median_on	median_off	cliffs_delta	cd_lo	cd_hi
+burrow_score	H2-secondary (pre-registered)	all	517	3509	125	1401	0.253793	0.332656	0.020237	-0.357382	0.354301
+burrow_score	H2-secondary (pre-registered)	drug_like	345	1102	65	338	0.268828	0.299505	0.0967727	-0.354743	0.418836
+burrow_score	H2-secondary (pre-registered)	cofactor	26	1072	18	647	0.346391	0.370662	-0.0136338	-0.336628	0.314678
+burrow_score	H2-secondary (pre-registered)	other	146	1335	66	735	0.226271	0.314289	-0.0529475	-0.344971	0.259329
+volume_A3	exploratory (located member)	all	517	3509	125	1401	168	137	0.142569	-0.118538	0.335139
+volume_A3	exploratory (located member)	drug_like	345	1102	65	338	212	154	0.140956	-0.156783	0.335747
+volume_A3	exploratory (located member)	cofactor	26	1072	18	647	168	154	-0.0279133	-0.40369	0.324845
+volume_A3	exploratory (located member)	other	146	1335	66	735	136	112	0.116915	-0.127811	0.289721
+merged_burrow_score	exploratory (merged pocket, Q2.2 unit)	all	517	3509	125	1401	0.290696	0.388036	-0.0225091	-0.417154	0.328428
+merged_burrow_score	exploratory (merged pocket, Q2.2 unit)	drug_like	345	1102	65	338	0.301159	0.35673	0.0606802	-0.41311	0.396464
+merged_burrow_score	exploratory (merged pocket, Q2.2 unit)	cofactor	26	1072	18	647	0.346391	0.441715	-0.0957233	-0.403922	0.229288
+merged_burrow_score	exploratory (merged pocket, Q2.2 unit)	other	146	1335	66	735	0.243253	0.375193	-0.0940024	-0.39673	0.232749
+merged_volume_A3	exploratory (merged pocket, Q2.2 unit)	all	517	3509	125	1401	278	173	0.0584416	-0.14011	0.196376
+merged_volume_A3	exploratory (merged pocket, Q2.2 unit)	drug_like	345	1102	65	338	408	194.5	0.0785897	-0.143515	0.249784
+merged_volume_A3	exploratory (merged pocket, Q2.2 unit)	cofactor	26	1072	18	647	241	260	-0.101679	-0.421457	0.163047
+merged_volume_A3	exploratory (merged pocket, Q2.2 unit)	other	146	1335	66	735	149	125	0.0679442	-0.133921	0.212377
+site_volume_A3	exploratory	all	517	3509	125	1401	513	462	0.0831782	-0.0823164	0.203602
+site_volume_A3	exploratory	drug_like	345	1102	65	338	514	488.5	0.046269	-0.19036	0.209283
+site_volume_A3	exploratory	cofactor	26	1072	18	647	575	478	0.104442	-0.240342	0.413226
+site_volume_A3	exploratory	other	146	1335	66	735	489.5	425	0.108881	-0.0902629	0.234018
+buriedness	exploratory (merged pocket, Q2.2 unit)	all	517	3509	125	1401	0.776196	0.80108	-0.127737	-0.333955	0.155625
+buriedness	exploratory (merged pocket, Q2.2 unit)	drug_like	345	1102	65	338	0.766893	0.792162	-0.125222	-0.359042	0.236621
+buriedness	exploratory (merged pocket, Q2.2 unit)	cofactor	26	1072	18	647	0.741318	0.804468	-0.345508	-0.625953	-0.0344956
+buriedness	exploratory (merged pocket, Q2.2 unit)	other	146	1335	66	735	0.805542	0.809985	-0.01729	-0.243116	0.171215
+n_lining	exploratory (merged pocket, Q2.2 unit)	all	517	3509	125	1401	26	20	0.0270462	-0.141458	0.147819
+n_lining	exploratory (merged pocket, Q2.2 unit)	drug_like	345	1102	65	338	33	20	0.0621242	-0.131736	0.207808
+n_lining	exploratory (merged pocket, Q2.2 unit)	cofactor	26	1072	18	647	23.5	26	-0.214696	-0.525848	0.0400821
+n_lining	exploratory (merged pocket, Q2.2 unit)	other	146	1335	66	735	18	17	0.0604228	-0.11729	0.201624
+frac_hydrophobic	exploratory (merged pocket, Q2.2 unit)	all	517	3509	125	1401	0.441176	0.391304	0.225828	-0.0464402	0.417305
+frac_hydrophobic	exploratory (merged pocket, Q2.2 unit)	drug_like	345	1102	65	338	0.447368	0.431595	0.114188	-0.149545	0.375461
+frac_hydrophobic	exploratory (merged pocket, Q2.2 unit)	cofactor	26	1072	18	647	0.393797	0.368421	0.0711825	-0.24265	0.340004
+frac_hydrophobic	exploratory (merged pocket, Q2.2 unit)	other	146	1335	66	735	0.429972	0.371429	0.18409	-0.116233	0.407764
+frac_aromatic	exploratory (merged pocket, Q2.2 unit)	all	517	3509	125	1401	0.0555556	0.176471	-0.464292	-0.637057	-0.0384895
+frac_aromatic	exploratory (merged pocket, Q2.2 unit)	drug_like	345	1102	65	338	0.0434783	0.1875	-0.55745	-0.680034	-0.171141
+frac_aromatic	exploratory (merged pocket, Q2.2 unit)	cofactor	26	1072	18	647	0.185129	0.163451	0.0861438	-0.203264	0.366959
+frac_aromatic	exploratory (merged pocket, Q2.2 unit)	other	146	1335	66	735	0.0776772	0.181818	-0.356713	-0.578837	0.0282413
+frac_charged	exploratory (merged pocket, Q2.2 unit)	all	517	3509	125	1401	0.208333	0.183908	0.101749	-0.0876897	0.25332
+frac_charged	exploratory (merged pocket, Q2.2 unit)	drug_like	345	1102	65	338	0.216216	0.171241	0.217838	-0.0331187	0.387717
+frac_charged	exploratory (merged pocket, Q2.2 unit)	cofactor	26	1072	18	647	0.188261	0.1875	0.104083	-0.188935	0.479819
+frac_charged	exploratory (merged pocket, Q2.2 unit)	other	146	1335	66	735	0.183014	0.1875	-0.0197322	-0.156335	0.144443
+member_frac_hydrophobic	exploratory (located member)	all	516	3496	125	1395	0.454545	0.391304	0.251756	-0.00871576	0.454669
+member_frac_hydrophobic	exploratory (located member)	drug_like	345	1097	65	336	0.459459	0.444444	0.140864	-0.0961505	0.421532
+member_frac_hydrophobic	exploratory (located member)	cofactor	26	1071	18	647	0.427448	0.363636	0.179272	-0.163628	0.454423
+member_frac_hydrophobic	exploratory (located member)	other	145	1328	65	730	0.4375	0.375	0.202155	-0.102688	0.437126
+member_frac_charged	exploratory (located member)	all	516	3496	125	1395	0.2	0.173913	0.100886	-0.0846941	0.242091
+member_frac_charged	exploratory (located member)	drug_like	345	1097	65	336	0.214286	0.155556	0.196943	-0.03851	0.35165
+member_frac_charged	exploratory (located member)	cofactor	26	1071	18	647	0.171569	0.171053	0.0281189	-0.264711	0.389642
+member_frac_charged	exploratory (located member)	other	145	1328	65	730	0.181818	0.1875	-0.00216556	-0.137571	0.138123
+member_frac_aromatic	exploratory (located member)	all	516	3496	125	1395	0.0465116	0.190476	-0.466985	-0.652232	-0.0272236
+member_frac_aromatic	exploratory (located member)	drug_like	345	1097	65	336	0.0263158	0.208333	-0.551583	-0.684512	-0.115762
+member_frac_aromatic	exploratory (located member)	cofactor	26	1071	18	647	0.233032	0.178571	0.121669	-0.181005	0.394196
+member_frac_aromatic	exploratory (located member)	other	145	1328	65	730	0.0689655	0.194783	-0.371993	-0.602961	-0.00288776
+contact4A_frac_hydrophobic	exploratory (census contacts, 4 Å set)	all	517	3509	125	1401	0.444444	0.375	0.235375	0.0933796	0.35047
+contact4A_frac_hydrophobic	exploratory (census contacts, 4 Å set)	drug_like	345	1102	65	338	0.444444	0.454545	0.0266814	-0.123806	0.230681
+contact4A_frac_hydrophobic	exploratory (census contacts, 4 Å set)	cofactor	26	1072	18	647	0.431677	0.333333	0.354334	0.0988817	0.569189
+contact4A_frac_hydrophobic	exploratory (census contacts, 4 Å set)	other	146	1335	66	735	0.428571	0.363636	0.152183	-0.101865	0.31886
+contact4A_frac_charged	exploratory (census contacts, 4 Å set)	all	517	3509	125	1401	0.2	0.181818	0.0752263	-0.147734	0.258158
+contact4A_frac_charged	exploratory (census contacts, 4 Å set)	drug_like	345	1102	65	338	0.214286	0.153846	0.248031	-0.0363744	0.413463
+contact4A_frac_charged	exploratory (census contacts, 4 Å set)	cofactor	26	1072	18	647	0.148352	0.2	-0.188576	-0.448064	0.121809
+contact4A_frac_charged	exploratory (census contacts, 4 Å set)	other	146	1335	66	735	0.2	0.2	-0.0227336	-0.175377	0.148282
+contact4A_frac_aromatic	exploratory (census contacts, 4 Å set)	all	517	3509	125	1401	0	0.2	-0.442053	-0.634275	0.0301134
+contact4A_frac_aromatic	exploratory (census contacts, 4 Å set)	drug_like	345	1102	65	338	0	0.238095	-0.572877	-0.696266	-0.162837
+contact4A_frac_aromatic	exploratory (census contacts, 4 Å set)	cofactor	26	1072	18	647	0.271499	0.1875	0.362622	0.0648443	0.603674
+contact4A_frac_aromatic	exploratory (census contacts, 4 Å set)	other	146	1335	66	735	0.0787037	0.2	-0.319753	-0.549478	0.0612757
+contactBioLiP_frac_hydrophobic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	all	517	3509	125	1401	0.4	0.333333	0.155005	-0.0147569	0.343963
+contactBioLiP_frac_hydrophobic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	drug_like	345	1102	65	338	0.4	0.428571	-0.0557826	-0.251869	0.252351
+contactBioLiP_frac_hydrophobic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	cofactor	26	1072	18	647	0.429119	0.304348	0.356917	0.0302171	0.611963
+contactBioLiP_frac_hydrophobic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	other	146	1335	66	735	0.379808	0.333333	0.107239	-0.157239	0.316437
+contactBioLiP_frac_charged	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	all	517	3509	125	1401	0.222222	0.2	0.0461036	-0.145385	0.192275
+contactBioLiP_frac_charged	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	drug_like	345	1102	65	338	0.235294	0.166667	0.224648	-0.0279112	0.338774
+contactBioLiP_frac_charged	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	cofactor	26	1072	18	647	0.166667	0.222222	-0.192666	-0.507434	0.178587
+contactBioLiP_frac_charged	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	other	146	1335	66	735	0.2	0.222222	-0.0553538	-0.187096	0.0857968
+contactBioLiP_frac_aromatic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	all	517	3509	125	1401	0	0.222222	-0.417192	-0.611741	0.0487363
+contactBioLiP_frac_aromatic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	drug_like	345	1102	65	338	0	0.272727	-0.556167	-0.678406	-0.146954
+contactBioLiP_frac_aromatic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	cofactor	26	1072	18	647	0.338095	0.2	0.376794	0.0601576	0.638094
+contactBioLiP_frac_aromatic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	other	146	1335	66	735	0.02	0.214286	-0.279462	-0.514246	0.113705

@@ -1,0 +1,15 @@
+level	step	n_in	n_out	n_dropped
+entry	drop:method	261139	245730	15409
+entry	drop:no_resolution	245730	245709	21
+entry	drop:resolution	245709	219594	26115
+entry	drop:no_protein_chain_ge30	219594	215865	3729
+entry	drop:huge_assembly	215865	214272	1593
+entry	drop:no_protein_in_assembly	214272	214263	9
+entry	drop:error	214263	214263	0
+entry	info:entries_with_ligand_instances	214263	175604	38659
+ligand_instance	drop:assembly_type same_uniprot_hetero (reported separately)	1932129	1913629	18500
+ligand_instance	drop:symmetry/altloc/overlap duplicate copy	1913629	1867485	46144
+ligand_instance	drop:not bound (<2 protein residues with >=2 atom contacts)	1867485	1144679	722806
+ligand_instance	drop:glycan (branched or covalent sugar)	1144679	1072813	71866
+ligand_instance	drop:entry released after BioLiP2 snapshot (sensitivity set)	1072813	962554	110259
+ligand_instance	drop:additive (not BioLiP2-relevant and not SUBJECT OF INVESTIGATION)	962554	498712	463842

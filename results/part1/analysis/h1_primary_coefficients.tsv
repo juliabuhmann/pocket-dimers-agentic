@@ -1,0 +1,19 @@
+# design_sha256_frozen=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 design_sha256_current=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 design_matches=True git_commit=31df4316c21a91522c16c76ffd503ad18349e35b code_dirty=False census_dir=data/part1 census_version=v2 ligand_sites_bytes=221696831 ligand_sites_mtime=2026-10-29T18:09:29 druglike_fallback=False druglike_sentinels_pass=True chembl_release=chembl_37 generated=2026-10-29T18:38:05+0100 status=UNVERIFIED_until_independent_re-derivation
+term	log_or	se_cluster	or	ci_lo	ci_hi	p
+Intercept	23.4036	17.0319	1.45904e+10	4.63988e-05	4.58802e+24	0.169408
+C(cls, Treatment('drug_like'))[T.amino_acid]	-0.0596364	0.14868	0.942107	0.703953	1.26083	0.688343
+C(cls, Treatment('drug_like'))[T.cofactor]	-0.11105	0.197434	0.894894	0.607736	1.31774	0.5738
+C(cls, Treatment('drug_like'))[T.heme_porphyrin]	-0.278383	0.226279	0.757007	0.485837	1.17953	0.218599
+C(cls, Treatment('drug_like'))[T.lipid_fatty_acid]	0.535694	0.157215	1.70863	1.25553	2.32526	0.000655885
+C(cls, Treatment('drug_like'))[T.nucleotide_like]	-0.134077	0.156996	0.874522	0.642888	1.18961	0.393096
+C(cls, Treatment('drug_like'))[T.other_organic]	-0.0415979	0.127208	0.959255	0.747575	1.23087	0.743662
+C(cls, Treatment('drug_like'))[T.sugar_glycan]	-0.0511742	0.150347	0.950113	0.707619	1.27571	0.733575
+C(method)[T.xray]	-0.101654	0.135145	0.903342	0.693133	1.1773	0.451939
+bs(n_heavy, df=4)[0]	0.193931	0.356573	1.21401	0.603542	2.44196	0.586528
+bs(n_heavy, df=4)[1]	2.82247	1.38327	16.8184	1.11774	253.062	0.0413072
+bs(n_heavy, df=4)[2]	6.4394	4.6361	626.03	0.0708497	5.53161e+06	0.164842
+bs(n_heavy, df=4)[3]	0.824179	2.14719	2.28001	0.0339033	153.331	0.701097
+resolution	-0.253902	0.123672	0.775768	0.608782	0.988558	0.0400708
+n_chains	0.0544623	0.0060851	1.05597	1.04345	1.06864	3.55153e-19
+sg	0.115611	0.0965066	1.12256	0.9291	1.3563	0.230933
+year	-0.0120036	0.00832062	0.988068	0.972085	1.00431	0.149125

@@ -1,0 +1,9 @@
+method_class	assembly_type	n_entries
+em	heteromer	13237
+em	homomer	7415
+em	monomer	2042
+em	same_uniprot_hetero	197
+xray	heteromer	20815
+xray	homomer	74836
+xray	monomer	93000
+xray	same_uniprot_hetero	2721

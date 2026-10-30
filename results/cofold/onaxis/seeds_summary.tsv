@@ -1,0 +1,113 @@
+table	metric	group	cond	seed	n	n_success	rate	case_id	consistent	lig_rmsd_by_seed
+per_seed	sym	offaxis_cofactor	dimer	0	6	5	0.833			
+per_seed	sym	offaxis_cofactor	dimer	1	6	5	0.833			
+per_seed	sym	offaxis_cofactor	dimer	2	6	5	0.833			
+pooled	sym	offaxis_cofactor	dimer	0-2_complete_cases	18	15	0.833			
+pooled_all_runs	sym	offaxis_cofactor	dimer	all_available	18	15	0.833			
+per_case	sym	offaxis_cofactor	dimer	0,1,2	3	3	1.000	offaxis_7bia_GSH	True	0.21;0.24;0.29
+per_case	sym	offaxis_cofactor	dimer	0,1,2	3	3	1.000	offaxis_7r4m_NAP	True	0.44;0.45;0.38
+per_case	sym	offaxis_cofactor	dimer	0,1,2	3	3	1.000	offaxis_7rwg_SAM	True	0.28;0.20;0.21
+per_case	sym	offaxis_cofactor	dimer	0,1,2	3	3	1.000	offaxis_8ros_FMN	True	0.58;0.36;0.37
+per_case	sym	offaxis_cofactor	dimer	0,1,2	3	3	1.000	offaxis_8z0e_PLP	True	0.57;0.44;0.51
+per_case	sym	offaxis_cofactor	dimer	0,1,2	3	0	0.000	offaxis_9ckf_SAH	True	20.74;20.96;20.73
+per_seed	sym	offaxis_cofactor	monomer	0	6	6	1.000			
+per_seed	sym	offaxis_cofactor	monomer	1	6	6	1.000			
+per_seed	sym	offaxis_cofactor	monomer	2	6	6	1.000			
+pooled	sym	offaxis_cofactor	monomer	0-2_complete_cases	18	18	1.000			
+pooled_all_runs	sym	offaxis_cofactor	monomer	all_available	18	18	1.000			
+per_case	sym	offaxis_cofactor	monomer	0,1,2	3	3	1.000	offaxis_7bia_GSH	True	0.24;0.30;0.23
+per_case	sym	offaxis_cofactor	monomer	0,1,2	3	3	1.000	offaxis_7r4m_NAP	True	1.20;1.13;1.04
+per_case	sym	offaxis_cofactor	monomer	0,1,2	3	3	1.000	offaxis_7rwg_SAM	True	0.38;0.37;0.38
+per_case	sym	offaxis_cofactor	monomer	0,1,2	3	3	1.000	offaxis_8ros_FMN	True	0.18;0.23;0.20
+per_case	sym	offaxis_cofactor	monomer	0,1,2	3	3	1.000	offaxis_8z0e_PLP	True	0.61;0.57;0.59
+per_case	sym	offaxis_cofactor	monomer	0,1,2	3	3	1.000	offaxis_9ckf_SAH	True	0.53;0.55;0.52
+per_seed	sym	on_axis_druglike	dimer	0	12	7	0.583			
+per_seed	sym	on_axis_druglike	dimer	1	12	7	0.583			
+per_seed	sym	on_axis_druglike	dimer	2	12	7	0.583			
+pooled	sym	on_axis_druglike	dimer	0-2_complete_cases	36	21	0.583			
+pooled_all_runs	sym	on_axis_druglike	dimer	all_available	36	21	0.583			
+per_case	sym	on_axis_druglike	dimer	0,1,2	3	3	1.000	on_4h30_0ZD	True	0.36;0.36;0.52
+per_case	sym	on_axis_druglike	dimer	0,1,2	3	0	0.000	on_4ja8_1K9	True	7.48;7.39;7.53
+per_case	sym	on_axis_druglike	dimer	0,1,2	3	2	0.667	on_4mtz_0BU	False	1.14;0.97;3.06
+per_case	sym	on_axis_druglike	dimer	0,1,2	3	3	1.000	on_6rv3_KKQ	True	1.31;1.28;1.18
+per_case	sym	on_axis_druglike	dimer	0,1,2	3	3	1.000	on_7ama_RMK	True	0.45;0.48;0.45
+per_case	sym	on_axis_druglike	dimer	0,1,2	3	0	0.000	on_7mr7_ZN1	True	13.38;8.43;8.42
+per_case	sym	on_axis_druglike	dimer	0,1,2	3	0	0.000	on_8cza_ZN1	True	8.59;9.29;8.06
+per_case	sym	on_axis_druglike	dimer	0,1,2	3	3	1.000	on_8f78_2J6	True	0.52;0.67;0.79
+per_case	sym	on_axis_druglike	dimer	0,1,2	3	0	0.000	on_8pc4_HCZ	True	9.26;11.07;8.61
+per_case	sym	on_axis_druglike	dimer	0,1,2	3	3	1.000	on_8sti_WX8	True	0.73;0.75;0.66
+per_case	sym	on_axis_druglike	dimer	0,1,2	3	3	1.000	on_9i0u_A1IZJ	True	1.60;1.66;1.66
+per_case	sym	on_axis_druglike	dimer	0,1,2	3	1	0.333	on_9mel_1II	False	3.15;2.12;1.40
+per_seed	sym	on_axis_druglike	monomer	0	12	3	0.250			
+per_seed	sym	on_axis_druglike	monomer	1	12	3	0.250			
+per_seed	sym	on_axis_druglike	monomer	2	12	2	0.167			
+pooled	sym	on_axis_druglike	monomer	0-2_complete_cases	36	8	0.222			
+pooled_all_runs	sym	on_axis_druglike	monomer	all_available	36	8	0.222			
+per_case	sym	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_4h30_0ZD	True	2.22;3.09;2.38
+per_case	sym	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_4ja8_1K9	True	24.98;20.25;20.23
+per_case	sym	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_4mtz_0BU	True	3.78;2.55;3.56
+per_case	sym	on_axis_druglike	monomer	0,1,2	3	2	0.667	on_6rv3_KKQ	False	1.54;1.43;6.78
+per_case	sym	on_axis_druglike	monomer	0,1,2	3	3	1.000	on_7ama_RMK	True	1.05;1.10;0.77
+per_case	sym	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_7mr7_ZN1	True	11.74;7.73;12.26
+per_case	sym	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_8cza_ZN1	True	9.20;16.18;8.68
+per_case	sym	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_8f78_2J6	True	35.50;36.26;5.82
+per_case	sym	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_8pc4_HCZ	True	19.07;18.98;18.94
+per_case	sym	on_axis_druglike	monomer	0,1,2	3	3	1.000	on_8sti_WX8	True	0.87;0.88;1.79
+per_case	sym	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_9i0u_A1IZJ	True	2.27;2.36;3.58
+per_case	sym	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_9mel_1II	True	7.32;8.16;7.46
+per_seed	orig	offaxis_cofactor	dimer	0	6	5	0.833			
+per_seed	orig	offaxis_cofactor	dimer	1	6	5	0.833			
+per_seed	orig	offaxis_cofactor	dimer	2	6	5	0.833			
+pooled	orig	offaxis_cofactor	dimer	0-2_complete_cases	18	15	0.833			
+pooled_all_runs	orig	offaxis_cofactor	dimer	all_available	18	15	0.833			
+per_case	orig	offaxis_cofactor	dimer	0,1,2	3	3	1.000	offaxis_7bia_GSH	True	1.01;0.74;1.03
+per_case	orig	offaxis_cofactor	dimer	0,1,2	3	3	1.000	offaxis_7r4m_NAP	True	0.79;0.68;0.64
+per_case	orig	offaxis_cofactor	dimer	0,1,2	3	3	1.000	offaxis_7rwg_SAM	True	0.65;0.62;0.21
+per_case	orig	offaxis_cofactor	dimer	0,1,2	3	3	1.000	offaxis_8ros_FMN	True	0.58;0.36;0.74
+per_case	orig	offaxis_cofactor	dimer	0,1,2	3	3	1.000	offaxis_8z0e_PLP	True	1.03;0.96;0.99
+per_case	orig	offaxis_cofactor	dimer	0,1,2	3	0	0.000	offaxis_9ckf_SAH	True	20.74;20.96;20.73
+per_seed	orig	offaxis_cofactor	monomer	0	6	6	1.000			
+per_seed	orig	offaxis_cofactor	monomer	1	6	6	1.000			
+per_seed	orig	offaxis_cofactor	monomer	2	6	6	1.000			
+pooled	orig	offaxis_cofactor	monomer	0-2_complete_cases	18	18	1.000			
+pooled_all_runs	orig	offaxis_cofactor	monomer	all_available	18	18	1.000			
+per_case	orig	offaxis_cofactor	monomer	0,1,2	3	3	1.000	offaxis_7bia_GSH	True	1.01;1.03;0.23
+per_case	orig	offaxis_cofactor	monomer	0,1,2	3	3	1.000	offaxis_7r4m_NAP	True	1.29;1.33;1.17
+per_case	orig	offaxis_cofactor	monomer	0,1,2	3	3	1.000	offaxis_7rwg_SAM	True	0.70;0.37;0.38
+per_case	orig	offaxis_cofactor	monomer	0,1,2	3	3	1.000	offaxis_8ros_FMN	True	0.18;0.67;0.20
+per_case	orig	offaxis_cofactor	monomer	0,1,2	3	3	1.000	offaxis_8z0e_PLP	True	1.28;1.26;1.02
+per_case	orig	offaxis_cofactor	monomer	0,1,2	3	3	1.000	offaxis_9ckf_SAH	True	0.53;0.55;0.52
+per_seed	orig	on_axis_druglike	dimer	0	12	7	0.583			
+per_seed	orig	on_axis_druglike	dimer	1	12	7	0.583			
+per_seed	orig	on_axis_druglike	dimer	2	12	6	0.500			
+pooled	orig	on_axis_druglike	dimer	0-2_complete_cases	36	20	0.556			
+pooled_all_runs	orig	on_axis_druglike	dimer	all_available	36	20	0.556			
+per_case	orig	on_axis_druglike	dimer	0,1,2	3	3	1.000	on_4h30_0ZD	True	0.58;0.94;0.92
+per_case	orig	on_axis_druglike	dimer	0,1,2	3	0	0.000	on_4ja8_1K9	True	7.51;7.42;7.54
+per_case	orig	on_axis_druglike	dimer	0,1,2	3	2	0.667	on_4mtz_0BU	False	1.71;1.57;3.28
+per_case	orig	on_axis_druglike	dimer	0,1,2	3	3	1.000	on_6rv3_KKQ	True	1.41;1.33;1.31
+per_case	orig	on_axis_druglike	dimer	0,1,2	3	3	1.000	on_7ama_RMK	True	0.75;0.76;0.45
+per_case	orig	on_axis_druglike	dimer	0,1,2	3	0	0.000	on_7mr7_ZN1	True	13.40;8.45;8.46
+per_case	orig	on_axis_druglike	dimer	0,1,2	3	0	0.000	on_8cza_ZN1	True	8.59;9.30;8.06
+per_case	orig	on_axis_druglike	dimer	0,1,2	3	3	1.000	on_8f78_2J6	True	1.13;0.67;0.79
+per_case	orig	on_axis_druglike	dimer	0,1,2	3	0	0.000	on_8pc4_HCZ	True	9.29;11.08;8.61
+per_case	orig	on_axis_druglike	dimer	0,1,2	3	3	1.000	on_8sti_WX8	True	0.73;0.75;0.66
+per_case	orig	on_axis_druglike	dimer	0,1,2	3	3	1.000	on_9i0u_A1IZJ	True	1.60;1.66;1.66
+per_case	orig	on_axis_druglike	dimer	0,1,2	3	0	0.000	on_9mel_1II	True	4.97;4.37;4.12
+per_seed	orig	on_axis_druglike	monomer	0	12	3	0.250			
+per_seed	orig	on_axis_druglike	monomer	1	12	3	0.250			
+per_seed	orig	on_axis_druglike	monomer	2	12	2	0.167			
+pooled	orig	on_axis_druglike	monomer	0-2_complete_cases	36	8	0.222			
+pooled_all_runs	orig	on_axis_druglike	monomer	all_available	36	8	0.222			
+per_case	orig	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_4h30_0ZD	True	2.34;3.39;2.66
+per_case	orig	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_4ja8_1K9	True	24.98;20.26;20.24
+per_case	orig	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_4mtz_0BU	True	4.24;2.76;3.67
+per_case	orig	on_axis_druglike	monomer	0,1,2	3	2	0.667	on_6rv3_KKQ	False	1.57;1.43;6.83
+per_case	orig	on_axis_druglike	monomer	0,1,2	3	3	1.000	on_7ama_RMK	True	1.05;1.80;1.11
+per_case	orig	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_7mr7_ZN1	True	11.74;7.74;12.27
+per_case	orig	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_8cza_ZN1	True	9.21;16.19;8.70
+per_case	orig	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_8f78_2J6	True	35.50;36.26;5.82
+per_case	orig	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_8pc4_HCZ	True	19.09;18.98;18.96
+per_case	orig	on_axis_druglike	monomer	0,1,2	3	3	1.000	on_8sti_WX8	True	0.87;0.88;1.79
+per_case	orig	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_9i0u_A1IZJ	True	2.27;2.36;3.58
+per_case	orig	on_axis_druglike	monomer	0,1,2	3	0	0.000	on_9mel_1II	True	8.09;8.19;8.34

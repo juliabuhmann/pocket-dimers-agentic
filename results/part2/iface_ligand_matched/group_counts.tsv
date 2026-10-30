@@ -1,0 +1,12 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=86a098eac2ff02728031bacb062200d4cf9f3e8d status=UNVERIFIED EXPLORATORY groups IM/IU/SM/SU
+group	n_pockets	n_clusters	n_models
+SU	2181	465.0	594.0
+IU	1193	501.0	638.0
+SM	516	292.0	368.0
+other	469	274.0	343.0
+IM	173	126.0	148.0
+interface_total	1547	557.0	733.0
+interface_matched_MBS_dcc_only	72		
+interface_matched_MBS_oc_only_def	172		
+interface_matched_any_SBS	128		
+interface_matched_MBS_and_SBS	56		

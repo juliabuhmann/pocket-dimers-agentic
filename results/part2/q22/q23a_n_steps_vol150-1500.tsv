@@ -1,0 +1,10 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=1113101950298ac1860497a1804c55aa71b0b1f5 status=UNVERIFIED EXPLORATORY Q2.3a
+step	n
+qualifying_dimer_only_druglike_pockets	2922
+proteins_with_qualifying_pocket	2504
+excluded_atlas_druglike_pocket	939
+excluded_isolated_chain_druglike_pocket	1855
+excluded_single_chain_dimer_druglike_pocket	1177
+listed_total	462
+listed_in_atlas	284
+listed_not_in_atlas	178

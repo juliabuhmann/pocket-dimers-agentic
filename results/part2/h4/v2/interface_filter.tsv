@@ -1,0 +1,14 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=41b1b2d census=v2 jaccard_min=0.3 status=UNVERIFIED
+kind	lig_set	site_type	units_before	units_after	units_removed	rows_jaccard_lt_min
+hetero	inorganic	SBS	7	7	0	0
+hetero	inorganic	MBS	3	3	0	0
+hetero	metal	SBS	295	275	20	130
+hetero	metal	MBS	19	18	1	1
+hetero	organic	SBS	668	615	53	113
+hetero	organic	MBS	135	119	16	27
+homo	inorganic	SBS	108	91	17	63
+homo	inorganic	MBS	34	32	2	8
+homo	metal	SBS	355	323	32	132
+homo	metal	MBS	39	33	6	17
+homo	organic	SBS	2417	2260	157	411
+homo	organic	MBS	1346	1019	327	458

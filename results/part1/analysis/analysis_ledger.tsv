@@ -1,0 +1,116 @@
+# design_sha256_frozen=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 design_sha256_current=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 design_matches=True git_commit=31df4316c21a91522c16c76ffd503ad18349e35b code_dirty=False census_dir=data/part1 census_version=v2 ligand_sites_bytes=221696831 ligand_sites_mtime=2026-10-29T18:09:29 druglike_fallback=False druglike_sentinels_pass=True chembl_release=chembl_37 generated=2026-10-29T18:38:05+0100 status=UNVERIFIED_until_independent_re-derivation
+variant	level	step	n	n_clusters
+primary	ligand_instance	all ligand instances (assembly 1)	1932129	22000
+primary	ligand_instance	not duplicate copy	1885733	21999
+primary	ligand_instance	bound (bound_p)	1158667	21243
+primary	ligand_instance	not glycan	1083502	20931
+primary	ligand_instance	entry covered by BioLiP2 snapshot	972538	19978
+primary	ligand_instance	not additive (is_additive)	502621	14330
+primary	ligand_instance	no antibody-chain contact	501762	14304
+primary	ligand_instance	oligomer assembly (homomer/heteromer)	395673	10045
+primary	ligand_instance	cluster30 assigned	395627	10045
+primary	site (symmetric copies collapsed)	collapse by site_group	183660	10027
+primary	unit (cluster30 x CCD)	representative entry	44178	10027
+strict_mbs	ligand_instance	all ligand instances (assembly 1)	1932129	22000
+strict_mbs	ligand_instance	not duplicate copy	1885733	21999
+strict_mbs	ligand_instance	bound (bound_p)	1158667	21243
+strict_mbs	ligand_instance	not glycan	1083502	20931
+strict_mbs	ligand_instance	entry covered by BioLiP2 snapshot	972538	19978
+strict_mbs	ligand_instance	not additive (is_additive)	502621	14330
+strict_mbs	ligand_instance	no antibody-chain contact	501762	14304
+strict_mbs	ligand_instance	oligomer assembly (homomer/heteromer)	395673	10045
+strict_mbs	ligand_instance	cluster30 assigned	395627	10045
+strict_mbs	site (symmetric copies collapsed)	collapse by site_group	183660	10027
+strict_mbs	unit (cluster30 x CCD)	representative entry	44178	10027
+contacts_4A	ligand_instance	all ligand instances (assembly 1)	1932129	22000
+contacts_4A	ligand_instance	not duplicate copy	1885733	21999
+contacts_4A	ligand_instance	bound (is_bound_4A)	1405457	21739
+contacts_4A	ligand_instance	not glycan	1304176	21428
+contacts_4A	ligand_instance	entry covered by BioLiP2 snapshot	1169771	20454
+contacts_4A	ligand_instance	not additive (is_additive)	520895	14409
+contacts_4A	ligand_instance	no antibody-chain contact	519997	14384
+contacts_4A	ligand_instance	oligomer assembly (homomer/heteromer)	411743	10103
+contacts_4A	ligand_instance	cluster30 assigned	406492	10103
+contacts_4A	site (symmetric copies collapsed)	collapse by site_group	187139	10087
+contacts_4A	unit (cluster30 x CCD)	representative entry	44588	10087
+plinder_additives	ligand_instance	all ligand instances (assembly 1)	1932129	22000
+plinder_additives	ligand_instance	not duplicate copy	1885733	21999
+plinder_additives	ligand_instance	bound (bound_p)	1158667	21243
+plinder_additives	ligand_instance	not glycan	1083502	20931
+plinder_additives	ligand_instance	entry covered by BioLiP2 snapshot	972538	19978
+plinder_additives	ligand_instance	not additive (plinder_artifact)	563377	15543
+plinder_additives	ligand_instance	no antibody-chain contact	562031	15511
+plinder_additives	ligand_instance	oligomer assembly (homomer/heteromer)	440096	10833
+plinder_additives	ligand_instance	cluster30 assigned	440048	10833
+plinder_additives	site (symmetric copies collapsed)	collapse by site_group	197367	10825
+plinder_additives	unit (cluster30 x CCD)	representative entry	45479	10825
+biolip_geom_additives	ligand_instance	all ligand instances (assembly 1)	1932129	22000
+biolip_geom_additives	ligand_instance	not duplicate copy	1885733	21999
+biolip_geom_additives	ligand_instance	bound (bound_p)	1158667	21243
+biolip_geom_additives	ligand_instance	not glycan	1083502	20931
+biolip_geom_additives	ligand_instance	entry covered by BioLiP2 snapshot	972538	19978
+biolip_geom_additives	ligand_instance	not additive (biolip_list_geom_artifact)	847997	19573
+biolip_geom_additives	ligand_instance	no antibody-chain contact	843278	19531
+biolip_geom_additives	ligand_instance	oligomer assembly (homomer/heteromer)	637232	13590
+biolip_geom_additives	ligand_instance	cluster30 assigned	637168	13590
+biolip_geom_additives	site (symmetric copies collapsed)	collapse by site_group	307585	13576
+biolip_geom_additives	unit (cluster30 x CCD)	representative entry	70783	13576
+assembly_author_software_agree	ligand_instance	all ligand instances (assembly 1)	1932129	22000
+assembly_author_software_agree	ligand_instance	not duplicate copy	1885733	21999
+assembly_author_software_agree	ligand_instance	bound (bound_p)	1158667	21243
+assembly_author_software_agree	ligand_instance	not glycan	1083502	20931
+assembly_author_software_agree	ligand_instance	entry covered by BioLiP2 snapshot	972538	19978
+assembly_author_software_agree	ligand_instance	not additive (is_additive)	502621	14330
+assembly_author_software_agree	ligand_instance	no antibody-chain contact	501762	14304
+assembly_author_software_agree	ligand_instance	oligomer assembly (homomer/heteromer)	395673	10045
+assembly_author_software_agree	ligand_instance	cluster30 assigned	395627	10045
+assembly_author_software_agree	ligand_instance	assembly author/software agree	244071	8007
+assembly_author_software_agree	site (symmetric copies collapsed)	collapse by site_group	102484	7999
+assembly_author_software_agree	unit (cluster30 x CCD)	representative entry	33991	7999
+exclude_photosynthetic	ligand_instance	all ligand instances (assembly 1)	1932129	22000
+exclude_photosynthetic	ligand_instance	not duplicate copy	1885733	21999
+exclude_photosynthetic	ligand_instance	bound (bound_p)	1158667	21243
+exclude_photosynthetic	ligand_instance	not glycan	1083502	20931
+exclude_photosynthetic	ligand_instance	entry covered by BioLiP2 snapshot	972538	19978
+exclude_photosynthetic	ligand_instance	not additive (is_additive)	502621	14330
+exclude_photosynthetic	ligand_instance	no antibody-chain contact	501762	14304
+exclude_photosynthetic	ligand_instance	oligomer assembly (homomer/heteromer)	395673	10045
+exclude_photosynthetic	ligand_instance	cluster30 assigned	395627	10045
+exclude_photosynthetic	ligand_instance	not photosynthetic entry	340796	9796
+exclude_photosynthetic	site (symmetric copies collapsed)	collapse by site_group	150609	9785
+exclude_photosynthetic	unit (cluster30 x CCD)	representative entry	42936	9785
+post_biolip_fallback_set	ligand_instance	all ligand instances (assembly 1)	1932129	22000
+post_biolip_fallback_set	ligand_instance	not duplicate copy	1885733	21999
+post_biolip_fallback_set	ligand_instance	bound (bound_p)	1158667	21243
+post_biolip_fallback_set	ligand_instance	not glycan	1083502	20931
+post_biolip_fallback_set	ligand_instance	entry NOT covered by BioLiP2 (FALLBACK additive label)	110964	3697
+post_biolip_fallback_set	ligand_instance	not additive (is_additive)	81226	3269
+post_biolip_fallback_set	ligand_instance	no antibody-chain contact	81061	3260
+post_biolip_fallback_set	ligand_instance	oligomer assembly (homomer/heteromer)	70756	2429
+post_biolip_fallback_set	ligand_instance	cluster30 assigned	70750	2429
+post_biolip_fallback_set	site (symmetric copies collapsed)	collapse by site_group	35999	2423
+post_biolip_fallback_set	unit (cluster30 x CCD)	representative entry	7703	2423
+druglike_ro5qed_secondary	ligand_instance	all ligand instances (assembly 1)	1932129	22000
+druglike_ro5qed_secondary	ligand_instance	not duplicate copy	1885733	21999
+druglike_ro5qed_secondary	ligand_instance	bound (bound_p)	1158667	21243
+druglike_ro5qed_secondary	ligand_instance	not glycan	1083502	20931
+druglike_ro5qed_secondary	ligand_instance	entry covered by BioLiP2 snapshot	972538	19978
+druglike_ro5qed_secondary	ligand_instance	not additive (is_additive)	502621	14330
+druglike_ro5qed_secondary	ligand_instance	no antibody-chain contact	501762	14304
+druglike_ro5qed_secondary	ligand_instance	oligomer assembly (homomer/heteromer)	395673	10045
+druglike_ro5qed_secondary	ligand_instance	cluster30 assigned	395627	10045
+druglike_ro5qed_secondary	site (symmetric copies collapsed)	collapse by site_group	183660	10027
+druglike_ro5qed_secondary	unit (cluster30 x CCD)	representative entry	44178	10027
+marsh_ge1pair_residue	ligand_instance	all ligand instances (assembly 1)	1932129	22000
+marsh_ge1pair_residue	ligand_instance	not duplicate copy	1885733	21999
+marsh_ge1pair_residue	ligand_instance	bound (bound_1atom)	1346433	21683
+marsh_ge1pair_residue	ligand_instance	not glycan	1252003	21376
+marsh_ge1pair_residue	ligand_instance	entry covered by BioLiP2 snapshot	1123147	20396
+marsh_ge1pair_residue	ligand_instance	not additive (is_additive)	515883	14398
+marsh_ge1pair_residue	ligand_instance	no antibody-chain contact	514992	14373
+marsh_ge1pair_residue	ligand_instance	oligomer assembly (homomer/heteromer)	407172	10097
+marsh_ge1pair_residue	ligand_instance	cluster30 assigned	404415	10097
+marsh_ge1pair_residue	site (symmetric copies collapsed)	collapse by site_group	186637	10081
+marsh_ge1pair_residue	unit (cluster30 x CCD)	representative entry	44528	10081
+leave_out_top10_clusters	unit (cluster30 x CCD)	leave-out	40553	10017
+leave_out_top10_ligands	unit (cluster30 x CCD)	leave-out	35688	7472

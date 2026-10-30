@@ -1,0 +1,14 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=55df208 census=v2 note=counted_before_recovery status=UNVERIFIED
+kind	lig_set	site_type	n_rows	n_units	n_models	n_cluster30	n_boot_clusters	n_entries
+hetero	inorganic	SBS	11	7	7	7	7	9
+hetero	inorganic	MBS	4	3	3	3	3	4
+hetero	metal	SBS	1216	295	208	176	144	466
+hetero	metal	MBS	39	19	13	15	13	35
+hetero	organic	SBS	1094	668	180	154	123	684
+hetero	organic	MBS	222	135	76	81	63	196
+homo	inorganic	SBS	303	108	86	78	76	209
+homo	inorganic	MBS	72	34	26	24	24	69
+homo	metal	SBS	2120	356	261	227	217	1312
+homo	metal	MBS	204	42	30	26	25	174
+homo	organic	SBS	4269	2417	393	325	317	2989
+homo	organic	MBS	2047	1346	198	175	172	1728

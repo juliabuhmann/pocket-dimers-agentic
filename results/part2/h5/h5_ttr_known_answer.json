@@ -1,0 +1,18 @@
+{
+ "signal_peptide_len": 20,
+ "uniprot_pos": 50,
+ "uniprot_wt": "V",
+ "expected_wt": "V",
+ "humsavar": "V50A:P/LP;V50L:P/LP;V50M:P/LP;V50G:P/LP",
+ "aggregated_cat": "buried",
+ "ttr_plp_residues": 48,
+ "ttr_plp_by_cat": {
+  "dimer_only": 6,
+  "sc_pocket": 1,
+  "interface": 4,
+  "surface": 18,
+  "buried": 19
+ },
+ "design_sha256": "e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28",
+ "git_commit": "46a2545"
+}

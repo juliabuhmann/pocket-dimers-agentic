@@ -1,0 +1,12 @@
+ligand_class	marsh_class	n_ccd
+amino_acid	small_molecule	2441
+cofactor	cofactor	335
+drug_like	small_molecule	23454
+heme_porphyrin	cofactor	167
+inorganic	small_molecule	136
+lipid_fatty_acid	small_molecule	1175
+metal_cluster	cofactor	277
+metal_ion	metal	83
+nucleotide_like	small_molecule	2897
+other_organic	small_molecule	19380
+sugar_glycan	small_molecule	1192

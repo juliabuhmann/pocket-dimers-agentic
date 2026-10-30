@@ -1,0 +1,5 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=55df208 census=v2 status=UNVERIFIED
+check	status	pdb	ccd	model	is_mbs	is_on_axis	iface_jaccard	pipeline_dimer_dcc	pipeline_dimer_nocollapse_dcc	pipeline_iso_dcc	pipeline_dimer_hit	pipeline_iso_hit	pipeline_rmsd_local	independent_dcc_any_pocket	independent_nearest_pocket_rank	independent_global_rmsd	independent_n_ca	topk	n	shuffled_hit_rate	null_seed0_hit_rate	real_hit_rate
+hand_check	PASS	11gs	GSH	AF-0000000065928178	True	False	0.9672131147540983	2.7950218911386857	2.7950218911386857	5.071704553708066	True	False	0.36561473531712607	3.021121238412841	3.0	0.3916833420678265	416.0	3.0				
+negative_control_dimer	PASS																		4013.0	0.02965362571642163	0.0049838026414154	0.3952155494642412
+negative_control_iso	PASS																		4013.0	0.02716172439571393	0.00448542237727386	0.392225267879392

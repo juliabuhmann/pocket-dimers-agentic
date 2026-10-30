@@ -1,0 +1,11 @@
+ligand_uid	cl30_pair	reason
+8qu5:FB:101:PNS:1	(557, 4589)	no_cached_msa_or_seq_ne_uniprot
+3n7s:E:1:3N6:1	(17520, 43708)	no_cached_msa_or_seq_ne_uniprot
+7ybu:M:801:BTI:1	(1198, 3739)	tokens=1282>1280
+8hbf:G:702:GZO:1	(4052, 4052)	tokens=1340>1280
+8hbf:C:1001:G2P:1	(4052, 4052)	tokens=1341>1280
+7r8b:E:701:CLR:1	(2802, 2802)	tokens=1352>1280
+7r89:E:901:ERG:1	(2802, 2802)	tokens=1353>1280
+7zvt:E:801:IHP:1	(2567, 3044)	tokens=1377>1280
+7su3:I:701:IHP:1	(2567, 3044)	tokens=1377>1280
+9ggb:H:1303:A1IK1:1	(3620, 4020)	tokens=1708>1280

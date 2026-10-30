@@ -1,0 +1,15 @@
+batch	case_id	rmsd_dimer	logr_dimer	succ_dimer	n_seeds_dimer	rmsd_single	logr_single	succ_single	n_seeds_single	gain_rmsd	gain_log10	success_diff	dimer_only	pdb_id	ccd	ref_copy	ref_copy_centroid_offset	site_chain_counts	n_site	n_minor	partner_share	cls	label
+dimeronly	SOD1_5o40_9JT	3.453	0.535	0.000	2	0.706	-0.161	1.000	2	-2.748	-0.695	-1.000	0	5o40	9JT	A1:503	0.005	"{""A1"": 4, ""F1"": 0}"	4	0	0.000	dimer-only pocket	SOD1_5o40_9JT
+dimeronly	STING1_9cuc_A1A4R	0.418	-0.378	1.000	2	5.062	0.704	0.000	2	4.644	1.083	1.000	1	9cuc	A1A4R	A1:4000	0.001	"{""A1"": 6, ""B1"": 4}"	10	4	0.400	dimer-only pocket	STING1_9cuc_A1A4R
+onaxis	offaxis_7bia_GSH	0.226	-0.646	1.000	2	0.266	-0.577	1.000	2	0.040	0.069	0.000	0	7bia	GSH	A1:402	0.005	"{""A1"": 9, ""B1"": 1}"	10	1	0.100	off-axis cofactor (onaxis)	7bia_GSH
+onaxis	offaxis_8ros_FMN	0.445	-0.366	1.000	2	0.204	-0.692	1.000	2	-0.240	-0.326	0.000	0	8ros	FMN	AAA1:301	0.005	"{""AAA1"": 11, ""AAA2"": 4}"	15	4	0.267	off-axis cofactor (onaxis)	8ros_FMN
+onaxis	on_4h30_0ZD	0.359	-0.444	1.000	2	2.654	0.418	0.000	2	2.294	0.862	1.000	1	4h30	0ZD	B1:306	0.006	"{""A1"": 11, ""B1"": 11}"	22	11	0.500	on-axis drug (onaxis)	4h30_0ZD
+onaxis	on_4mtz_0BU	1.051	0.020	1.000	2	3.163	0.492	0.000	2	2.112	0.471	1.000	1	4mtz	0BU	C1:3102	0.005	"{""A1"": 6, ""C1"": 6}"	12	6	0.500	on-axis drug (onaxis)	4mtz_0BU
+onaxis	on_6rv3_KKQ	1.295	0.112	1.000	2	1.484	0.171	1.000	2	0.189	0.059	0.000	0	6rv3	KKQ	A1:300	0.004	"{""A1"": 7, ""B1"": 6}"	13	6	0.462	on-axis drug (onaxis)	6rv3_KKQ
+onaxis	on_7ama_RMK	0.463	-0.335	1.000	2	1.077	0.032	1.000	2	0.614	0.367	0.000	0	7ama	RMK	B1:201	0.004	"{""A1"": 6, ""B1"": 6}"	12	6	0.500	on-axis drug (onaxis)	7ama_RMK
+onaxis	on_7mr7_ZN1	10.905	1.026	0.000	2	9.735	0.979	0.000	2	-1.171	-0.047	0.000	0	7mr7	ZN1	A1:302	0.006	"{""A1"": 7, ""B1"": 10}"	17	7	0.412	on-axis drug (onaxis)	7mr7_ZN1
+onaxis	on_8cza_ZN1	8.941	0.951	0.000	2	12.691	1.086	0.000	2	3.750	0.135	0.000	0	8cza	ZN1	B1:201	0.006	"{""A1"": 7, ""B1"": 7}"	14	7	0.500	on-axis drug (onaxis)	8cza_ZN1
+onaxis	on_8f78_2J6	0.591	-0.228	1.000	2	35.826	1.554	0.000	2	35.235	1.782	1.000	1	8f78	2J6	A1:301	0.004	"{""A1"": 5, ""B1"": 3}"	8	3	0.375	on-axis drug (onaxis)	8f78_2J6
+onaxis	on_8sti_WX8	0.740	-0.131	1.000	2	0.876	-0.057	1.000	2	0.136	0.074	0.000	0	8sti	WX8	A1:401	0.005	"{""A1"": 7, ""A2"": 7}"	14	7	0.500	on-axis drug (onaxis)	8sti_WX8
+onaxis	on_9i0u_A1IZJ	1.634	0.213	1.000	2	2.312	0.364	0.000	2	0.679	0.151	1.000	1	9i0u	A1IZJ	B1:202	0.008	"{""A1"": 7, ""B1"": 9}"	16	7	0.438	on-axis drug (onaxis)	9i0u_A1IZJ
+onaxis	on_9mel_1II	2.635	0.413	0.000	2	7.737	0.888	0.000	2	5.101	0.475	0.000	0	9mel	1II	B1:401	0.005	"{""A1"": 3, ""B1"": 7}"	10	3	0.300	on-axis drug (onaxis)	9mel_1II

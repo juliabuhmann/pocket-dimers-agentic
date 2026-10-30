@@ -1,0 +1,12 @@
+step	n
+atlas_pass	69857
+F1_score	27943
+F2_lining_plddt80_both	10542
+F3_ge5_res_each_chain	5942
+F5_volume	2038
+F6_ipSAE	1696
+F7a_iso_overlap	299
+sym_rep	238
+F7b_atlas_overlap	165
+F4_helix_lt0.7	114
+dedup_pocket	114

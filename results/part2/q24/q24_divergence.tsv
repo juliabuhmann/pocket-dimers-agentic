@@ -1,0 +1,14 @@
+# TimeTree pairwise API (https://timetree.org/api/pairwise/9606/<taxid>), retrieved 2026-10-29
+species	taxid	scientific_name	divergence_mya	ci_low	ci_high	source
+mouse	10090	Mus musculus	83.51396	80.136695286752	86.891216814408	timetree_api
+rat	10116	Rattus norvegicus	83.51396	80.136695286752	86.891216814408	timetree_api
+zebrafish	7955	Danio rerio	435.12563	428.13539896745	442.11585385342	timetree_api
+fly	7227	Drosophila melanogaster	692.17015	645.71043982296	797.19564544216	timetree_api
+worm	6239	Caenorhabditis elegans	692.17015	645.71043982296	797.19564544216	timetree_api
+yeast	4932	Saccharomyces cerevisiae	1164.29781	1113.0995219198	1322.6112303024	timetree_api
+pombe	4896	Schizosaccharomyces pombe	1164.29781	1113.0995219198	1322.6112303024	timetree_api
+arabidopsis	3702	Arabidopsis thaliana	1515.8312	1227.8780803201	1682.6448446799	timetree_api
+dicty	44689	Dictyostelium discoideum	1515.8312	1227.8780803201	1682.6448446799	timetree_api
+ecoli	562		4200.0			ASSUMED (approx. LUCA age); API fetch_failed: HTTP Error 500: Internal Server Error
+mtb	1773		4200.0			ASSUMED (approx. LUCA age); API fetch_failed: HTTP Error 500: Internal Server Error
+paeruginosa	287		4200.0			ASSUMED (approx. LUCA age); API fetch_failed: HTTP Error 500: Internal Server Error

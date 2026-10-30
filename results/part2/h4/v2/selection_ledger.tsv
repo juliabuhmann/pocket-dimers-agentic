@@ -1,0 +1,15 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=55df208 census=v2 status=UNVERIFIED
+step	n	n_entries
+primary-set homomer/heteromer sites in entries containing a model protein	44370	10800.0
+dropped: sbs_no_model_pair_in_entry	13424	
+dropped: sbs_chain_without_uniprot	152	
+dropped: mbs_pair_not_modelled	2495	
+dropped: mbs_chain_without_uniprot	90	
+site x model candidate rows	29436	6592.0
+non-redundant units (model x cluster30 x CCD x MBS label), before mapping	5697	
+entries selected (<= 3 best-resolution entries per unit)	5462	
+SIFTS XML available	5462	
+SIFTS XML missing/failed	0	
+entries with errors	0	
+site x model rows status=ok	24174	
+site x model rows status=no_partner_chain	237	

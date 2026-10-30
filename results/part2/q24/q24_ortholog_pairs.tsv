@@ -1,0 +1,13 @@
+species	divergence_mya	n_rbh_human_proteins	n_human_homo_models_with_ortholog_dimer	n_human_hetero_models_with_ortholog_dimer	n_human_protein_pairs_with_ortholog_dimer
+mouse	83.51396	4290	1785	2794	4573
+rat	83.51396	3906	1641	2238	3873
+zebrafish	435.12563	2885	1236	1167	2403
+fly	692.17015	1659	541	668	1207
+worm	692.17015	1421	502	498	999
+yeast	1164.29781	882	257	306	562
+pombe	1164.29781	912	252	366	616
+arabidopsis	1515.8312	1359	417	465	879
+dicty	1515.8312	1004	358	383	739
+ecoli	4200.0	290	200	14	214
+mtb	4200.0	280	184	21	205
+paeruginosa	4200.0	372	239	30	269

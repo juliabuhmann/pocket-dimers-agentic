@@ -1,0 +1,8 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=a9ca781a272761fafcf58e4d0b0df6ed7bddc9a1 status=UNVERIFIED H2-secondary(burrow_score)+EXPLORATORY units_without_matching_site=0
+stratum	units_available	sampled	clusters_sampled
+MBS|cofactor	1577	1577	986
+MBS|drug_like	1815	1815	490
+MBS|other	8605	2152	1203
+SBS|cofactor	2203	2152	1403
+SBS|drug_like	3527	2152	682
+SBS|other	16927	2152	1255

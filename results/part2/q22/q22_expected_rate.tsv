@@ -1,0 +1,50 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=f74eec9c86d4bd70445f6f94d4c879ffb9cd7a65 status=UNVERIFIED EXPLORATORY analysis2: surface = rel SASA(chain alone) >= 0.25; interface = heavy atom <= 5 A of partner
+stratum	quantity	n_models	estimate	lo	hi
+all	expected_iface_frac_of_surface_residues	10588	0.16690263359056057	0.15794993579937508	0.17808948227836713
+all	observed_iface_frac_of_pockets_all_copies	10588	0.31448530569592165	0.3011934100130327	0.3277266732192191
+all	observed_iface_frac_of_pockets_sym_collapsed	10588	0.3258619432903273	0.31171158185796194	0.339932589528683
+all	observed_iface_frac_of_pocket_lining_surface_residues	10588	0.4192897101651828	0.4030195963424783	0.43960212377719254
+all	enrichment_pocket_level(obs_all_copies/expected)	10588	1.8842441184445626	1.7840945866960214	1.9852284097504893
+all	enrichment_residue_level(lining/expected)	10588	2.5121815105312777	2.4326825663570597	2.605461941946049
+all	rate_lining_iface_surface_res	10588	0.26561451240654266		
+all	rate_lining_noniface_surface_res	10588	0.07369950059384629		
+homo	expected_iface_frac_of_surface_residues	4803	0.17993336240437252	0.17366024975268857	0.1872675875432016
+homo	observed_iface_frac_of_pockets_all_copies	4803	0.3223098012337217	0.306186862074541	0.33797702184250966
+homo	observed_iface_frac_of_pockets_sym_collapsed	4803	0.359321187921138	0.34196538658429665	0.3762499565121124
+homo	observed_iface_frac_of_pocket_lining_surface_residues	4803	0.41290008313891524	0.39924992739487297	0.42651523297994604
+homo	enrichment_pocket_level(obs_all_copies/expected)	4803	1.7912731520538145	1.7067620698048382	1.8756743272786531
+homo	enrichment_residue_level(lining/expected)	4803	2.2947388834483395	2.2131013317774846	2.371541195018382
+homo	rate_lining_iface_surface_res	4803	0.26525853630990476		
+homo	rate_lining_noniface_surface_res	4803	0.0827559005524976		
+hetero	expected_iface_frac_of_surface_residues	5785	0.15526919939797426	0.14189928336243807	0.17489852107728848
+hetero	observed_iface_frac_of_pockets_all_copies	5785	0.30662150914152864	0.2901841302555091	0.32679170596386736
+hetero	observed_iface_frac_of_pockets_sym_collapsed	5785	0.30662150914152864	0.2901841302555091	0.32679170596386736
+hetero	observed_iface_frac_of_pocket_lining_surface_residues	5785	0.42609295850442797	0.3983449497373155	0.4637724109512565
+hetero	enrichment_pocket_level(obs_all_copies/expected)	5785	1.9747735567027662	1.7909399495205929	2.1619322052349474
+hetero	enrichment_residue_level(lining/expected)	5785	2.744220747943053	2.59820771769802	2.901256539163963
+hetero	rate_lining_iface_surface_res	5785	0.26598279945764497		
+hetero	rate_lining_noniface_surface_res	5785	0.06585029618337553		
+ipSAE_T1_low	expected_iface_frac_of_surface_residues	3530	0.1484626910535041	0.13824224182666395	0.16034000443024593
+ipSAE_T1_low	observed_iface_frac_of_pockets_all_copies	3530	0.29174257718252994	0.26812349289959314	0.3156608266242978
+ipSAE_T1_low	observed_iface_frac_of_pockets_sym_collapsed	3530	0.29519041659216877	0.26996068930454614	0.32028170964561564
+ipSAE_T1_low	observed_iface_frac_of_pocket_lining_surface_residues	3530	0.38153929137309106	0.35819040738126845	0.4061420231324808
+ipSAE_T1_low	enrichment_pocket_level(obs_all_copies/expected)	3530	1.9650901860413508	1.8100291867514966	2.136302112583745
+ipSAE_T1_low	enrichment_residue_level(lining/expected)	3530	2.569933824219777	2.42287590486125	2.7435404193882293
+ipSAE_T1_low	rate_lining_iface_surface_res	3530	0.21699017585299823		
+ipSAE_T1_low	rate_lining_noniface_surface_res	3530	0.06132344781018726		
+ipSAE_T2_mid	expected_iface_frac_of_surface_residues	3529	0.1571949809395008	0.1506068572139176	0.16501627116412912
+ipSAE_T2_mid	observed_iface_frac_of_pockets_all_copies	3529	0.30796558661130846	0.2918009374031318	0.32439864457802764
+ipSAE_T2_mid	observed_iface_frac_of_pockets_sym_collapsed	3529	0.3234278934311293	0.3076831647684175	0.33954092355096904
+ipSAE_T2_mid	observed_iface_frac_of_pocket_lining_surface_residues	3529	0.4119402291910971	0.39730746301647407	0.4259441166326694
+ipSAE_T2_mid	enrichment_pocket_level(obs_all_copies/expected)	3529	1.9591311679972425	1.8380806021000133	2.0961722377223695
+ipSAE_T2_mid	enrichment_residue_level(lining/expected)	3529	2.6205685876805402	2.5059954254829155	2.751970388920354
+ipSAE_T2_mid	rate_lining_iface_surface_res	3529	0.26348719510157403		
+ipSAE_T2_mid	rate_lining_noniface_surface_res	3529	0.07015495339763061		
+ipSAE_T3_high	expected_iface_frac_of_surface_residues	3529	0.1987777307457481	0.18410981019374756	0.21586745996268103
+ipSAE_T3_high	observed_iface_frac_of_pockets_all_copies	3529	0.33794156960091654	0.3179837029712397	0.35864742964920204
+ipSAE_T3_high	observed_iface_frac_of_pockets_sym_collapsed	3529	0.35448734339043725	0.33025806257369295	0.3770082392753708
+ipSAE_T3_high	observed_iface_frac_of_pocket_lining_surface_residues	3529	0.45215197629499143	0.4225410709542562	0.4849929422881522
+ipSAE_T3_high	enrichment_pocket_level(obs_all_copies/expected)	3529	1.7000977339517456	1.5920595643463296	1.8263168669866603
+ipSAE_T3_high	enrichment_residue_level(lining/expected)	3529	2.2746611232489036	2.1877803160116245	2.3671478476148384
+ipSAE_T3_high	rate_lining_iface_surface_res	3529	0.30896726330664154		
+ipSAE_T3_high	rate_lining_noniface_surface_res	3529	0.09287586011570732		

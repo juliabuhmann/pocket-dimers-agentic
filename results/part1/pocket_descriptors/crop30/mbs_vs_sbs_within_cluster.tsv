@@ -1,0 +1,21 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=27e97179830cb01ff1e96af813a477055b2cc9c4 status=UNVERIFIED H2-secondary(burrow_score)+EXPLORATORY 
+metric	role	n	n_clusters	cliffs_delta_within	lo	hi	n_boot
+burrow_score	H2-secondary (pre-registered)	4980	682	-0.0879222	-0.162169	-0.00766058	1000
+volume_A3	exploratory (located member)	4980	682	0.0779174	-0.0103132	0.17011	1000
+merged_burrow_score	exploratory (merged pocket, Q2.2 unit)	4980	682	-0.0492236	-0.128769	0.0411309	1000
+merged_volume_A3	exploratory (merged pocket, Q2.2 unit)	4980	682	0.0906035	0.0175089	0.178987	1000
+site_volume_A3	exploratory	4980	682	0.132384	-0.00215651	0.2156	1000
+buriedness	exploratory (merged pocket, Q2.2 unit)	4980	682	0.0657916	-0.048672	0.193534	1000
+n_lining	exploratory (merged pocket, Q2.2 unit)	4980	682	0.10325	0.00977239	0.210729	1000
+frac_hydrophobic	exploratory (merged pocket, Q2.2 unit)	4980	682	0.0266128	-0.0608762	0.103261	1000
+frac_aromatic	exploratory (merged pocket, Q2.2 unit)	4980	682	-0.0806787	-0.208102	0.0369085	1000
+frac_charged	exploratory (merged pocket, Q2.2 unit)	4980	682	0.0758364	0.0156314	0.156654	1000
+member_frac_hydrophobic	exploratory (located member)	4933	682	-0.0770729	-0.18676	0.0841587	1000
+member_frac_charged	exploratory (located member)	4933	682	0.1552	0.0322827	0.244821	1000
+member_frac_aromatic	exploratory (located member)	4933	682	-0.0907026	-0.218261	0.0329259	1000
+contact4A_frac_hydrophobic	exploratory (census contacts, 4 Å set)	4980	682	0.382984	0.114067	0.548396	1000
+contact4A_frac_charged	exploratory (census contacts, 4 Å set)	4980	682	-0.0568273	-0.103314	0.0381123	1000
+contact4A_frac_aromatic	exploratory (census contacts, 4 Å set)	4980	682	0.0433008	-0.257433	0.243741	1000
+contactBioLiP_frac_hydrophobic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	4980	682	0.240075	-0.0424964	0.432524	1000
+contactBioLiP_frac_charged	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	4980	682	-0.198415	-0.321925	0.0327837	1000
+contactBioLiP_frac_aromatic	exploratory (census contacts, vdW+0.5 Å >=2 pairs)	4980	682	0.072955	-0.173196	0.243188	1000

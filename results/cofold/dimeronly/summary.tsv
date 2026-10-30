@@ -1,0 +1,7 @@
+split	cond	n	n_success_top	n_success_any_of_5	n_success_pocket	median_lig_rmsd_sym	median_dcc_pocket	median_dcc_curated	n_contacts_both
+all	dimer	8	6	7	6	0.51	0.26	4.20	8.00
+all	monomer	8	5	5	5	1.04	0.39	5.87	
+post_cutoff=False	dimer	3	2	3	2	0.40	0.26	5.36	3.00
+post_cutoff=False	monomer	3	2	2	2	0.60	0.43	6.91	
+post_cutoff=True	dimer	5	4	4	4	0.51	0.26	3.22	5.00
+post_cutoff=True	monomer	5	3	3	3	1.40	0.35	5.48	

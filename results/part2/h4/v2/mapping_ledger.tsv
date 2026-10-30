@@ -1,0 +1,7 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=55df208 census=v2 status=UNVERIFIED
+step	n_rows
+site x model rows from selection	24411
+chain pair resolved in assembly 1 (status ok)	24174
+both chains map to the model accessions in SIFTS XML	24168
+binding-residue name identity >= 0.9	23851
+after symmetric-copy collapse (entry x model x site group)	11601

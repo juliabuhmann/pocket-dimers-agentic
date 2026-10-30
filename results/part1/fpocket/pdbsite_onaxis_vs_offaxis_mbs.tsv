@@ -1,0 +1,8 @@
+# status=UNVERIFIED EXPLORATORY (not pre-registered) fpocket 4.2.3 (https://conda.anaconda.org/conda-forge/linux-64, build h5fd1fdb_2) homomer MBS only, unweighted
+metric	n_on	n_off	clusters_on	median_on	median_off	cliffs_delta	cd_lo	cd_hi	frac_gt_thr_on	frac_gt_thr_off	on_top2_clusters
+fp_drug	135	911	53	0.356	0.362	-0.0275643	-0.191558	0.248423	0.377778	0.433589	93.0:44;259.0:17
+fp_score	135	911	53	0.02	0.075	-0.124527	-0.320365	0.172431	0.377778	0.433589	93.0:44;259.0:17
+fp_volume	135	911	53	1226.61	901.221	0.169216	-0.137505	0.35774	0.377778	0.433589	93.0:44;259.0:17
+fp_hydrophobicity	135	911	53	27.526	26.071	0.0692849	-0.0697127	0.206721	0.377778	0.433589	93.0:44;259.0:17
+fp_polarity	135	911	53	7	13	-0.47579	-0.63794	-0.279068	0.377778	0.433589	93.0:44;259.0:17
+drug_gt_thr	135	911	53	0	0	-0.0558117	-0.201585	0.183549	0.377778	0.433589	93.0:44;259.0:17

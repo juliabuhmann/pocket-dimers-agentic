@@ -1,0 +1,134 @@
+# design_sha256_frozen=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 design_sha256_current=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 design_matches=True git_commit=31df4316c21a91522c16c76ffd503ad18349e35b code_dirty=False census_dir=data/part1 census_version=v2 ligand_sites_bytes=221696831 ligand_sites_mtime=2026-10-29T18:09:29 druglike_fallback=False druglike_sentinels_pass=True chembl_release=chembl_37 generated=2026-10-29T18:38:05+0100 status=UNVERIFIED_until_independent_re-derivation
+seed	level	filter	grouping	assembly_type	marsh_class	cls	n	n_mbs	n_clusters	mbs_frac	ci_lo	ci_hi
+2	site_symcollapsed	before_additive_filter	assembly_type+marsh_class	heteromer	cofactor		36089	12499	864	0.346338	0.285544	0.4023
+2	site_symcollapsed	before_additive_filter	assembly_type+marsh_class	heteromer	metal		34249	3265	2417	0.0953313	0.0710845	0.12776
+2	site_symcollapsed	before_additive_filter	assembly_type+marsh_class	heteromer	small_molecule		75004	30591	4135	0.407858	0.370853	0.443756
+2	site_symcollapsed	before_additive_filter	assembly_type+marsh_class	homomer	cofactor		15608	5100	1968	0.326756	0.283212	0.369265
+2	site_symcollapsed	before_additive_filter	assembly_type+marsh_class	homomer	metal		39549	7192	4890	0.18185	0.155094	0.209769
+2	site_symcollapsed	before_additive_filter	assembly_type+marsh_class	homomer	small_molecule		155744	36581	8785	0.234879	0.219672	0.250146
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	heteromer		amino_acid	629	252	147	0.400636	0.186507	0.574404
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	heteromer		cofactor	2199	717	337	0.326057	0.21481	0.468225
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	heteromer		drug_like	2015	733	378	0.363772	0.271853	0.450795
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	heteromer		heme_porphyrin	28363	10685	291	0.376723	0.316214	0.449518
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	heteromer		inorganic	10154	2151	1545	0.211838	0.179731	0.251333
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	heteromer		lipid_fatty_acid	16978	12114	853	0.713512	0.645239	0.771581
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	heteromer		metal_cluster	5527	1097	313	0.19848	0.115129	0.299451
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	heteromer		metal_ion	34249	3265	2417	0.0953313	0.0710845	0.12776
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	heteromer		nucleotide_like	6612	2013	767	0.304446	0.246655	0.367693
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	heteromer		other_organic	34845	10994	2489	0.315512	0.282273	0.349673
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	heteromer		sugar_glycan	3771	2334	373	0.618934	0.540001	0.688603
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	homomer		amino_acid	2539	701	620	0.276093	0.218718	0.344659
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	homomer		cofactor	11126	4325	1541	0.388729	0.320629	0.4565
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	homomer		drug_like	6326	2295	929	0.362788	0.273354	0.477264
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	homomer		heme_porphyrin	3199	546	219	0.170678	0.109768	0.262854
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	homomer		inorganic	37722	7262	5056	0.192514	0.178564	0.207046
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	homomer		lipid_fatty_acid	5468	2076	518	0.379663	0.340138	0.420125
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	homomer		metal_cluster	1283	229	286	0.178488	0.110305	0.264865
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	homomer		metal_ion	39549	7192	4890	0.18185	0.155094	0.209769
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	homomer		nucleotide_like	8748	3062	1617	0.350023	0.304384	0.402403
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	homomer		other_organic	90774	20122	6649	0.221671	0.203385	0.240968
+2	site_symcollapsed	before_additive_filter	assembly_type+cls	homomer		sugar_glycan	4167	1063	731	0.2551	0.210701	0.301191
+2	site_symcollapsed	before_additive_filter	assembly_type	heteromer			145342	46355	5303	0.318937	0.287653	0.349658
+2	site_symcollapsed	before_additive_filter	assembly_type	homomer			210901	48873	9931	0.231734	0.217398	0.246401
+2	site_symcollapsed	before_additive_filter	all_oligomers				356243	95228	13907	0.267312	0.25114	0.284473
+2	site_symcollapsed	before_additive_filter	assembly_type|organic_only	heteromer			95412	39842	3820	0.417579	0.38018	0.460181
+2	site_symcollapsed	before_additive_filter	assembly_type|organic_only	homomer			132347	34190	8010	0.258336	0.238243	0.278983
+2	unit_nonredundant	before_additive_filter	assembly_type+marsh_class	heteromer	cofactor		1284	590	785	0.459502	0.423547	0.498781
+2	unit_nonredundant	before_additive_filter	assembly_type+marsh_class	heteromer	metal		2970	436	2212	0.146801	0.132713	0.162392
+2	unit_nonredundant	before_additive_filter	assembly_type+marsh_class	heteromer	small_molecule		13670	5423	3999	0.396708	0.370067	0.420206
+2	unit_nonredundant	before_additive_filter	assembly_type+marsh_class	homomer	cofactor		3255	1173	1936	0.360369	0.334067	0.386861
+2	unit_nonredundant	before_additive_filter	assembly_type+marsh_class	homomer	metal		7511	1787	4778	0.237918	0.226319	0.250506
+2	unit_nonredundant	before_additive_filter	assembly_type+marsh_class	homomer	small_molecule		44647	14683	8729	0.328869	0.302896	0.352345
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	heteromer		amino_acid	217	78	135	0.359447	0.220396	0.492065
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	heteromer		cofactor	422	172	293	0.407583	0.349542	0.470188
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	heteromer		drug_like	1206	370	359	0.306799	0.211486	0.40367
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	heteromer		heme_porphyrin	478	311	275	0.650628	0.603399	0.698638
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	heteromer		inorganic	1890	486	1428	0.257143	0.236823	0.277401
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	heteromer		lipid_fatty_acid	2058	1469	835	0.7138	0.66504	0.755562
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	heteromer		metal_cluster	384	107	291	0.278646	0.213549	0.344071
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	heteromer		metal_ion	2970	436	2212	0.146801	0.132713	0.162392
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	heteromer		nucleotide_like	1276	394	722	0.308777	0.274464	0.3471
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	heteromer		other_organic	6546	2371	2394	0.362206	0.327537	0.392936
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	heteromer		sugar_glycan	477	255	361	0.534591	0.482317	0.586169
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	homomer		amino_acid	1089	304	616	0.279155	0.235003	0.32691
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	homomer		cofactor	2646	1005	1526	0.379819	0.350804	0.409701
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	homomer		drug_like	4147	1453	924	0.350374	0.278765	0.435711
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	homomer		heme_porphyrin	259	99	209	0.382239	0.316238	0.454904
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	homomer		inorganic	7437	2320	5003	0.311954	0.300147	0.323086
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	homomer		lipid_fatty_acid	1036	495	508	0.477799	0.440805	0.52041
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	homomer		metal_cluster	350	69	278	0.197143	0.154513	0.242667
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	homomer		metal_ion	7511	1787	4778	0.237918	0.226319	0.250506
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	homomer		nucleotide_like	3799	1325	1579	0.348776	0.313267	0.386349
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	homomer		other_organic	25660	8361	6619	0.325838	0.293014	0.354385
+2	unit_nonredundant	before_additive_filter	assembly_type+cls	homomer		sugar_glycan	1479	425	727	0.287356	0.252426	0.325743
+2	unit_nonredundant	before_additive_filter	assembly_type	heteromer			17924	6449	5093	0.359797	0.338569	0.380109
+2	unit_nonredundant	before_additive_filter	assembly_type	homomer			55413	17643	9839	0.318391	0.297831	0.337978
+2	unit_nonredundant	before_additive_filter	all_oligomers				73337	24092	13907	0.328511	0.311369	0.34502
+2	unit_nonredundant	before_additive_filter	assembly_type|organic_only	heteromer			12680	5420	3663	0.427445	0.400229	0.454224
+2	unit_nonredundant	before_additive_filter	assembly_type|organic_only	homomer			40115	13467	7948	0.33571	0.308515	0.363921
+2	site_symcollapsed	after_additive_filter	assembly_type+marsh_class	heteromer	cofactor		35857	12375	847	0.345121	0.284406	0.399317
+2	site_symcollapsed	after_additive_filter	assembly_type+marsh_class	heteromer	metal		28486	2062	2028	0.0723864	0.0464	0.103883
+2	site_symcollapsed	after_additive_filter	assembly_type+marsh_class	heteromer	small_molecule		27068	11098	2255	0.410004	0.370733	0.447462
+2	site_symcollapsed	after_additive_filter	assembly_type+marsh_class	homomer	cofactor		15357	5046	1940	0.32858	0.286434	0.367062
+2	site_symcollapsed	after_additive_filter	assembly_type+marsh_class	homomer	metal		28210	3471	3706	0.123041	0.0884945	0.163309
+2	site_symcollapsed	after_additive_filter	assembly_type+marsh_class	homomer	small_molecule		48682	14292	4851	0.293579	0.262277	0.32811
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	heteromer		amino_acid	619	243	143	0.392569	0.169801	0.555874
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	heteromer		cofactor	2177	712	332	0.327056	0.213203	0.448789
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	heteromer		drug_like	2007	725	377	0.361236	0.264259	0.445067
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	heteromer		heme_porphyrin	28219	10601	286	0.375669	0.319232	0.449609
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	heteromer		inorganic	1040	224	220	0.215385	0.154545	0.275512
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	heteromer		lipid_fatty_acid	5364	3661	546	0.682513	0.586388	0.775766
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	heteromer		metal_cluster	5461	1062	304	0.19447	0.1111	0.292825
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	heteromer		metal_ion	28486	2062	2028	0.0723864	0.0464	0.103883
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	heteromer		nucleotide_like	6545	1984	760	0.303132	0.240297	0.363352
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	heteromer		other_organic	10444	3671	1023	0.351494	0.305323	0.397184
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	heteromer		sugar_glycan	1049	590	161	0.56244	0.454951	0.650424
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	homomer		amino_acid	2494	671	604	0.269046	0.209011	0.333937
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	homomer		cofactor	11075	4303	1536	0.388533	0.320909	0.462119
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	homomer		drug_like	6303	2283	926	0.362208	0.277476	0.468471
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	homomer		heme_porphyrin	3151	538	213	0.170739	0.102137	0.269598
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	homomer		inorganic	4236	857	1056	0.202314	0.159213	0.249794
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	homomer		lipid_fatty_acid	2079	737	362	0.354497	0.309853	0.400204
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	homomer		metal_cluster	1131	205	262	0.181256	0.105509	0.266046
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	homomer		metal_ion	28210	3471	3706	0.123041	0.0884945	0.163309
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	homomer		nucleotide_like	8659	3021	1611	0.348886	0.304481	0.39789
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	homomer		other_organic	21958	5967	2798	0.271746	0.229345	0.315495
+2	site_symcollapsed	after_additive_filter	assembly_type+cls	homomer		sugar_glycan	2953	756	589	0.256011	0.198302	0.319508
+2	site_symcollapsed	after_additive_filter	assembly_type	heteromer			91411	25535	3805	0.279343	0.2392	0.312753
+2	site_symcollapsed	after_additive_filter	assembly_type	homomer			92249	22809	7077	0.247255	0.222972	0.272778
+2	site_symcollapsed	after_additive_filter	all_oligomers				183660	48344	10027	0.263226	0.238916	0.285897
+2	site_symcollapsed	after_additive_filter	assembly_type|organic_only	heteromer			56424	22187	2482	0.393219	0.359189	0.43527
+2	site_symcollapsed	after_additive_filter	assembly_type|organic_only	homomer			58672	18276	5329	0.311494	0.282148	0.343118
+2	unit_nonredundant	after_additive_filter	assembly_type+marsh_class	heteromer	cofactor		1259	575	770	0.456712	0.419541	0.492533
+2	unit_nonredundant	after_additive_filter	assembly_type+marsh_class	heteromer	metal		2212	232	1831	0.104882	0.0911856	0.118535
+2	unit_nonredundant	after_additive_filter	assembly_type+marsh_class	heteromer	small_molecule		7534	3031	2177	0.40231	0.36213	0.44037
+2	unit_nonredundant	after_additive_filter	assembly_type+marsh_class	homomer	cofactor		3209	1159	1910	0.361172	0.336638	0.387623
+2	unit_nonredundant	after_additive_filter	assembly_type+marsh_class	homomer	metal		4962	731	3599	0.14732	0.135464	0.159164
+2	unit_nonredundant	after_additive_filter	assembly_type+marsh_class	homomer	small_molecule		25002	7797	4804	0.311855	0.271483	0.353232
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	heteromer		amino_acid	213	75	131	0.352113	0.209639	0.479511
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	heteromer		cofactor	417	171	290	0.410072	0.349276	0.473692
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	heteromer		drug_like	1204	368	358	0.305648	0.210716	0.401489
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	heteromer		heme_porphyrin	473	306	270	0.646934	0.596544	0.69853
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	heteromer		inorganic	286	82	212	0.286713	0.228951	0.342632
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	heteromer		lipid_fatty_acid	1110	780	537	0.702703	0.640426	0.762425
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	heteromer		metal_cluster	369	98	283	0.265583	0.203187	0.330939
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	heteromer		metal_ion	2212	232	1831	0.104882	0.0911856	0.118535
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	heteromer		nucleotide_like	1248	380	715	0.304487	0.270157	0.342984
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	heteromer		other_organic	3275	1248	1001	0.381069	0.324426	0.431949
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	heteromer		sugar_glycan	198	98	154	0.494949	0.411731	0.573044
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	homomer		amino_acid	1063	287	600	0.269991	0.227923	0.320823
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	homomer		cofactor	2636	1001	1521	0.379742	0.349594	0.409927
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	homomer		drug_like	4138	1447	921	0.349686	0.283391	0.432036
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	homomer		heme_porphyrin	254	99	204	0.389764	0.322314	0.463527
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	homomer		inorganic	1376	326	1051	0.236919	0.211887	0.261656
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	homomer		lipid_fatty_acid	648	276	356	0.425926	0.377406	0.474227
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	homomer		metal_cluster	319	59	255	0.184953	0.14092	0.231496
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	homomer		metal_ion	4962	731	3599	0.14732	0.135464	0.159164
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	homomer		nucleotide_like	3761	1304	1574	0.346716	0.310116	0.384068
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	homomer		other_organic	12787	3819	2788	0.298663	0.244867	0.354946
+2	unit_nonredundant	after_additive_filter	assembly_type+cls	homomer		sugar_glycan	1229	338	585	0.27502	0.234851	0.319397
+2	unit_nonredundant	after_additive_filter	assembly_type	heteromer			11005	3838	3581	0.348751	0.319731	0.377449
+2	unit_nonredundant	after_additive_filter	assembly_type	homomer			33173	9687	6974	0.292015	0.261188	0.32288
+2	unit_nonredundant	after_additive_filter	all_oligomers				44178	13525	10027	0.306148	0.281282	0.330983
+2	unit_nonredundant	after_additive_filter	assembly_type|organic_only	heteromer			8138	3426	2362	0.420988	0.382823	0.459644
+2	unit_nonredundant	after_additive_filter	assembly_type|organic_only	homomer			26516	8571	5270	0.323239	0.284791	0.36203

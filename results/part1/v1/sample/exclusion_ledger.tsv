@@ -1,0 +1,13 @@
+level	step	n_in	n_out	n_dropped
+entry	drop:method	2611	2441	170
+entry	drop:no_resolution	2441	2441	0
+entry	drop:resolution	2441	2170	271
+entry	drop:no_protein_chain_ge30	2170	2142	28
+entry	drop:huge_assembly	2142	2122	20
+entry	drop:no_protein_in_assembly	2122	2122	0
+entry	drop:error	2122	2122	0
+entry	info:entries_with_ligand_instances	2122	1732	390
+ligand_instance	drop:symmetry/altloc duplicate copy	17961	17781	180
+ligand_instance	drop:not bound (<2 protein residues)	17781	13088	4693
+ligand_instance	drop:glycan (branched or covalent sugar)	13088	12031	1057
+ligand_instance	drop:additive (BioLiP2 primary; FALLBACK geom+PLINDER if not covered)	12031	5188	6843

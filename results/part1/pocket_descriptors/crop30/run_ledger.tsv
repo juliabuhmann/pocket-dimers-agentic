@@ -1,0 +1,8 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=1b0f20c52345cf9e96de2c2efff7c68f4a3e0a9c status=UNVERIFIED H2-secondary(burrow_score)+EXPLORATORY 
+step	n_sites	n_clusters
+sampled sites	12000	4257
+described (any status)	12000	4257
+status ok	11999	4257
+ligand rebuilt within LIG_MATCH_A of census centroid	11983	4256
+D-mode match (coverage>=MIN or precision>=0.5)	10750	3969
+error: RuntimeError	1	

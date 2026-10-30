@@ -1,0 +1,16 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=409612cb795b5a88afea3088a3266f348c17a667 status=UNVERIFIED H2-secondary(burrow_score)+EXPLORATORY AF: interface vs single-chain pockets (Q2.2); PDB: MBS vs SBS ligand sites, weighted pooled
+pdb_contrast	metric	pdb_metric	af_dimer_delta	af_lo	af_hi	pdb_delta	pdb_lo	pdb_hi	same_sign	pdb_ci_excludes_0
+PDB MBS vs SBS ligand sites	volume_A3	merged_volume_A3	0.228813	0.197291	0.258491	0.0709268	0.0102466	0.132104	True	True
+PDB MBS vs SBS ligand sites	burrow_score	merged_burrow_score	0.0932964	0.0680246	0.119564	0.0245075	-0.0344663	0.0888113	True	False
+PDB MBS vs SBS ligand sites	buriedness	buriedness	0.099489	0.0730751	0.129269	-0.0229027	-0.0867772	0.0366757	False	False
+PDB MBS vs SBS ligand sites	n_lining	n_lining	0.314745	0.280571	0.349136	0.0808722	0.0198295	0.141961	True	True
+PDB MBS vs SBS ligand sites	frac_hydrophobic	frac_hydrophobic	-0.145605	-0.178765	-0.110523	0.0269109	-0.0301991	0.0780654	False	False
+PDB MBS vs SBS ligand sites	frac_aromatic	frac_aromatic	-0.115911	-0.143556	-0.0864793	-0.0520381	-0.119228	0.0154026	True	False
+PDB MBS vs SBS ligand sites	frac_charged	frac_charged	0.204356	0.167213	0.237088	-0.00852022	-0.0682783	0.0467687	False	False
+PDB interface vs single-chain pocket at ligand sites	volume_A3	merged_volume_A3	0.228813	0.197291	0.258491	0.486866	0.432396	0.537112	True	True
+PDB interface vs single-chain pocket at ligand sites	burrow_score	merged_burrow_score	0.0932964	0.0680246	0.119564	0.0808552	0.0213574	0.147746	True	True
+PDB interface vs single-chain pocket at ligand sites	buriedness	buriedness	0.099489	0.0730751	0.129269	-0.109111	-0.162802	-0.0581466	False	True
+PDB interface vs single-chain pocket at ligand sites	n_lining	n_lining	0.314745	0.280571	0.349136	0.504322	0.451461	0.55625	True	True
+PDB interface vs single-chain pocket at ligand sites	frac_hydrophobic	frac_hydrophobic	-0.145605	-0.178765	-0.110523	0.018683	-0.0381981	0.0753793	False	False
+PDB interface vs single-chain pocket at ligand sites	frac_aromatic	frac_aromatic	-0.115911	-0.143556	-0.0864793	-0.103287	-0.17338	-0.0374199	True	True
+PDB interface vs single-chain pocket at ligand sites	frac_charged	frac_charged	0.204356	0.167213	0.237088	0.059937	0.00273102	0.116611	True	True

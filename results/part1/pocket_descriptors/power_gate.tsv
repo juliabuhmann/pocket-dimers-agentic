@@ -1,0 +1,8 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=222701ae8df737fad9719a7d1d9c7a89bb074824 status=UNVERIFIED H2-secondary(burrow_score)+EXPLORATORY 
+stratum_lig	y_mbs	n_clusters	passes
+cofactor	0	1402	True
+cofactor	1	986	True
+drug_like	0	682	True
+drug_like	1	490	True
+other	0	1255	True
+other	1	1201	True

@@ -1,0 +1,29 @@
+subset	n	test	estimate	ci_lo	ci_hi	p_one_sided_boot	n_boot_ok	n_boot_failed	n_events
+seed0:all	56	spearman gain_rmsd~partner_share	0.344	0.104	0.547	0.004	2000		
+seed0:all	56	spearman gain_log10~partner_share	0.323	0.065	0.532	0.009	2000		
+seed0:all	56	spearman success_diff~partner_share	0.165	-0.116	0.412	0.118	2000		
+seed0:all	56	logit dimer_only~partner_share (slope per unit share)	2.724	-1.647	10.594	0.109	1999	1.000	9.000
+seed0:onaxis	24	spearman gain_rmsd~partner_share	0.386	0.033	0.658	0.018	2000		
+seed0:onaxis	24	spearman gain_log10~partner_share	0.501	0.175	0.741	0.002	2000		
+seed0:onaxis	24	spearman success_diff~partner_share	0.223	-0.207	0.563	0.138	1998		
+seed0:onaxis	24	logit dimer_only~partner_share (slope per unit share)	2.741	-2.548	15.902	0.145	1898	102.000	5.000
+seed0:dimeronly	8	spearman gain_rmsd~partner_share	0.192	-0.644	0.878	0.318	2000		
+seed0:dimeronly	8	spearman gain_log10~partner_share	0.168	-0.790	0.899	0.343	2000		
+seed0:dimeronly	8	spearman success_diff~partner_share	0.549	-0.087	0.948	0.055	1789		
+seed0:dimeronly	8	logit dimer_only~partner_share (slope per unit share)	6.176	-8.197	28.819	0.071	1161	839.000	1.000
+seed0:h4	24	spearman gain_rmsd~partner_share	0.336	-0.136	0.698	0.083	2000		
+seed0:h4	24	spearman gain_log10~partner_share	0.091	-0.331	0.511	0.341	2000		
+seed0:h4	24	spearman success_diff~partner_share	-0.121	-0.482	0.318	0.734	1990		
+seed0:h4	24	logit dimer_only~partner_share (slope per unit share)	1.642	-5.912	18.013	0.381	1929	71.000	3.000
+seed0:excl_induced_nonbio	50	spearman gain_rmsd~partner_share	0.295	0.020	0.528	0.017	2000		
+seed0:excl_induced_nonbio	50	spearman gain_log10~partner_share	0.272	0.004	0.514	0.024	2000		
+seed0:excl_induced_nonbio	50	spearman success_diff~partner_share	0.204	-0.087	0.462	0.076	2000		
+seed0:excl_induced_nonbio	50	logit dimer_only~partner_share (slope per unit share)	4.517	0.217	12.414	0.021	1996	4.000	7.000
+seed0:dedup_pdb_ccd (post hoc)	55	spearman gain_rmsd~partner_share	0.342	0.080	0.548	0.004	2000		
+seed0:dedup_pdb_ccd (post hoc)	55	spearman gain_log10~partner_share	0.325	0.073	0.537	0.005	2000		
+seed0:dedup_pdb_ccd (post hoc)	55	spearman success_diff~partner_share	0.166	-0.119	0.416	0.117	2000		
+seed0:dedup_pdb_ccd (post hoc)	55	logit dimer_only~partner_share (slope per unit share)	2.662	-1.725	9.968	0.105	1996	4.000	9.000
+seeds012_pooled:all	14	spearman gain_rmsd~partner_share	0.272	-0.446	0.780	0.203	2000		
+seeds012_pooled:all	14	spearman gain_log10~partner_share	0.317	-0.325	0.791	0.151	2000		
+seeds012_pooled:all	14	spearman success_diff~partner_share	0.333	-0.265	0.766	0.135	2000		
+seeds012_pooled:all	14	logit dimer_only~partner_share (slope per unit share)	6.537	-4.365	21.179	0.058	1917	83.000	5.000

@@ -1,0 +1,4 @@
+# design_sha256=e3f9b550eb29cfe6eb444ebd884920b847687518470834c0bcee3439998eee28 git_commit=409612cb795b5a88afea3088a3266f348c17a667 status=UNVERIFIED EXPLORATORY per-model means of max-Jaccard-mapped fp_drug
+control	n_models	median_dimer_only	median_single	frac_dimer_only_higher	frac_tied	wilcoxon_p
+single_chain_matched	94	0.0115	0.006	0.44680851063829785	0.07446808510638298	0.6922671330461942
+single_chain_strict	19	0.003	0.005	0.2631578947368421	0.21052631578947367	0.06914397389751895

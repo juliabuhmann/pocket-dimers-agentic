@@ -1,0 +1,5 @@
+biolip_status	is_ligand_of_interest	is_additive	n
+additive	False	True	469917
+additive	True	False	25163
+relevant	False	False	362346
+relevant	True	False	115112
