@@ -4,7 +4,7 @@ Top-level layout of this repository. It was exported from the study workspace (b
 
 | Path | Contents |
 |---|---|
-| `briefing/` | Briefing material about the agentic-AI exercise (added separately) |
+| `briefing/` | Research briefing (`briefing.md`/`.pdf`), its figures and the scripts that build them |
 | `config/` | `paths.env.example`: data roots (PDB mirror, AFDB dimers, pocket atlas, AF3 MSAs and weights) read by the scripts |
 | `docs/` | Per-step methods notes and results, each with the commands that produced its outputs (index below) |
 | `envs/` | Environment lock files (pip freeze, conda lists, R lock) and pinned tool commits |

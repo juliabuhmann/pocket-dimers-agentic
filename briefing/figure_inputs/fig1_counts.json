@@ -1,0 +1,13 @@
+{
+ "r1": 5,
+ "r2": 2,
+ "audit": 1,
+ "verify": 7,
+ "report_review": 2,
+ "retro": 1,
+ "design_reviews": 7,
+ "commits": 113,
+ "hours": 17.48,
+ "n_hyp": 5,
+ "n_models": "10,610"
+}
