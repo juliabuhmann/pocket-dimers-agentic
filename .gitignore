@@ -1,0 +1,59 @@
+# Large / regenerable data and local installs (see project_record/DATA.md and docs/TOOLS.md)
+data/
+logs/
+tools/
+.venv/
+.venvs/
+conda_envs/
+
+# Structures, model outputs and weights
+*.cif
+*.cif.gz
+*.pdb
+*.pdb.gz
+*.ent
+*.ent.gz
+*.parquet
+af3_out*/
+boltz_out*/
+results/cofold/**/af3_*/
+results/cofold/**/boltz_*/
+*.bin
+*.bin.*
+*.zst
+*.ckpt
+*.pt
+*.npz
+
+# Verifier scratch outputs
+reviews/**/work/
+reviews/**/crop/
+reviews/**/fpocket_runs/
+
+# Archives
+*.tar
+*.tar.*
+*.tgz
+*.gz
+*.zip
+
+# Caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.cache/
+.pytest_cache/
+.Rhistory
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Local configuration (keep *.example)
+.env
+*.env
+!*.env.example
+config/paths.env
