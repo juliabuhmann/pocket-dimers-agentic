@@ -1,0 +1,4 @@
+burrow	b2da7abfbbc56d4be4850dfd44e02e55c7b5a648
+pocketcompare	efcdf3ebb47bd8e9b8fe431aad51d41d466f4b76
+adock	a7f28535f4bbed06d1c5e7f09a5b942c84835d08
+alphafold3	8f8ac383afba995f5953182d39a560ffb8bbbfd3

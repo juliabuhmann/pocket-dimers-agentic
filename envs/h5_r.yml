@@ -1,0 +1,3 @@
+# R environment for H5 GLMM (lme4). Create: mamba env create -p .venvs/h5_r -f envs/h5_r.yml
+channels: [conda-forge]
+dependencies: [r-base=4.4, r-lme4, r-survival, r-data.table, r-arrow]
