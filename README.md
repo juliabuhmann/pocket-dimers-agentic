@@ -1,5 +1,7 @@
 # Pockets between protein chains — an exercise in agentic AI for bioinformatics
 
+![Ligand pockets shared between protein chains: key findings](briefing/figures/readme_hero.png)
+
 This repository documents an **experiment in agentic science**. An autonomous team of AI agents ran a computational structural-biology project end to end, in about 18 hours on one cluster node. The roles were:
 
 - **an AI "principal investigator" (PI) agent** that planned, delegated, reviewed and kept the record;
@@ -19,6 +21,7 @@ A human wrote the brief and made the data available, but did not intervene in th
 
 | If you want… | Read |
 |---|---|
+| The main findings at a glance | [`briefing/figures/graphical_abstract.png`](briefing/figures/graphical_abstract.png) |
 | A readable overview: the biology, the agentic process, figures | [`briefing/briefing.pdf`](briefing/briefing.pdf) (source: `briefing/briefing.md`) |
 | The full technical report with all numbers, tags and deviations | [`report/REPORT.md`](report/REPORT.md) |
 | How the AI team worked and decided | [`project_record/RESEARCH_TREE.md`](project_record/RESEARCH_TREE.md), [`project_record/LESSONS.md`](project_record/LESSONS.md) |
